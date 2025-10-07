@@ -1,0 +1,74 @@
+#!/usr/bin/env python3
+
+import fileinput
+import itertools
+import os
+import re
+from functools import cmp_to_key
+
+def grep_match_line_to_filename(line):
+    return re.sub(':.*$', '', line).rstrip()
+
+def compare_filepaths(filepath1, filepath2):
+    dirname1 = os.path.dirname(filepath1)
+    dirname2 = os.path.dirname(filepath2)
+    if dirname1 < dirname2:
+        return -1
+    if dirname1 > dirname2:
+        return 1
+    filename1 = os.path.basename(filepath1)
+    filename2 = os.path.basename(filepath2)
+    if filename1 < filename2:
+        return -1
+    if filename1 > filename2:
+        return 1
+    return 0
+
+def list_files(dirname):
+    return sorted(
+        filter(
+            lambda filename: os.path.isfile(os.path.join(dirname, filename)),
+            os.listdir(dirname)
+        )
+    )
+
+def main():
+    directories = itertools.groupby(
+        sorted(
+            set(map(grep_match_line_to_filename, fileinput.input())),
+            key=cmp_to_key(compare_filepaths)
+        ),
+        key=lambda filepath: os.path.dirname(filepath)
+    )
+
+    stdout = ''
+
+    for dirname, test_filepaths in directories:
+        all_filenames = list_files(dirname)
+        test_filenames = set(map(lambda filepath: os.path.basename(filepath), test_filepaths))
+        yaml_filenames = map(
+            lambda filename: f'{" " if filename in test_filenames else "#"} - {os.path.basename(filename)}',
+            all_filenames
+        )
+
+        web_features_filename = os.path.join(dirname, 'WEB_FEATURES.yml')
+        try:
+            with open(web_features_filename, 'x') as handle:
+                handle.write('features:\n')
+        except FileExistsError:
+            pass
+
+        with open(web_features_filename, 'a') as handle:
+            handle.write('- name: \n')
+            handle.write('  files:\n')
+            handle.write('\n'.join(yaml_filenames))
+            handle.write('\n')
+
+        stdout += f'{web_features_filename}\n'
+        stdout += '\n'.join(test_filenames)
+        stdout += '\n\n'
+
+    return stdout
+
+if __name__ == '__main__':
+    print(main())
