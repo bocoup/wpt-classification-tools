@@ -1,0 +1,102 @@
+#!/usr/bin/env python3
+
+import csv
+import os
+import re
+import subprocess
+import sys
+import yaml
+
+def read_classifiers(source):
+    with open(source, 'r') as handle:
+        return yaml.safe_load(handle)['features']
+
+def compile_file_pattern(source):
+    if source.startswith('!'):
+        bias = False
+        string = source[1:]
+    else:
+        bias = True
+        string = source
+
+    return bias, source, re.compile('^' + re.sub('\\*', '.*', string) + '$')
+
+def expand_classifier(directory, classifier):
+    included = []
+    excluded = []
+
+    if classifier['files'] == '**':
+        for dirpath, dirname, filenames in os.walk(directory):
+            included.extend(map(lambda filename: os.path.join(dirpath, filename), filenames))
+    else:
+        patterns = [
+            compile_file_pattern(file_pattern) for file_pattern in classifier['files']
+        ]
+        used = set()
+
+        for direntry in os.scandir(directory):
+            if not direntry.is_file():
+                continue
+            should_include = False
+
+            for pattern_desc in patterns:
+                bias, source, pattern = pattern_desc
+                if pattern.search(direntry.name):
+                    should_include = bias
+                    used.add(source)
+
+            if should_include:
+                included.append(os.path.join(directory, direntry))
+            else:
+                excluded.append(os.path.join(directory, direntry))
+
+        unused = set(classifier['files']).difference(used)
+        if unused:
+            raise Exception(f'Unused pattern(s) for "{classifier["name"]}": {", ".join(unused)}')
+
+    return { 'included': included, 'excluded': excluded }
+
+def name_from_id(feature_id):
+    with open('../docs/2025-09-25-progress.csv', 'r') as progress_file:
+        reader = csv.reader(progress_file)
+        for row in reader:
+            if row[0] == feature_id:
+                return row[1]
+        raise Exception(f'Unrecognized feature ID: "{feature_id}"')
+
+def main(feature_id):
+    included = []
+    excluded = []
+
+    for dirpath, dirnames, filenames in os.walk('.'):
+        if 'WEB_FEATURES.yml' not in filenames:
+            continue
+
+        classifiers = read_classifiers(os.path.join(dirpath, 'WEB_FEATURES.yml'))
+
+        for classifier in classifiers:
+            if classifier['name'] != feature_id:
+                continue
+
+            expanded = expand_classifier(dirpath, classifier)
+            included.extend(expanded['included'])
+            excluded.extend(expanded['excluded'])
+
+    feature_name = name_from_id(feature_id)
+
+    commit_title = f'Map "{feature_name}" to web-features'
+    commit_body = f'This classifier includes {len(included)} files and excludes {len(excluded)} files'
+    subprocess.run(
+        [
+            'git',
+            'commit',
+            '-m',
+            commit_title,
+            '-m',
+            commit_body
+        ],
+        check=True
+    )
+
+if __name__ == '__main__':
+    main(sys.argv[1])

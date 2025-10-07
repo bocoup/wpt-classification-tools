@@ -1,0 +1,25 @@
+#!/bin/bash
+
+set -e
+
+tests="$(cat)"
+
+dir=$(echo "${tests}" | head -n1 | xargs dirname)
+file=${dir}/WEB_FEATURES.yml
+
+if [ ! -f $file ] ; then
+  echo 'features:' > $file
+fi
+
+entries=$(echo "${tests}" | sed -e "s@${dir}/@@" | sed 's/^/  - /')
+
+echo '- name: ' >> ${file}
+echo '  files:' >> ${file}
+echo "${entries}" >> ${file}
+ls $dir >> ${file}
+
+# Echo out the input to support invocation of this script from Vim
+echo "${tests}"
+# Echo out the path to the generated/modified file
+echo ${file}
+echo
