@@ -1,0 +1,68 @@
+#!/usr/bin/env bash
+# Search for web feature references in WPT
+# Based on https://github.com/bocoup/wpt-classification-tools/blob/main/wpt-search
+#
+# Usage: ./wpt-search <feature-name> <search-term>
+# Example: ./wpt-search z-index "propdef-z-index"
+#
+# All search results for a feature will be saved in:
+# search-results/<feature-name>/<timestamp>-<sanitized-search-term>.txt
+
+set -e
+
+if [ $# -lt 2 ]; then
+    echo "Usage: $0 <feature-name> <search-term>" >&2
+    echo "Example: $0 z-index 'propdef-z-index'" >&2
+    exit 1
+fi
+
+FEATURE_NAME="$1"
+SEARCH_TERM="$2"
+TIMESTAMP=$(date +%Y-%m-%d-%H%M%S)
+# Sanitize search term for filename (replace spaces/special chars with hyphens)
+SEARCH_NAME=$(echo "$SEARCH_TERM" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9-]/-/g' | sed 's/--*/-/g' | sed 's/^-//' | sed 's/-$//')
+
+# Get the directory where this script is located
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+FEATURE_DIR="${SCRIPT_DIR}/search-results/${FEATURE_NAME}"
+OUTPUT_FILE="${FEATURE_DIR}/${TIMESTAMP}-${SEARCH_NAME}.txt"
+
+# Create feature subdirectory if it doesn't exist
+mkdir -p "${FEATURE_DIR}"
+
+echo "Feature: $FEATURE_NAME"
+echo "Searching for: $SEARCH_TERM"
+echo "Output file: $OUTPUT_FILE"
+
+# Run git grep with exclusions and format as filepath:\t\tline_content
+git grep -i "$SEARCH_TERM" | \
+  grep -v '/wpt-classification-tools/' | \
+  grep -v '/search-results/' | \
+  grep -v '/tools/' | \
+  grep -v '/conformance-checkers/' | \
+  grep -v '/docs/' | \
+  grep -v '\.min\.js' | \
+  grep -v -- '-ref\.' | \
+  grep -v -- '-notref\.' | \
+  grep -v '/reference/' | \
+  grep -v '/support/' | \
+  grep -v '/test-plan/' | \
+  grep -v '^CODEOWNERS' | \
+  grep -v '^\.prettierignore' | \
+  grep -v '^lint\.ignore' | \
+  grep -v '^interfaces/' | \
+  grep -v '\.md:' | \
+  grep -v 'README' | \
+  grep -v 'META\.yml' | \
+  sed 's/:/:\t\t/' \
+  > "$OUTPUT_FILE"
+
+# Count results
+TOTAL_LINES=$(wc -l < "$OUTPUT_FILE" | tr -d ' ')
+UNIQUE_FILES=$(cut -d: -f1 "$OUTPUT_FILE" | sort -u | wc -l | tr -d ' ')
+
+echo ""
+echo "Search complete!"
+echo "  Total matches: $TOTAL_LINES"
+echo "  Unique files: $UNIQUE_FILES"
+echo "  Results saved to: $OUTPUT_FILE"
