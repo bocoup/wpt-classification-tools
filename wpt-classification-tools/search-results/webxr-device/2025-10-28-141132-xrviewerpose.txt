@@ -1,0 +1,9 @@
+webxr/events_session_select.https.html:		      assert_false(pose instanceof XRViewerPose);
+webxr/events_session_squeeze.https.html:		      assert_false(pose instanceof XRViewerPose);
+webxr/idlharness.https.window.js:		      // TODO: XRViewerPose
+webxr/resources/webxr_util.js:		  callback(window.XRViewerPose, 'XRViewerPose');
+webxr/xrView_match.https.html:		          // the views array. It should be an XRPose instead of the XRViewerPose derived
+webxr/xrView_match.https.html:		          assert_false(pose2 instanceof XRViewerPose);
+webxr/xrViewerPose_views_sameObject.https.html:		let testName = "XRViewerPose.views meets [SameObject] requirement";
+webxr/xrViewerPose_views_sameObject.https.html:		        // access it. This verifies that XRViewerPose does *not* do something
+webxr/xrViewerPose_views_sameObject.https.html:		            "XRViewerPose.views returns the same object.");
