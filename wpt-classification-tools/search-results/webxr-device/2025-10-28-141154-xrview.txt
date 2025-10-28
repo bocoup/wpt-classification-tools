@@ -1,0 +1,67 @@
+resources/chromium/webxr-test.js:		  _getView(fakeXRViewInit, xOffset) {
+resources/chromium/webxr-test.js:		    if (fakeXRViewInit.fieldOfView) {
+resources/chromium/webxr-test.js:		        upDegrees: fakeXRViewInit.fieldOfView.upDegrees,
+resources/chromium/webxr-test.js:		        downDegrees: fakeXRViewInit.fieldOfView.downDegrees,
+resources/chromium/webxr-test.js:		        leftDegrees: fakeXRViewInit.fieldOfView.leftDegrees,
+resources/chromium/webxr-test.js:		        rightDegrees: fakeXRViewInit.fieldOfView.rightDegrees
+resources/chromium/webxr-test.js:		      fov = this._getFovFromProjectionMatrix(fakeXRViewInit.projectionMatrix);
+resources/chromium/webxr-test.js:		    switch(fakeXRViewInit.eye) {
+resources/chromium/webxr-test.js:		        mojoFromView: this._getMojoFromViewerWithOffset(composeGFXTransform(fakeXRViewInit.viewOffset)),
+resources/chromium/webxr-test.js:		        projectionMatrix: fakeXRViewInit.projectionMatrix,
+resources/chromium/webxr-test.js:		      width: fakeXRViewInit.resolution.width,
+resources/chromium/webxr-test.js:		      height: fakeXRViewInit.resolution.height
+resources/chromium/webxr-test.js:		      isFirstPersonObserver: fakeXRViewInit.isFirstPersonObserver ? true : false,
+resources/chromium/webxr-test.js:		      viewOffset: composeGFXTransform(fakeXRViewInit.viewOffset),
+webxr/depth-sensing/cpu/depth_sensing_cpu_matchDepthViewDepthData.https.html:		              // When matchDepthView is true, depth data should be reprojected to the XRView.
+webxr/depth-sensing/cpu/depth_sensing_cpu_matchDepthViewDepthData.https.html:		              // without reprojection to the XRView.
+webxr/depth-sensing/cpu/depth_sensing_cpu_matchDepthViewIdentity.https.html:		xr_session_promise_test("Ensures XRViewGeometry values match XRView when matchDepthView is unset, `cpu-optimized`",
+webxr/depth-sensing/cpu/depth_sensing_cpu_matchDepthViewIdentity.https.html:		xr_session_promise_test("Ensures XRViewGeometry values match XRView when matchDepthView=true, `cpu-optimized`",
+webxr/depth-sensing/cpu/depth_sensing_cpu_matchDepthViewIdentity.https.html:		xr_session_promise_test("Ensures XRViewGeometry values do not match XRView when matchDepthView=false, `cpu-optimized`",
+webxr/depth-sensing/cpu/depth_sensing_cpu_staleView.https.html:		xr_session_promise_test("Ensures getDepthInformation() throws when run with stale XRView, `cpu-optimized`",
+webxr/depth-sensing/gpu/depth_sensing_gpu_matchDepthViewIdentity.https.html:		xr_session_promise_test("Ensures XRViewGeometry values match XRView when matchDepthView is unset, `gpu-optimized`",
+webxr/depth-sensing/gpu/depth_sensing_gpu_matchDepthViewIdentity.https.html:		xr_session_promise_test("Ensures XRViewGeometry values match XRView when matchDepthView=true, `gpu-optimized`",
+webxr/depth-sensing/gpu/depth_sensing_gpu_matchDepthViewIdentity.https.html:		xr_session_promise_test("Ensures XRViewGeometry values do not match XRView when matchDepthView=false, `gpu-optimized`",
+webxr/depth-sensing/gpu/depth_sensing_gpu_staleView.https.html:		xr_session_promise_test("Ensures getDepthInformation() throws when not run with stale XRView, `gpu-optimized`",
+webxr/depth-sensing/staleViewsTests.js:		                              "getDepthInformation() should throw when run with stale XRView");
+webxr/events_session_select.https.html:		let xrViewerSpace = null;
+webxr/events_session_select.https.html:		      let pose = frame.getPose(xrViewerSpace, currentReferenceSpace);
+webxr/events_session_select.https.html:		      assert_false(pose instanceof XRViewerPose);
+webxr/events_session_select.https.html:		    xrViewerSpace = viewerSpace;
+webxr/events_session_squeeze.https.html:		let xrViewerSpace = null;
+webxr/events_session_squeeze.https.html:		      let pose = frame.getPose(xrViewerSpace, currentReferenceSpace);
+webxr/events_session_squeeze.https.html:		      assert_false(pose instanceof XRViewerPose);
+webxr/events_session_squeeze.https.html:		    xrViewerSpace = viewerSpace;
+webxr/idlharness.https.window.js:		      // TODO: XRView
+webxr/idlharness.https.window.js:		      // TODO: XRViewport
+webxr/idlharness.https.window.js:		      // TODO: XRViewerPose
+webxr/resources/webxr_util.js:		  callback(window.XRView, 'XRView');
+webxr/resources/webxr_util.js:		  callback(window.XRViewport, 'XRViewport');
+webxr/resources/webxr_util.js:		  callback(window.XRViewerPose, 'XRViewerPose');
+webxr/xrView_eyes.https.html:		let immersiveTestName = "XRView.eye is correct for immersive sessions";
+webxr/xrView_eyes.https.html:		let nonImmersiveTestName = "XRView.eye is correct for non-immersive sessions";
+webxr/xrView_match.https.html:		          // the views array. It should be an XRPose instead of the XRViewerPose derived
+webxr/xrView_match.https.html:		          assert_false(pose2 instanceof XRViewerPose);
+webxr/xrView_match.https.html:		        assert_true(leftView instanceof XRView);
+webxr/xrView_match.https.html:		        assert_true(rightView instanceof XRView);
+webxr/xrView_oneframeupdate.https.html:		let testName = "XRView projection matrices update near and far depths on the "
+webxr/xrView_sameObject.https.html:		let testName = "XRView attributes meet [SameObject] requirement";
+webxr/xrView_sameObject.https.html:		        // XRView always return the same object.
+webxr/xrView_sameObject.https.html:		            "XRView.transform returns the same object.");
+webxr/xrView_sameObject.https.html:		            "XRView.projectionMatrix returns the same object.");
+webxr/xrViewerPose_views_sameObject.https.html:		let testName = "XRViewerPose.views meets [SameObject] requirement";
+webxr/xrViewerPose_views_sameObject.https.html:		        // access it. This verifies that XRViewerPose does *not* do something
+webxr/xrViewerPose_views_sameObject.https.html:		        // spec-noncompliant such as creating and returning a new XRView array
+webxr/xrViewerPose_views_sameObject.https.html:		            "XRViewerPose.views returns the same object.");
+webxr/xrViewport_valid.https.html:		let testName = "XRViewport attributes are valid";
+webxr/xrViewport_valid.https.html:		            assert_true(viewport instanceof XRViewport);
+webxr/xrWebGLLayer_opaque_framebuffer_stencil.https.html:		    let xrViewport;
+webxr/xrWebGLLayer_opaque_framebuffer_stencil.https.html:		      xrViewport = { x: 0, y: 0, width: webglCanvas.width, height: webglCanvas.height };
+webxr/xrWebGLLayer_opaque_framebuffer_stencil.https.html:		      xrViewport = { x: 0, y: 0, width: webglLayer.framebufferWidth, height: webglLayer.framebufferHeight };
+webxr/xrWebGLLayer_opaque_framebuffer_stencil.https.html:		    gl.viewport(xrViewport.x, xrViewport.y, xrViewport.width, xrViewport.height);
+webxr/xrWebGLLayer_opaque_framebuffer_stencil.https.html:		    gl.scissor(xrViewport.x, xrViewport.y, xrViewport.width, xrViewport.height);
+webxr/xrWebGLLayer_opaque_framebuffer_stencil.https.html:		    gl.readPixels(xrViewport.x + xrViewport.width / 2, xrViewport.y + xrViewport.height/4, 1, 1, gl.RGBA, gl.UNSIGNED_BYTE, pixels);
+webxr/xrWebGLLayer_opaque_framebuffer_stencil.https.html:		    gl.readPixels(xrViewport.x + xrViewport.width / 2, xrViewport.y + xrViewport.height/2, 1, 1, gl.RGBA, gl.UNSIGNED_BYTE, pixels);
+webxr/xrWebGLLayer_viewports.https.html:		          // Ensure the returned object is an XRViewport object
+webxr/xrWebGLLayer_viewports.https.html:		          assert_true(viewport instanceof XRViewport);
+webxr/xr_viewport_scale.https.html:		  // Ensure the returned object is an XRViewport object
+webxr/xr_viewport_scale.https.html:		  assert_true(viewport instanceof XRViewport);

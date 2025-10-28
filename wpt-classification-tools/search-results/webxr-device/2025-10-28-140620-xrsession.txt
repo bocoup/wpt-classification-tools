@@ -1,0 +1,139 @@
+resources/chromium/webxr-test.js:		import * as xrSessionMojom from '/gen/device/vr/public/mojom/xr_session.mojom.m.js';
+resources/chromium/webxr-test.js:		          const metricsRecorderPtr = new vrMojom.XRSessionMetricsRecorderRemote();
+resources/chromium/webxr-test.js:		        result: {failureReason: xrSessionMojom.RequestSessionError.NO_RUNTIME_FOUND}
+resources/chromium/webxr-test.js:		    'viewer': xrSessionMojom.XRSessionFeature.REF_SPACE_VIEWER,
+resources/chromium/webxr-test.js:		    'local': xrSessionMojom.XRSessionFeature.REF_SPACE_LOCAL,
+resources/chromium/webxr-test.js:		    'local-floor': xrSessionMojom.XRSessionFeature.REF_SPACE_LOCAL_FLOOR,
+resources/chromium/webxr-test.js:		    'bounded-floor': xrSessionMojom.XRSessionFeature.REF_SPACE_BOUNDED_FLOOR,
+resources/chromium/webxr-test.js:		    'unbounded': xrSessionMojom.XRSessionFeature.REF_SPACE_UNBOUNDED,
+resources/chromium/webxr-test.js:		    'hit-test': xrSessionMojom.XRSessionFeature.HIT_TEST,
+resources/chromium/webxr-test.js:		    'dom-overlay': xrSessionMojom.XRSessionFeature.DOM_OVERLAY,
+resources/chromium/webxr-test.js:		    'light-estimation': xrSessionMojom.XRSessionFeature.LIGHT_ESTIMATION,
+resources/chromium/webxr-test.js:		    'anchors': xrSessionMojom.XRSessionFeature.ANCHORS,
+resources/chromium/webxr-test.js:		    'depth-sensing': xrSessionMojom.XRSessionFeature.DEPTH,
+resources/chromium/webxr-test.js:		    'secondary-views': xrSessionMojom.XRSessionFeature.SECONDARY_VIEWS,
+resources/chromium/webxr-test.js:		    'camera-access': xrSessionMojom.XRSessionFeature.CAMERA_ACCESS,
+resources/chromium/webxr-test.js:		    'layers': xrSessionMojom.XRSessionFeature.LAYERS,
+resources/chromium/webxr-test.js:		    "inline": xrSessionMojom.XRSessionMode.kInline,
+resources/chromium/webxr-test.js:		    "immersive-vr": xrSessionMojom.XRSessionMode.kImmersiveVr,
+resources/chromium/webxr-test.js:		    "immersive-ar": xrSessionMojom.XRSessionMode.kImmersiveAr,
+resources/chromium/webxr-test.js:		    "raw": xrSessionMojom.XRDepthType.kRawDepth,
+resources/chromium/webxr-test.js:		    "smooth": xrSessionMojom.XRDepthType.kSmoothDepth,
+resources/chromium/webxr-test.js:		    "cpu-optimized": xrSessionMojom.XRDepthUsage.kCPUOptimized,
+resources/chromium/webxr-test.js:		    "gpu-optimized": xrSessionMojom.XRDepthUsage.kGPUOptimized,
+resources/chromium/webxr-test.js:		    "luminance-alpha": xrSessionMojom.XRDepthDataFormat.kLuminanceAlpha,
+resources/chromium/webxr-test.js:		    "float32": xrSessionMojom.XRDepthDataFormat.kFloat32,
+resources/chromium/webxr-test.js:		    "unsigned-short": xrSessionMojom.XRDepthDataFormat.kUnsignedShort,
+resources/chromium/webxr-test.js:		    throw new TypeError("Unrecognized value for XRSessionMode enum: " + sessionMode);
+resources/chromium/webxr-test.js:		      if (this.supportedModes_.includes(xrSessionMojom.XRSessionMode.kImmersiveAr)) {
+resources/chromium/webxr-test.js:		        xrSessionMojom.XRSessionMode.kImmersiveVr)) {
+resources/chromium/webxr-test.js:		        return xrSessionMojom.XRSessionFeature.INVALID;
+resources/chromium/webxr-test.js:		      if (feature !== xrSessionMojom.XRSessionFeature.INVALID) {
+resources/chromium/webxr-test.js:		        if (this.enabledFeatures_.includes(xrSessionMojom.XRSessionFeature.SECONDARY_VIEWS)) {
+resources/chromium/webxr-test.js:		      if(this.sessionOptions_.mode == xrSessionMojom.XRSessionMode.kInline) {
+resources/chromium/webxr-test.js:		    if (!this.supportedModes_.includes(xrSessionMojom.XRSessionMode.kImmersiveAr)) {
+resources/chromium/webxr-test.js:		    if (!this.supportedModes_.includes(xrSessionMojom.XRSessionMode.kImmersiveAr)) {
+resources/chromium/webxr-test.js:		        this.sessionClient_ = new vrMojom.XRSessionClientRemote();
+resources/chromium/webxr-test.js:		          xrSessionMojom.XRDepthUsage.kCPUOptimized)) {
+resources/chromium/webxr-test.js:		    const selectedUsage = xrSessionMojom.XRDepthUsage.kCPUOptimized;
+resources/chromium/webxr-test.js:		        xrSessionMojom.XRDepthDataFormat.kLuminanceAlpha : this.depthSupport_.depthFormats[0];
+resources/chromium/webxr-test.js:		    xrSessionMojom.XRDepthType.kRawDepth : this.depthSupport_.depthTypes[0];
+resources/chromium/webxr-test.js:		      case xrSessionMojom.XRSessionFeature.DEPTH:
+resources/chromium/webxr-test.js:		    if (!this.supportedModes_.includes(xrSessionMojom.XRSessionMode.kImmersiveAr)) {
+resources/chromium/webxr-test.js:		   * @param {xrSessionMojom.XRDepthDataFormat} format The depth format.
+resources/chromium/webxr-test.js:		    if (format === xrSessionMojom.XRDepthDataFormat.kFloat32) {
+resources/chromium/webxr-test.js:		   * @param {xrSessionMojom.XRDepthDataFormat} format - The Depth format
+resources/chromium/webxr-test.js:		    if (format === xrSessionMojom.XRDepthDataFormat.kFloat32) {
+resources/chromium/webxr-test.js:		   * @param {xrSessionMojom.XRDepthDataFormat} sourceFormatEnum - Format of the source depth data.
+resources/chromium/webxr-test.js:		   * @param {xrSessionMojom.XRDepthDataFormat} targetFormatEnum - Format of the target depth data.
+resources/chromium/webxr-test.js:		                  if (sourceFormatEnum === xrSessionMojom.XRDepthDataFormat.kFloat32) {
+resources/chromium/webxr-test.js:		                      if (targetFormatEnum === xrSessionMojom.XRDepthDataFormat.kFloat32) {
+resources/chromium/webxr-test.js:		    if (!this.supportedModes_.includes(xrSessionMojom.XRSessionMode.kImmersiveAr)) {
+resources/chromium/webxr-test.js:		    if (!this.enabledFeatures_.includes(xrSessionMojom.XRSessionFeature.DEPTH)) {
+resources/chromium/webxr-test.js:		    if (this.enabledFeatures_.includes(xrSessionMojom.XRSessionFeature.SECONDARY_VIEWS)) {
+resources/chromium/webxr-test.js:		    if (!this.supportedModes_.includes(xrSessionMojom.XRSessionMode.kImmersiveAr)) {
+speculation-rules/prerender/resources/web-xr-immersive-vr-session.https.html:		      `XRSession.requestSession('immersive-vr')`);
+speculation-rules/prerender/resources/web-xr-inline-session.https.html:		      `XRSession.requestSession('inline')`);
+speculation-rules/prerender/restriction-web-xr-immersive-vr-session.https.html:		      event: `started waiting XRSession.requestSession('immersive-vr')`,
+speculation-rules/prerender/restriction-web-xr-immersive-vr-session.https.html:		      event: `XRSession.requestSession('immersive-vr') rejected: SecurityError`,
+speculation-rules/prerender/restriction-web-xr-inline-session.https.html:		      event: `started waiting XRSession.requestSession('inline')`,
+speculation-rules/prerender/restriction-web-xr-inline-session.https.html:		      event: `finished waiting XRSession.requestSession('inline')`,
+video-rvfc/request-video-frame-callback-before-xr-session.https.html:		<title>Test that video.rVFC callbacks started before an XRSession work.</title>
+video-rvfc/request-video-frame-callback-during-xr-session.https.html:		<title>Test that video.rVFC callbacks started during an XRSession work.</title>
+webxr/ar-module/idlharness.https.window.js:		      XRSession: ['xrSession'],
+webxr/ar-module/idlharness.https.window.js:		    self.xrSession = await navigator.xr.requestSession('inline');
+webxr/depth-sensing/depth_sensing_attributes_throw_not_enabled.https.html:		  "XRSession.depthUsage rejects if depth sensing is not enabled on a session",
+webxr/depth-sensing/depth_sensing_attributes_throw_not_enabled.https.html:		  "XRSession.depthDataFormat rejects if depth sensing is not enabled on a session",
+webxr/depth-sensing/depth_sensing_attributes_throw_not_enabled.https.html:		  "XRSession.depthType rejects if depth sensing is not enabled on a session",
+webxr/events_referenceSpace_reset_immersive.https.html:		let immersiveTestName = "XRSession resetpose from a device properly fires off " +
+webxr/events_referenceSpace_reset_inline.https.html:		let nonImmersiveTestName = "XRSession resetpose from a device properly fires off " +
+webxr/exclusive_requestFrame_nolayer.https.html:		let immersiveTestName = "XRSession requestAnimationFrame must fail if the session has "
+webxr/exclusive_requestFrame_nolayer.https.html:		let nonImmersiveTestName = "XRSession requestAnimationFrame must fail if the session has "
+webxr/hit-test/idlharness.https.html:		        XRSession: ['xrSession'],
+webxr/hit-test/idlharness.https.html:		      self.xrSession = await navigator.xr.requestSession("inline");
+webxr/idlharness.https.window.js:		      XRSession: ['xrSession'],
+webxr/idlharness.https.window.js:		      XRSessionEvent: ['xrSessionEvent'],
+webxr/idlharness.https.window.js:		    self.xrSession = await navigator.xr.requestSession('inline');
+webxr/idlharness.https.window.js:		    self.xrRenderState = self.xrSession.renderState;
+webxr/idlharness.https.window.js:		    self.xrReferenceSpace = await self.xrSession.requestReferenceSpace('viewer');
+webxr/idlharness.https.window.js:		    self.xrInputSourceArray = self.xrSession.inputSources;
+webxr/idlharness.https.window.js:		    self.xrSessionEvent = new XRSessionEvent('end', {session: self.xrSession});
+webxr/idlharness.https.window.js:		      session: self.xrSession,
+webxr/idlharness.https.window.js:		    self.xrWebGLLayer = new XRWebGLLayer(self.xrSession, self.webGLRenderingContextBase);
+webxr/layers/xrSession_updateRenderState.https.html:		  function testUpdateRenderState(xrSession, deviceController, t, { gl, glLayer }) {
+webxr/layers/xrSession_updateRenderState.https.html:		      const baseLayer = new XRWebGLLayer(xrSession, gl);
+webxr/layers/xrSession_updateRenderState.https.html:		        new XRWebGLLayer(xrSession, gl),
+webxr/layers/xrSession_updateRenderState.https.html:		        new XRWebGLLayer(xrSession, gl),
+webxr/layers/xrSession_updateRenderState.https.html:		        new XRWebGLLayer(xrSession, gl)
+webxr/layers/xrSession_updateRenderState.https.html:		        new XRWebGLLayer(xrSession, gl),
+webxr/layers/xrSession_updateRenderState.https.html:		      const layersFeatureEnabled = xrSession.enabledFeatures.includes('layers');
+webxr/layers/xrSession_updateRenderState.https.html:		        assert_throws_dom('NotSupportedError', () => xrSession.updateRenderState({ baseLayer, layers: singleLayer }), "XRSession should throw an error when updating render state with both a baseLayer and layers set.");
+webxr/layers/xrSession_updateRenderState.https.html:		        const updateRenderStateMultilayer = () => xrSession.updateRenderState({ layers: multipleLayers });
+webxr/layers/xrSession_updateRenderState.https.html:		            reject("XRSession should support render state with multiple layers if the layers feature is enabled.");
+webxr/layers/xrSession_updateRenderState.https.html:		          assert_throws_dom('NotSupportedError', updateRenderStateMultilayer, "XRSession should be able to updateRenderState with multiple layers only if the layers feature is enabled.");
+webxr/layers/xrSession_updateRenderState.https.html:		          assert_throws_js(TypeError, () => xrSession.updateRenderState({ layers: duplicateLayers }), "XRSession should throw a TypeError when updating render state with duplicate layers.");
+webxr/layers/xrSession_updateRenderState.https.html:		        assert_throws_js(TypeError, () => xrSession.updateRenderState({ layers: otherSessionLayer }), "XRSession should throw a TypeError when updating render state with a layer created for a different session.");
+webxr/layers/xrSession_updateRenderState.https.html:		  xr_session_promise_test("Ensure XRSession throws appropriate errors when updating render state without layers feature enabled",
+webxr/layers/xrSession_updateRenderState.https.html:		  xr_session_promise_test("Ensure XRSession throws appropriate errors when updating render state with layers feature enabled",
+webxr/layers/xrWebGLBinding_constructor.https.html:		          let xrSession = null;
+webxr/layers/xrWebGLBinding_constructor.https.html:		            xrSession = session;
+webxr/layers/xrWebGLBinding_constructor.https.html:		                let webglLayerIncompatible = new XRWebGLBinding(xrSession, gl);
+webxr/layers/xrWebGLBinding_constructor.https.html:		              let webglLayerGood = new XRWebGLBinding(xrSession, gl);
+webxr/layers/xrWebGLBinding_constructor.https.html:		                let webglLayerBadContext = new XRWebGLBinding(xrSession, gl);
+webxr/layers/xrWebGLBinding_constructor.https.html:		              resolve(xrSession.end().then(() => {
+webxr/layers/xrWebGLBinding_constructor.https.html:		                  let webglLayerBadSession = new XRWebGLBinding(xrSession, gl);
+webxr/resources/webxr_util.js:		// concept https://immersive-web.github.io/webxr-test-api/#xrsession-next-animation-frame
+webxr/resources/webxr_util.js:		  callback(window.XRSession, 'XRSession');
+webxr/resources/webxr_util.js:		  callback(window.XRSessionCreationOptions, 'XRSessionCreationOptions');
+webxr/resources/webxr_util.js:		  callback(window.XRSessionEvent, 'XRSessionEvent');
+webxr/xrDevice_requestSession_immersive.https.html:		      "Tests requestSession accepts XRSessionInit dictionary",
+webxr/xrDevice_requestSession_optionalFeatures.https.html:		      "Tests requestSession accepts XRSessionInit dictionary",
+webxr/xrDevice_requestSession_optionalFeatures.https.html:		      "Tests requestSession accepts XRSessionInit dictionary with empty feature lists",
+webxr/xrSession_cancelAnimationFrame.https.html:		    let immersiveTestName = "XRSession requestAnimationFrame callbacks can be "
+webxr/xrSession_cancelAnimationFrame.https.html:		    let nonImmersiveTestName = "XRSession requestAnimationFrame callbacks can be "
+webxr/xrSession_cancelAnimationFrame_invalidhandle.https.html:		    let immersiveTestName = "XRSession cancelAnimationFrame does not have unexpected "
+webxr/xrSession_cancelAnimationFrame_invalidhandle.https.html:		    let nonImmersiveTestName = "XRSession cancelAnimationFrame does not have unexpected "
+webxr/xrSession_enabledFeatures.https.html:		  const testName = "Validate enabledFeatures on XRSession";
+webxr/xrSession_end.https.html:		            "XRSessionEvent.session returns the same object.");
+webxr/xrSession_features_deviceSupport.https.html:		    "Immersive XRSession requests with no supported device should reject";
+webxr/xrSession_requestAnimationFrame_callback_calls.https.html:		    let immersiveTestName = "XRSession requestAnimationFrame calls the " +
+webxr/xrSession_requestAnimationFrame_callback_calls.https.html:		    let nonImmersiveTestName = "XRSession requestAnimationFrame calls the " +
+webxr/xrSession_requestReferenceSpace.https.html:		      "Immersive XRSession requestReferenceSpace returns expected objects";
+webxr/xrSession_requestReferenceSpace.https.html:		      "Non-immersive XRSession requestReferenceSpace returns expected objects";
+webxr/xrSession_sameObject.https.html:		let testName = "XRSession attributes meet [SameObject] requirement";
+webxr/xrSession_sameObject.https.html:		          "XRSession.renderState returns the same object.");
+webxr/xrSession_sameObject.https.html:		          "XRSession.inputSources returns the same object.");
+webxr/xrSession_sameObject.https.html:		            "XRSession.renderState returns the same object.");
+webxr/xrSession_sameObject.https.html:		            "XRSession.inputSources returns the same object.");
+webxr/xrSession_sameObject.https.html:		        // XRInputSourceArray object on XRSession to be re-created.
+webxr/xrSession_sameObject.https.html:		              "XRSession.renderState returns the same object.");
+webxr/xrSession_sameObject.https.html:		              "XRSession.inputSources returns the same object.");
+webxr/xrSession_visibilityState.https.html:		let testName = "Ensures that the XRSession's visibilityState is correctly "
+webxr/xrSession_visibilityState_inline.https.html:		let testName = "Ensures that the XRSession's visibilityState is correctly "
+webxr/xrWebGLLayer_constructor.https.html:		          let xrSession = null;
+webxr/xrWebGLLayer_constructor.https.html:		            xrSession = session;
+webxr/xrWebGLLayer_constructor.https.html:		                let webglLayerIncompatible = new XRWebGLLayer(xrSession, gl);
+webxr/xrWebGLLayer_constructor.https.html:		              let webglLayerGood = new XRWebGLLayer(xrSession, gl);
+webxr/xrWebGLLayer_constructor.https.html:		                let webglLayerBadContext = new XRWebGLLayer(xrSession, gl);
+webxr/xrWebGLLayer_constructor.https.html:		              resolve(xrSession.end().then(() => {
+webxr/xrWebGLLayer_constructor.https.html:		                  let webglLayerBadSession = new XRWebGLLayer(xrSession, gl);
