@@ -1,3 +1,4 @@
+feature-name,description,skip reason
 a,<a>,
 abbr,<abbr>,no tests
 abortable-fetch,Abortable fetch,
@@ -569,17 +570,17 @@ webgl-compressed-texture-s3tc-srgb,WEBGL_compressed_texture_s3tc_srgb WebGL exte
 webgl-debug-renderer-info,WEBGL_debug_renderer_info WebGL extension,
 webgl-debug-shaders,WEBGL_debug_shaders WebGL extension,
 webgl-depth-texture,WEBGL_depth_texture WebGL extension,
-webgl-desynchronized,Desynchronized WebGL canvas,
-webgl-draw-buffers,WEBGL_draw_buffers WebGL extension,
-webgl-lose-context,WEBGL_lose_context WebGL extension,
+webgl-desynchronized,Desynchronized WebGL canvas, only tests for desynchronized parameter with 2D canvas contexts not webGL
+webgl-draw-buffers,WEBGL_draw_buffers WebGL extension,no tests
+webgl-lose-context,WEBGL_lose_context WebGL extension,only compat tests with webxr
 webgl-multi-draw,WEBGL_multi_draw WebGL extension,WebGL feature
-webgl-oes-draw-buffers-indexed,OES_draw_buffers_indexed WebGL extension,
+webgl-oes-draw-buffers-indexed,OES_draw_buffers_indexed WebGL extension,no tests
 webgl-sab,SharedArrayBuffer in WebGL,no tests
-webgl2,WebGL2,
-webgl2-color-management,Color management for WebGL2,
-webgl2-desynchronized,Desynchronized WebGL2 canvas,
+webgl2,WebGL2,only generic tests for *canvas.getContext() API (no WebGL2-specific tests)
+webgl2-color-management,Color management for WebGL2,no tests
+webgl2-desynchronized,Desynchronized WebGL2 canvas, only tests in 2D canvas contexts (no WebGL2-specific tests)
 webgpu,WebGPU,no tests
-webp,WebP,
+webp,WebP,no tests
 webrtc,WebRTC,
 webrtc-sctp,WebRTC SCTP information,
 webvr,WebVR,
