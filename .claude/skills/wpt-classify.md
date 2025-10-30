@@ -26,7 +26,9 @@ Follow these 7 steps for each feature classification:
    - Keep individual search result files (no need to combine)
    - **IMPORTANT**: NEVER modify or strip content from the raw search result files from wpt-search
    - Raw search results have format: `filepath:\t\tline_content` and must remain intact
-3. **PAUSE** and inform user you're ready for Step 3 deep thinking
+3. **🛑 STOP HERE - DO NOT PROCEED TO STEP 3 🛑**
+   - Output: "Step 2 complete. Ready to proceed to Step 3 (Analysis & Filtering). Please enable deep thinking mode if desired."
+   - **WAIT for user confirmation before continuing to Step 3**
 
 ## Step 3: Analysis & Filtering (Deep Thinking Mode)
 
@@ -57,8 +59,12 @@ Examples of exclusion reasoning:
 2. Apply conservative filtering to create mapped files list
    - Save as `wpt-classification-tools/search-results/{feature-name}/{feature-name}-mapped.txt`
    - Format: one filepath per line (no tabs or line content - just paths)
-3. Manually create excluded list by subtracting mapped files from all unique files
+3. Create excluded list containing ALL files from search results that were NOT mapped
+   - Save as `wpt-classification-tools/search-results/{feature-name}/{feature-name}-excluded.txt`
    - Format: one filepath per line (same as mapped list)
+   - IMPORTANT: The excluded list should contain every unique file from the search results that didn't make it into the mapped list
+   - This ensures complete accounting of all search results
+4. If there are no mapped files, notify the user and **🛑 STOP HERE - DO NOT PROCEED TO STEP 4 🛑**
 
 **Note**: The mapped and excluded lists contain ONLY file paths (derived from raw search results). The raw search result files from Step 2 remain unchanged with their full `filepath:\t\tline_content` format.
 
@@ -93,12 +99,44 @@ For each directory with mapped tests:
 - Use specific filenames for individual files (e.g., `specific-test.html`)
 - Don't create WEB_FEATURES.yml in directories you want to exclude
 
+**Handling Overlapping Features with Exclusion Patterns**
+
+When a directory contains tests for multiple related features (e.g., a base feature and a more specific sub-feature):
+
+1. Map the more specific feature first with its specific pattern
+2. Map the base feature with `*` and use exclusion patterns to avoid double-mapping
+3. Example structure:
+
+   ```yaml
+   features:
+     - name: base-feature
+       files:
+         - "*"
+         - "!specific-feature-*" # Exclude tests for specific sub-feature
+     - name: specific-feature
+       files:
+         - specific-feature-* # Map the specific tests
+   ```
+
+4. Real example from webrtc:
+   ```yaml
+   features:
+     - name: webrtc
+       files:
+         - "*"
+         - "!RTCSctpTransport-*" # Exclude SCTP tests
+     - name: webrtc-sctp
+       files:
+         - RTCSctpTransport-* # SCTP-specific tests
+   ```
+
 YAML format rules:
 
 - Single-line list entries: `- 'pattern'` (NOT `files: 'pattern'`) except for the recursive wildcard pattern (`files: '**'`)
 - Each pattern on its own line with `- ` prefix (EXCEPT `**`)
 - Patterns in single quotes
-- Exclusion patterns (`- '!pattern'`) will not work against a recursive wildcard pattern `**`. Check with user if you think you need to use an exclusion pattern.
+- Exclusion patterns (`- '!pattern'`) work with `*` wildcards but will not work against a recursive wildcard pattern `**`
+- Exclusion patterns can include wildcards (e.g., `'!specific-*'`, `'!*-excluded.html'`)
 
 ## Step 6: Run Linter
 
@@ -110,7 +148,7 @@ YAML format rules:
 
 ## Step 7: Generate Commit Message
 
-Format (match the style of recent commits):
+Format in plain text (match the style of recent commits):
 
 ```
 maps {feature-name}
@@ -135,12 +173,47 @@ Excluded ({count} files):
 [... for each exclusion category ...]
 ```
 
+Real example from `wheel-events`:
+
+```
+maps wheel-events
+
+Feature: Wheel events
+Reference: https://github.com/web-platform-dx/web-features/blob/main/features/wheel-events.yml
+
+Note: The wheel event fires when the user moves a mouse wheel or similar spatially rotating input device. Includes the WheelEvent API with properties like deltaX, deltaY, deltaZ, and deltaMode.
+
+Search strategy: Searched for "WheelEvent" API references, "wheel event" occurrences, and "deltaMode" property usage.
+
+Results:
+Total matches found: 144 across 51 unique files
+Filtered: 39 files WEB_FEATURES.yml files
+
+Created/Updated:
+✅ dom/events/WEB_FEATURES.yml - Event constructors test (1 file) - CREATED
+✅ dom/events/non-cancelable-when-passive/WEB_FEATURES.yml - Passive/non-passive wheel event listener tests (21 files) - CREATED
+✅ dom/events/scrolling/WEB_FEATURES.yml - Wheel event transaction tests (7 files) - UPDATED
+✅ uievents/WEB_FEATURES.yml - Historical and IDL harness tests (2 files) - CREATED
+✅ uievents/legacy-domevents-tests/submissions/Microsoft/WEB_FEATURES.yml - Legacy WheelEvent tests (6 files) - CREATED
+✅ uievents/order-of-events/mouse-events/WEB_FEATURES.yml - Wheel event ordering tests (2 files) - CREATED
+
+Excluded (12 files):
+- CSS scroll tests (3 files): css/css-overscroll-behavior, css/css-scroll-snap - Primary focus on CSS scrolling features
+- Cross-origin iframe test (1 file): Primary focus on cross-origin iframe scrolling behavior
+- Generic event tests (3 files): Event-timestamp-high-resolution, Document-createEvent, hasFeature - Test many event types, not wheel events specifically
+- Pointer events test (1 file): Primary focus on pointer events, not wheel events
+- SVG event attributes test (1 file): Primary focus on event attributes in general
+- Workers tests (2 files): Test interface object availability in workers (general infrastructure)
+```
+
 # Important Rules
 
 1. **NEVER delete existing WEB_FEATURES.yml files** - only create new ones or update with new features
 2. Use wpt-search and wpt-filter scripts instead of manual commands
 3. Search results format: `filepath:\t\tline_content` (tabs after colon)
-4. Always pause after Step 2 for user to enable deep thinking
+4. **🛑 MANDATORY: STOP after Step 2 and WAIT for user confirmation before Step 3 🛑**
+   - This allows the user to enable deep thinking mode for the analysis phase
+   - DO NOT proceed to Step 3 without explicit user instruction
 5. Be conservative: when in doubt, exclude rather than include
 6. Mark todos as completed immediately after finishing each step (don't batch)
 7. Store all search results in `wpt-classification-tools/search-results/{feature-name}/` subdirectories

@@ -1,8 +1,20 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# Search for web feature references in WPT
+# Based on https://github.com/bocoup/wpt-classification-tools/blob/main/wpt-search
+#
+# Usage: ./wpt-search <feature-name> <search-term>
+# Example: ./wpt-search z-index "propdef-z-index"
+#
+# All search results for a feature will be saved in:
+# search-results/<feature-name>/<timestamp>-<sanitized-search-term>.txt
 
 set -eu
 
-SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+if [ $# -lt 2 ]; then
+    echo "Usage: $0 <feature-name> <search-term>" >&2
+    echo "Example: $0 z-index 'propdef-z-index'" >&2
+    exit 1
+fi
 
 search_slug=$(echo "$@" | sed -e 's/[^A-Za-z0-9-]/_/g')
 if [[ $OSTYPE == "msys" ]]; then
