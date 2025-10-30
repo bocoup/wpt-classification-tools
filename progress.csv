@@ -559,17 +559,17 @@ webauthn,Web authentication,
 webauthn-signals,Web authentication signal methods,
 webdriver,WebDriver,
 webgl,WebGL,
-webgl-color-buffer-float,WEBGL_color_buffer_float WebGL extension,
-webgl-color-management,Color management for WebGL,
-webgl-compressed-texture-astc,WEBGL_compressed_texture_astc WebGL extension,
-webgl-compressed-texture-etc,WEBGL_compressed_texture_etc WebGL extension,
-webgl-compressed-texture-etc1,WEBGL_compressed_texture_etc1 WebGL extension,
+webgl-color-buffer-float,WEBGL_color_buffer_float WebGL extension,no tests
+webgl-color-management,Color management for WebGL,no tests
+webgl-compressed-texture-astc,WEBGL_compressed_texture_astc WebGL extension,no tests
+webgl-compressed-texture-etc,WEBGL_compressed_texture_etc WebGL extension,no tests
+webgl-compressed-texture-etc1,WEBGL_compressed_texture_etc1 WebGL extension,no tests
 webgl-compressed-texture-pvrtc,WEBGL_compressed_texture_pvrtc WebGL extension,WebGL feature
-webgl-compressed-texture-s3tc,WEBGL_compressed_texture_s3tc WebGL extension,
-webgl-compressed-texture-s3tc-srgb,WEBGL_compressed_texture_s3tc_srgb WebGL extension,
-webgl-debug-renderer-info,WEBGL_debug_renderer_info WebGL extension,
-webgl-debug-shaders,WEBGL_debug_shaders WebGL extension,
-webgl-depth-texture,WEBGL_depth_texture WebGL extension,
+webgl-compressed-texture-s3tc,WEBGL_compressed_texture_s3tc WebGL extension,no tests
+webgl-compressed-texture-s3tc-srgb,WEBGL_compressed_texture_s3tc_srgb WebGL extension,no tests
+webgl-debug-renderer-info,WEBGL_debug_renderer_info WebGL extension,no tests
+webgl-debug-shaders,WEBGL_debug_shaders WebGL extension,no tests
+webgl-depth-texture,WEBGL_depth_texture WebGL extension,no tests
 webgl-desynchronized,Desynchronized WebGL canvas, only tests for desynchronized parameter with 2D canvas contexts not webGL
 webgl-draw-buffers,WEBGL_draw_buffers WebGL extension,no tests
 webgl-lose-context,WEBGL_lose_context WebGL extension,only compat tests with webxr
