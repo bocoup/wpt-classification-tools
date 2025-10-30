@@ -25,14 +25,14 @@ def main(progress_filename):
     unclassified = set()
 
     with open(progress_filename, 'r') as progress_file:
-        reader = csv.reader(progress_file)
+        reader = csv.DictReader(progress_file)
         for row in reader:
-            if row[2]:
-                unclassifiable.add(row[0])
-            elif row[0] in all_classified:
-                classified.add(row[0])
+            if row['skip reason']:
+                unclassifiable.add(row['id'])
+            elif row['id'] in all_classified:
+                classified.add(row['id'])
             else:
-                unclassified.add(row[0])
+                unclassified.add(row['id'])
 
     total = len(classified) + len(unclassifiable) + len(unclassified)
 

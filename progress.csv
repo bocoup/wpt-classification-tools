@@ -1,4 +1,4 @@
-feature-name,description,skip reason
+id,name,skip reason
 a,<a>,
 abbr,<abbr>,no tests
 abortable-fetch,Abortable fetch,
