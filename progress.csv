@@ -1,4 +1,4 @@
-id,name,skip reason
+id,name,skip reason,status
 a,<a>,
 abbr,<abbr>,no tests
 abortable-fetch,Abortable fetch,
@@ -553,12 +553,12 @@ wasm-string-builtins,String builtins (WebAssembly),
 wasm-tail-call-optimization,Tail call optimization (WebAssembly),
 wasm-threads,Threads and atomics (WebAssembly),
 wasm-typed-fun-refs,Typed function references (WebAssembly),
-wbr,<wbr>,
-web-cryptography,Web Cryptography,
-webauthn,Web authentication,
-webauthn-signals,Web authentication signal methods,
-webdriver,WebDriver,
-webgl,WebGL,
+wbr,<wbr>,,submitted
+web-cryptography,Web Cryptography,,submitted
+webauthn,Web authentication,,submitted
+webauthn-signals,Web authentication signal methods,,submitted
+webdriver,WebDriver,,submitted
+webgl,WebGL,,submitted
 webgl-color-buffer-float,WEBGL_color_buffer_float WebGL extension,no tests
 webgl-color-management,Color management for WebGL,no tests
 webgl-compressed-texture-astc,WEBGL_compressed_texture_astc WebGL extension,no tests
@@ -581,36 +581,36 @@ webgl2-color-management,Color management for WebGL2,no tests
 webgl2-desynchronized,Desynchronized WebGL2 canvas, only tests in 2D canvas contexts (no WebGL2-specific tests)
 webgpu,WebGPU,no tests
 webp,WebP,no tests
-webrtc,WebRTC,
-webrtc-sctp,WebRTC SCTP information,
-webvr,WebVR,
-webvtt-cue-settings,WebVTT cue settings,
-webxr-anchors,Anchors (WebXR),
-webxr-ar,Augmented reality,
-webxr-camera,Raw camera access for WebXR,
-webxr-depth-sensing,Depth sensing,
-webxr-device,WebXR,
-webxr-dom-overlays,DOM overlays for WebXR,
-webxr-gamepads,Gamepad (WebXR),
-webxr-hand-input,Hand input,
-webxr-hit-test,Hit test,
-webxr-layers,Layers (WebXR),
-webxr-lighting-estimation,Lighting estimation,
-wheel-events,Wheel events,
-where,:where(),
-white-space,white-space,
-widows-orphans,Widows and orphans,
-width-height,Width and height,
-will-change,will-change,
-window,Window,
-window-controls-overlay,Window Controls Overlay,
-word-break,word-break,
-word-break-auto-phrase,word-break: auto-phrase,
-word-break-break-word,word-break: break-word,
-word-spacing,word-spacing,
-writing-mode,writing-mode,
-writing-mode-svg-values,writing-mode SVG 1.1 values,
-xml-serializer,XMLSerializer,
-xpath,XPath,
-xslt,XSLT,
-z-index,z-index,
+webrtc,WebRTC,,submitted
+webrtc-sctp,WebRTC SCTP information,,submitted
+webvr,WebVR,,submitted
+webvtt-cue-settings,WebVTT cue settings,,submitted
+webxr-anchors,Anchors (WebXR),,submitted
+webxr-ar,Augmented reality,,submitted
+webxr-camera,Raw camera access for WebXR,,submitted
+webxr-depth-sensing,Depth sensing,,submitted
+webxr-device,WebXR,,submitted
+webxr-dom-overlays,DOM overlays for WebXR,,submitted
+webxr-gamepads,Gamepad (WebXR),,submitted
+webxr-hand-input,Hand input,,submitted
+webxr-hit-test,Hit test,,submitted
+webxr-layers,Layers (WebXR),,submitted
+webxr-lighting-estimation,Lighting estimation,,submitted
+wheel-events,Wheel events,,submitted
+where,:where(),,submitted
+white-space,white-space,,submitted
+widows-orphans,Widows and orphans,,submitted
+width-height,Width and height,,submitted
+will-change,will-change,,submitted
+window,Window,,submitted
+window-controls-overlay,Window Controls Overlay,,submitted
+word-break,word-break,,submitted
+word-break-auto-phrase,word-break: auto-phrase,,submitted
+word-break-break-word,word-break: break-word,,submitted
+word-spacing,word-spacing,,submitted
+writing-mode,writing-mode,,submitted
+writing-mode-svg-values,writing-mode SVG 1.1 values,,submitted
+xml-serializer,XMLSerializer,,submitted
+xpath,XPath,,submitted
+xslt,XSLT,,submitted
+z-index,z-index,,submitted
