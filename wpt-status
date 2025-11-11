@@ -22,6 +22,7 @@ def main(progress_filename):
     all_classified = find()
     classified = set()
     unclassifiable = set()
+    submitted = set()
     unclassified = set()
 
     with open(progress_filename, 'r') as progress_file:
@@ -31,17 +32,22 @@ def main(progress_filename):
                 unclassifiable.add(row['id'])
             elif row['id'] in all_classified:
                 classified.add(row['id'])
+            elif row['status'] and row['status'].startswith('#'):
+                submitted.add(row['id'])
             else:
                 unclassified.add(row['id'])
 
-    total = len(classified) + len(unclassifiable) + len(unclassified)
+    total = len(classified) + len(unclassifiable) + len(submitted) + len(unclassified)
 
     print('Classified:        {:3d}'.format(len(classified)))
     print('Unclassifiable:    {:3d}'.format(len(unclassifiable)))
+    print('Submitted:         {:3d}'.format(len(submitted)))
     print('Unclassified:    + {:3d}'.format(len(unclassified)))
     print('                 -----');
     print('Total:             {}'.format(total))
-    print('Progress:          {:2.0f}%'.format(100 * (1 - len(unclassified)/total)))
+    print('')
+    print('Progress (merged):    {:2.0f}%'.format(100 * (1 - (len(submitted) + len(unclassified))/total)))
+    print('Progress (submitted): {:2.0f}%'.format(100 * (1 - len(unclassified)/total)))
 
 if __name__ == '__main__':
     import pathlib
