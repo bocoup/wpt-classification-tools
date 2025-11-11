@@ -582,7 +582,7 @@ webgl2-desynchronized,Desynchronized WebGL2 canvas, only tests in 2D canvas cont
 webgpu,WebGPU,no tests
 webp,WebP,no tests
 webrtc,WebRTC,,#55821
-webrtc-sctp,WebRTC SCTP information,,
+webrtc-sctp,WebRTC SCTP information,already classified by Philip #46082,
 webvr,WebVR,,#55821
 webvtt-cue-settings,WebVTT cue settings,,#55821
 webxr-anchors,Anchors (WebXR),,#55739
