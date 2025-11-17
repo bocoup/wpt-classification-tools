@@ -452,16 +452,16 @@ settimeout,setTimeout(),
 shadow-parts,Shadow parts,
 shape-outside,shape-outside,
 shapes,shapes,
-share,navigator.share(),
-shared-storage,Shared storage,
-shared-storage-locks,Shared storage locks,
-shared-workers,Shared worker,
-sizes-auto,"<img sizes=""auto"" loading=""lazy"">",
-slot,<slot>,
-small,<small>,
-smil-svg-animations,SMIL SVG animations,
-smooth,smooth,
-source,<source>,
+share,navigator.share(),@stalgiag
+shared-storage,Shared storage,@stalgiag
+shared-storage-locks,Shared storage locks,@stalgiag
+shared-workers,Shared worker,@stalgiag
+sizes-auto,"<img sizes=""auto"" loading=""lazy"">",@stalgiag
+slot,<slot>,@stalgiag
+small,<small>,@stalgiag
+smil-svg-animations,SMIL SVG animations,@stalgiag
+smooth,smooth,@stalgiag
+source,<source>,@stalgiag
 sourcemap-header,Sourcemap header,
 span,<span>,
 speak,speak,
