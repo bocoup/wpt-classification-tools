@@ -145,13 +145,13 @@ dom,DOM,
 dom-geometry,DOM Geometry,
 dominant-baseline,dominant-baseline,
 domparser,DOMParser,
-download,download,
-draganddrop,Drag and Drop,
-early-data,Early data,
-edit-context,EditContext,
-element,element(),
-element-capture,Element capture,
-element-from-point,document.elementFromPoint() and document.elementsFromPoint(),
+download,download,howard-e
+draganddrop,Drag and Drop,howard-e
+early-data,Early data,howard-e
+edit-context,EditContext,howard-e
+element,element(),howard-e
+element-capture,Element capture,howard-e
+element-from-point,document.elementFromPoint() and document.elementsFromPoint(),howard-e
 em,<em>,
 em-unit,em unit,
 embed,<embed>,
