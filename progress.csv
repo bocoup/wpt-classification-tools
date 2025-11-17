@@ -1,27 +1,27 @@
-id,name,skip reason,status
+id,name,status
 a,<a>,#55200
-abbr,<abbr>,no tests
+abbr,<abbr>,X no tests
 abortable-fetch,Abortable fetch,#55200
 absolute-positioning,Absolute positioning,#55200
 accesskey,accesskey,#55200
-accessor-methods,Accessor methods,Moved to JavaScript group
-address,<address>,no tests
+accessor-methods,Accessor methods,X Moved to JavaScript group
+address,<address>,X no tests
 alerts,Alerts,#55200
 all,all,#55200
 alt-text-generated-content,Alt text for generated content,#55200
 alternative-style-sheets,Alternative style sheets,#55200
-angle-instanced-arrays,ANGLE_instanced_arrays WebGL extension,WebGL feature
+angle-instanced-arrays,ANGLE_instanced_arrays WebGL extension,X WebGL feature
 animations-css,Animations (CSS),#55481
 app-file-handlers,File handlers,#55200
-app-launch-handler,Launch handler,No tests
+app-launch-handler,Launch handler,X No tests
 app-protocol-handlers,Protocol handlers,#55481
-app-share-targets,Share targets,no tests
+app-share-targets,Share targets,X no tests
 app-shortcuts,Application shortcuts,#55481
-article,<article>,minimal semantics not tested in isolation
-aside,<aside>,minimal semantics not tested in isolation
-atomics-pause,Atomics.pause(),Belongs in JavaScript group
+article,<article>,X minimal semantics not tested in isolation
+aside,<aside>,X minimal semantics not tested in isolation
+atomics-pause,Atomics.pause(),X Belongs in JavaScript group
 audio,<audio>,#55481
-audio-session,Audio session,no tests
+audio-session,Audio session,X no tests
 audio-video-tracks,Audio and video tracks,
 autocapitalize,autocapitalize,#55150
 autocorrect,autocorrect,#55481
@@ -45,10 +45,10 @@ base64encodedecode,Base64 encoding and decoding,#55697
 bdi,<bdi>,#55697
 bdo,<bdo>,#55697
 before-after,::before and ::after,#55697
-beforeinstallprompt,beforeinstallprompt,Not a thing
+beforeinstallprompt,beforeinstallprompt,X Not a thing
 beforeunload,beforeunload,#55697
 bfcache-blocking-reasons,Back/forward cache blocking reasons,#55697
-blockquote,<blockquote>,no tests
+blockquote,<blockquote>,X no tests
 body,<body>,#55697
 border-radius,border-radius,@jugglinmike
 borders,Borders,@jugglinmike
@@ -82,7 +82,7 @@ clipboard-svg,SVG clipboard items,
 clipboard-unsanitized-formats,Read unsanitized clipboard data,
 code,<code>,
 color,Color,
-color-adjust,color-adjust,no tests in isolation (only alongside the print-color-adjust web feature)
+color-adjust,color-adjust,X no tests in isolation (only alongside the print-color-adjust web feature)
 color-contrast,color-contrast(),
 color-gamut,color-gamut media query,
 colrv0,COLRv0,
@@ -119,16 +119,16 @@ cubic-bezier-easing,cubic-bezier() easing,#55481
 currentcolor,currentColor,
 cursor,Cursor styles,
 custom-ellipses,Custom ellipses,
-customizable-select,Customizable <select>,in-progress by Philip https://github.com/web-platform-tests/wpt/pull/54712
+customizable-select,Customizable <select>,X in-progress by Philip https://github.com/web-platform-tests/wpt/pull/54712
 data,<data>,
 data-urls,Data URLs,
 dataset,Dataset,
-date-to-gmt-string,toGMTString(),Moved to JavaScript group
+date-to-gmt-string,toGMTString(),X Moved to JavaScript group
 dedicated-workers,Dedicated workers,
 del,<del>,
 description-list,Description list,
 device-queries,Device media queries,
-devicepixelratio,devicePixelRatio,Not observable in isolation (?)
+devicepixelratio,devicePixelRatio,X Not observable in isolation (?)
 dfn,<dfn>,
 digital-goods,Digital goods,
 display,Display,
@@ -157,7 +157,7 @@ em-unit,em unit,
 embed,<embed>,
 empty,:empty,
 enterkeyhint,enterkeyhint,
-error-cause,Error cause,Moved to JavaScript group
+error-cause,Error cause,X Moved to JavaScript group
 events,Events,
 ex,ex unit,
 execcommand,execCommand(),
@@ -171,11 +171,11 @@ ext-frag-depth,EXT_frag_depth WebGL extension,
 ext-shader-texture-lod,EXT_shader_texture_lod WebGL extension,
 ext-srgb,EXT_sRGB WebGL extension,
 ext-texture-compression-bptc,EXT_texture_compression_bptc WebGL extension,
-ext-texture-compression-rgtc,EXT_texture_compression_rgtc WebGL extension,WebGL feature
+ext-texture-compression-rgtc,EXT_texture_compression_rgtc WebGL extension,X WebGL feature
 ext-texture-filter-anisotropic,EXT_texture_filter_anisotropic WebGL extension,
-ext-texture-norm16,EXT_texture_norm16 WebGL extension,WebGL feature
-external,window.external,no tests (spec'd to do nothing)
-fast-seek,fastSeek(),no tests
+ext-texture-norm16,EXT_texture_norm16 WebGL extension,X WebGL feature
+external,window.external,X no tests (spec'd to do nothing)
+fast-seek,fastSeek(),X no tests
 federated-credentials,Federated credentials,
 fetch,Fetch,
 fetchlater,fetchLater,
@@ -215,7 +215,7 @@ font-width,font-width,
 form,<form>,
 form-validity-pseudos,Form validity pseudo-classes,
 gamepad-haptics,Gamepad haptic feedback,#55150
-gamepad-touch,Gamepad touch buttons,no tests (only tested as integrated with WebXR)
+gamepad-touch,Gamepad touch buttons,X no tests (only tested as integrated with WebXR)
 gamepad-vr,Gamepad VR hands and poses,
 gap-decorations,Gap decorations,
 get-computed-style,getComputedStyle(),
@@ -244,7 +244,7 @@ http2,HTTP/2,
 http3,HTTP/3,
 i,<i>,
 iframe,<iframe>,
-iframe-credentialless,Credentialless iframes,in-progress by Philip https://github.com/web-platform-tests/wpt/pull/54321
+iframe-credentialless,Credentialless iframes,X in-progress by Philip https://github.com/web-platform-tests/wpt/pull/54321
 iframe-sandbox,Sandboxed iframes,
 iframe-srcdoc,srcdoc,
 image-function,image(),
@@ -282,15 +282,15 @@ insertable-streams,Insertable streams for MediaStreamTrack,
 interaction,Interaction media queries,
 interactivity,interactivity,
 inverted-colors,inverted-colors media query,
-invoker-commands,Invoker commands,in-progress by Philip https://github.com/web-platform-tests/wpt/pull/54711
+invoker-commands,Invoker commands,X in-progress by Philip https://github.com/web-platform-tests/wpt/pull/54711
 is,:is(),
-is-error,Error.isError(),Moved to JavaScript group
+is-error,Error.isError(),X Moved to JavaScript group
 is-secure-context,isSecureContext,
 isolation,isolation,
 js-modules,JavaScript modules,
 kbd,<kbd>,
 keyboard-events,Keyboard events,
-khr-parallel-shader-compile,KHR_parallel_shader_compile WebGL extension,WebGL feature
+khr-parallel-shader-compile,KHR_parallel_shader_compile WebGL extension,X WebGL feature
 label,<label>,
 lang,:lang(),
 lang-attr,lang,
@@ -348,8 +348,8 @@ nth-child,:nth-child(),
 nth-of-type,:nth-of-type() pseudo-classes,
 object,<object>,
 object-fit,object-fit,
-object-hasown,Object.hasOwn(),Moved to JavaScript group
-object-object,Object,Moved to JavaScript group
+object-hasown,Object.hasOwn(),X Moved to JavaScript group
+object-object,Object,X Moved to JavaScript group
 object-position,object-position,
 observable,Observable,
 oes-element-index-uint,OES_element_index_uint WebGL extension,
@@ -402,22 +402,22 @@ prefers-reduced-motion,prefers-reduced-motion media query,
 print,window.print(),
 print-events,Print events,
 private-network-access,Private network access,
-proto,__proto__,Moved to JavaScript group
+proto,__proto__,X Moved to JavaScript group
 push,Push messages,
 q,<q>,
 q-unit,Q unit,
 reading-flow,reading-flow,
-regexp,Regular expressions,Moved to JavaScript group
-regexp-compile,RegExp compile(),Moved to JavaScript group
-regexp-escape,RegExp.escape(),Moved to JavaScript group
-regexp-static-properties,RegExp static properties,Moved to JavaScript group
+regexp,Regular expressions,X Moved to JavaScript group
+regexp-compile,RegExp compile(),X Moved to JavaScript group
+regexp-escape,RegExp.escape(),X Moved to JavaScript group
+regexp-static-properties,RegExp static properties,X Moved to JavaScript group
 region-capture,Region capture,
 registerprotocolhandler,registerProtocolHandler,#55150
 relative-positioning,Relative positioning,
 rem,rem,
 request-animation-frame,requestAnimationFrame(),
 request-animation-frame-workers,requestAnimationFrame() in workers,
-resizable-buffers,Resizable buffers,Moved to JavaScript group
+resizable-buffers,Resizable buffers,X Moved to JavaScript group
 resize,resize (CSS property),
 resolution,resolution media query,
 resolution-compat,resolution media query (compatibility prefixes),
@@ -445,7 +445,7 @@ secure-payment-confirmation,Secure payment confirmation,
 select,<select>,
 selection,::selection,
 selectors,Selectors (core),
-serializable-errors,Serializable errors,bundled with other tests (see files that depend on html/webappapis/structured-clone/structured-clone-battery-of-tests.js)
+serializable-errors,Serializable errors,X bundled with other tests (see files that depend on html/webappapis/structured-clone/structured-clone-battery-of-tests.js)
 service-workers,Service workers,
 setinterval,setInterval,
 settimeout,setTimeout(),
@@ -516,7 +516,7 @@ time-relative-selectors,Time-relative pseudo-selectors,#55150
 title,<title>,
 title-attr,title (attribute),
 touch-action,touch-action,
-transferable-arraybuffer,Transferable ArrayBuffer,Moved to JavaScript group
+transferable-arraybuffer,Transferable ArrayBuffer,X Moved to JavaScript group
 transforms2d,2D transforms,
 transitions,Transitions (CSS),
 translate,translate,
@@ -553,64 +553,64 @@ wasm-string-builtins,String builtins (WebAssembly),
 wasm-tail-call-optimization,Tail call optimization (WebAssembly),
 wasm-threads,Threads and atomics (WebAssembly),
 wasm-typed-fun-refs,Typed function references (WebAssembly),
-wbr,<wbr>,,#55821
-web-cryptography,Web Cryptography,,#55821
-webauthn,Web authentication,,#55821
-webauthn-signals,Web authentication signal methods,,#55821
-webdriver,WebDriver,,#55821
-webgl,WebGL,,#55821
-webgl-color-buffer-float,WEBGL_color_buffer_float WebGL extension,no tests
-webgl-color-management,Color management for WebGL,no tests
-webgl-compressed-texture-astc,WEBGL_compressed_texture_astc WebGL extension,no tests
-webgl-compressed-texture-etc,WEBGL_compressed_texture_etc WebGL extension,no tests
-webgl-compressed-texture-etc1,WEBGL_compressed_texture_etc1 WebGL extension,no tests
-webgl-compressed-texture-pvrtc,WEBGL_compressed_texture_pvrtc WebGL extension,WebGL feature
-webgl-compressed-texture-s3tc,WEBGL_compressed_texture_s3tc WebGL extension,no tests
-webgl-compressed-texture-s3tc-srgb,WEBGL_compressed_texture_s3tc_srgb WebGL extension,no tests
-webgl-debug-renderer-info,WEBGL_debug_renderer_info WebGL extension,no tests
-webgl-debug-shaders,WEBGL_debug_shaders WebGL extension,no tests
-webgl-depth-texture,WEBGL_depth_texture WebGL extension,no tests
-webgl-desynchronized,Desynchronized WebGL canvas, only tests for desynchronized parameter with 2D canvas contexts not webGL
-webgl-draw-buffers,WEBGL_draw_buffers WebGL extension,no tests
-webgl-lose-context,WEBGL_lose_context WebGL extension,only compat tests with webxr
-webgl-multi-draw,WEBGL_multi_draw WebGL extension,WebGL feature
-webgl-oes-draw-buffers-indexed,OES_draw_buffers_indexed WebGL extension,no tests
-webgl-sab,SharedArrayBuffer in WebGL,no tests
-webgl2,WebGL2,only generic tests for *canvas.getContext() API (no WebGL2-specific tests)
-webgl2-color-management,Color management for WebGL2,no tests
-webgl2-desynchronized,Desynchronized WebGL2 canvas, only tests in 2D canvas contexts (no WebGL2-specific tests)
-webgpu,WebGPU,no tests
-webp,WebP,no tests
-webrtc,WebRTC,,#55821
-webrtc-sctp,WebRTC SCTP information,already classified by Philip #46082,
-webvr,WebVR,,#55821
-webvtt-cue-settings,WebVTT cue settings,,#55821
-webxr-anchors,Anchors (WebXR),,#55739
-webxr-ar,Augmented reality,,#55739
-webxr-camera,Raw camera access for WebXR,,#55739
-webxr-depth-sensing,Depth sensing,,#55739
-webxr-device,WebXR,,#55739
-webxr-dom-overlays,DOM overlays for WebXR,,#55739
-webxr-gamepads,Gamepad (WebXR),,#55739
-webxr-hand-input,Hand input,,#55739
-webxr-hit-test,Hit test,,#55663
-webxr-layers,Layers (WebXR),,#55739
-webxr-lighting-estimation,Lighting estimation,,#55739
-wheel-events,Wheel events,,#55663
-where,:where(),,#55663
-white-space,white-space,,#55663
-widows-orphans,Widows and orphans,,#55025
-width-height,Width and height,,#55663
-will-change,will-change,,#55663
-window,Window,,#55663
-window-controls-overlay,Window Controls Overlay,,#55663
-word-break,word-break,,#55584
-word-break-auto-phrase,word-break: auto-phrase,,#55584
-word-break-break-word,word-break: break-word,,#55584
-word-spacing,word-spacing,,#55584
-writing-mode,writing-mode,,#55584
-writing-mode-svg-values,writing-mode SVG 1.1 values,,#55584
-xml-serializer,XMLSerializer,,#55584
-xpath,XPath,,#55584
-xslt,XSLT,,#55584
-z-index,z-index,,#55584
+wbr,<wbr>,#55821
+web-cryptography,Web Cryptography,#55821
+webauthn,Web authentication,#55821
+webauthn-signals,Web authentication signal methods,#55821
+webdriver,WebDriver,#55821
+webgl,WebGL,#55821
+webgl-color-buffer-float,WEBGL_color_buffer_float WebGL extension,X no tests
+webgl-color-management,Color management for WebGL,X no tests
+webgl-compressed-texture-astc,WEBGL_compressed_texture_astc WebGL extension,X no tests
+webgl-compressed-texture-etc,WEBGL_compressed_texture_etc WebGL extension,X no tests
+webgl-compressed-texture-etc1,WEBGL_compressed_texture_etc1 WebGL extension,X no tests
+webgl-compressed-texture-pvrtc,WEBGL_compressed_texture_pvrtc WebGL extension,X WebGL feature
+webgl-compressed-texture-s3tc,WEBGL_compressed_texture_s3tc WebGL extension,X no tests
+webgl-compressed-texture-s3tc-srgb,WEBGL_compressed_texture_s3tc_srgb WebGL extension,X no tests
+webgl-debug-renderer-info,WEBGL_debug_renderer_info WebGL extension,X no tests
+webgl-debug-shaders,WEBGL_debug_shaders WebGL extension,X no tests
+webgl-depth-texture,WEBGL_depth_texture WebGL extension,X no tests
+webgl-desynchronized,Desynchronized WebGL canvas,X only tests for desynchronized parameter with 2D canvas contexts not webGL
+webgl-draw-buffers,WEBGL_draw_buffers WebGL extension,X no tests
+webgl-lose-context,WEBGL_lose_context WebGL extension,X only compat tests with webxr
+webgl-multi-draw,WEBGL_multi_draw WebGL extension,X WebGL feature
+webgl-oes-draw-buffers-indexed,OES_draw_buffers_indexed WebGL extension,X no tests
+webgl-sab,SharedArrayBuffer in WebGL,X no tests
+webgl2,WebGL2,X only generic tests for *canvas.getContext() API (no WebGL2-specific tests)
+webgl2-color-management,Color management for WebGL2,X no tests
+webgl2-desynchronized,Desynchronized WebGL2 canvas,X only tests in 2D canvas contexts (no WebGL2-specific tests)
+webgpu,WebGPU,X no tests
+webp,WebP,X no tests
+webrtc,WebRTC,#55821
+webrtc-sctp,WebRTC SCTP information,
+webvr,WebVR,#55821
+webvtt-cue-settings,WebVTT cue settings,#55821
+webxr-anchors,Anchors (WebXR),#55739
+webxr-ar,Augmented reality,#55739
+webxr-camera,Raw camera access for WebXR,#55739
+webxr-depth-sensing,Depth sensing,#55739
+webxr-device,WebXR,#55739
+webxr-dom-overlays,DOM overlays for WebXR,#55739
+webxr-gamepads,Gamepad (WebXR),#55739
+webxr-hand-input,Hand input,#55739
+webxr-hit-test,Hit test,#55663
+webxr-layers,Layers (WebXR),#55739
+webxr-lighting-estimation,Lighting estimation,#55739
+wheel-events,Wheel events,#55663
+where,:where(),#55663
+white-space,white-space,#55663
+widows-orphans,Widows and orphans,#55025
+width-height,Width and height,#55663
+will-change,will-change,#55663
+window,Window,#55663
+window-controls-overlay,Window Controls Overlay,#55663
+word-break,word-break,#55584
+word-break-auto-phrase,word-break: auto-phrase,#55584
+word-break-break-word,word-break: break-word,#55584
+word-spacing,word-spacing,#55584
+writing-mode,writing-mode,#55584
+writing-mode-svg-values,writing-mode SVG 1.1 values,#55584
+xml-serializer,XMLSerializer,#55584
+xpath,XPath,#55584
+xslt,XSLT,#55584
+z-index,z-index,#55584
