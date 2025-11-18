@@ -447,23 +447,23 @@ selection,::selection,
 selectors,Selectors (core),
 serializable-errors,Serializable errors,X bundled with other tests (see files that depend on html/webappapis/structured-clone/structured-clone-battery-of-tests.js)
 service-workers,Service workers,
-setinterval,setInterval,
-settimeout,setTimeout(),
-shadow-parts,Shadow parts,
-shape-outside,shape-outside,
-shapes,shapes,
-share,navigator.share(),@stalgiag
-shared-storage,Shared storage,@stalgiag
-shared-storage-locks,Shared storage locks,@stalgiag
-shared-workers,Shared worker,@stalgiag
-sizes-auto,"<img sizes=""auto"" loading=""lazy"">",@stalgiag
-slot,<slot>,@stalgiag
-small,<small>,@stalgiag
-smil-svg-animations,SMIL SVG animations,@stalgiag
-smooth,smooth,@stalgiag
+setinterval,setInterval,@stalgiag
+settimeout,setTimeout(),@stalgiag
+shadow-parts,Shadow parts,@stalgiag
+shape-outside,shape-outside,@stalgiag
+shapes,shapes,@stalgiag
+share,navigator.share(),@stalgiag(c)
+shared-storage,Shared storage,@stalgiag(c)
+shared-storage-locks,Shared storage locks,@stalgiag(c)
+shared-workers,Shared worker,@stalgiag(c)
+sizes-auto,"<img sizes=""auto"" loading=""lazy"">",@stalgiag(c)
+slot,<slot>,@stalgiag(c)
+small,<small>,Only tested indirectly
+smil-svg-animations,SMIL SVG animations,@stalgiag(c)
+smooth,smooth,@stalgiag(c)
 source,<source>,@stalgiag
-sourcemap-header,Sourcemap header,
-span,<span>,
+sourcemap-header,Sourcemap header,@stalgiag
+span,<span>,@stalgiag
 speak,speak,
 speak-as,speak-as,
 speech-recognition-grammar,Speech recognition grammar,
