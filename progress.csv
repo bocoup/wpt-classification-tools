@@ -418,16 +418,16 @@ rem,rem,
 request-animation-frame,requestAnimationFrame(),
 request-animation-frame-workers,requestAnimationFrame() in workers,
 resizable-buffers,Resizable buffers,X Moved to JavaScript group
-resize,resize (CSS property),
-resolution,resolution media query,
-resolution-compat,resolution media query (compatibility prefixes),
-resource-size,Resource size,
-rgb,RGB,
-rhythmic-sizing,Rhythmic sizing,
-root,:root,
-ruby,<ruby>,
-ruby-overhang,ruby-overhang,
-s,<s>,
+resize,resize (CSS property),@gnarf
+resolution,resolution media query,@gnarf
+resolution-compat,resolution media query (compatibility prefixes),@gnarf
+resource-size,Resource size,@gnarf
+rgb,RGB,@gnarf
+rhythmic-sizing,Rhythmic sizing,@gnarf
+root,:root,@gnarf
+ruby,<ruby>,@gnarf
+ruby-overhang,ruby-overhang,@gnarf
+s,<s>,@gnarf
 safe-area-inset,Safe area inset environment variables,
 samp,<samp>,
 scope-pseudo,:scope (pseudo-class),
