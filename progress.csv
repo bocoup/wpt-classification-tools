@@ -449,7 +449,7 @@ serializable-errors,Serializable errors,X bundled with other tests (see files th
 service-workers,Service workers,
 setinterval,setInterval,@stalgiag
 settimeout,setTimeout(),@stalgiag
-shadow-parts,Shadow parts,@stalgiag
+shadow-parts,Shadow parts,#56127
 shape-outside,shape-outside,@stalgiag
 shapes,shapes,@stalgiag
 share,navigator.share(),@stalgiag(c)
@@ -461,7 +461,7 @@ slot,<slot>,@stalgiag(c)
 small,<small>,Only tested indirectly
 smil-svg-animations,SMIL SVG animations,@stalgiag(c)
 smooth,smooth,@stalgiag(c)
-source,<source>,@stalgiag
+source,<source>,#56124
 sourcemap-header,Sourcemap header,@stalgiag
 span,<span>,@stalgiag
 speak,speak,
