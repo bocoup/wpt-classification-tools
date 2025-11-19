@@ -552,7 +552,7 @@ wasm-simd-relaxed,Relaxed-width SIMD (WebAssembly),
 wasm-string-builtins,String builtins (WebAssembly),
 wasm-tail-call-optimization,Tail call optimization (WebAssembly),
 wasm-threads,Threads and atomics (WebAssembly),
-wasm-typed-fun-refs,Typed function references (WebAssembly),
+wasm-typed-fun-refs,Typed function references (WebAssembly),@ChrisC
 wbr,<wbr>,#55821
 web-cryptography,Web Cryptography,#55821
 webauthn,Web authentication,#55821
