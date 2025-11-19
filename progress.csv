@@ -458,11 +458,11 @@ shared-storage-locks,Shared storage locks,@stalgiag(c)
 shared-workers,Shared worker,@stalgiag(c)
 sizes-auto,"<img sizes=""auto"" loading=""lazy"">",@stalgiag(c)
 slot,<slot>,@stalgiag(c)
-small,<small>,Only tested indirectly
+small,<small>,X Only tested indirectly
 smil-svg-animations,SMIL SVG animations,@stalgiag(c)
 smooth,smooth,@stalgiag(c)
 source,<source>,#56124
-sourcemap-header,Sourcemap header,@stalgiag
+sourcemap-header,Sourcemap header,X no tests
 span,<span>,@stalgiag
 speak,speak,
 speak-as,speak-as,
