@@ -610,7 +610,7 @@ word-break-break-word,word-break: break-word,#56129
 word-spacing,word-spacing,#56126
 writing-mode,writing-mode,#56160 
 writing-mode-svg-values,writing-mode SVG 1.1 values,#56160
-xml-serializer,XMLSerializer,#55584
+xml-serializer,XMLSerializer,#56164
 xpath,XPath,#56163
 xslt,XSLT,#56162
 z-index,z-index,#56161
