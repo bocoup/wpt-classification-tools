@@ -448,7 +448,7 @@ selectors,Selectors (core),
 serializable-errors,Serializable errors,X bundled with other tests (see files that depend on html/webappapis/structured-clone/structured-clone-battery-of-tests.js)
 service-workers,Service workers,
 setinterval,setInterval,@stalgiag
-settimeout,setTimeout(),@stalgiag
+settimeout,setTimeout(),#56144
 shadow-parts,Shadow parts,#56127
 shape-outside,shape-outside,@stalgiag
 shapes,shapes,@stalgiag
