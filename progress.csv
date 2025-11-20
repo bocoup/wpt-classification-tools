@@ -422,7 +422,7 @@ resize,resize (CSS property),#56131
 resolution,resolution media query,@gnarf
 resolution-compat,resolution media query (compatibility prefixes),@gnarf
 resource-size,Resource size,@gnarf
-rgb,RGB,@gnarf
+rgb,RGB,#56146
 rhythmic-sizing,Rhythmic sizing,@gnarf
 root,:root,@gnarf
 ruby,<ruby>,@gnarf
