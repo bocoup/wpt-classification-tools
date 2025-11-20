@@ -148,7 +148,7 @@ domparser,DOMParser,
 download,download,#56142
 draganddrop,Drag and Drop,#56141
 early-data,Early data,#56140
-edit-context,EditContext,@howard-e
+edit-context,EditContext,X covered
 element,element(),@howard-e
 element-capture,Element capture,@howard-e(c)
 element-from-point,document.elementFromPoint() and document.elementsFromPoint(),@howard-e(c)
