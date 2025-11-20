@@ -145,21 +145,21 @@ dom,DOM,
 dom-geometry,DOM Geometry,
 dominant-baseline,dominant-baseline,
 domparser,DOMParser,
-download,download,howard-e
-draganddrop,Drag and Drop,howard-e
-early-data,Early data,howard-e
-edit-context,EditContext,howard-e
-element,element(),howard-e
-element-capture,Element capture,howard-e
-element-from-point,document.elementFromPoint() and document.elementsFromPoint(),howard-e
-em,<em>,
-em-unit,em unit,
-embed,<embed>,
-empty,:empty,
-enterkeyhint,enterkeyhint,
+download,download,#56142
+draganddrop,Drag and Drop,#56141
+early-data,Early data,#56140
+edit-context,EditContext,@howard-e
+element,element(),@howard-e
+element-capture,Element capture,@howard-e(c)
+element-from-point,document.elementFromPoint() and document.elementsFromPoint(),@howard-e(c)
+em,<em>,@howard-e
+em-unit,em unit,@howard-e
+embed,<embed>,@howard-e
+empty,:empty,@howard-e
+enterkeyhint,enterkeyhint,@howard-e
 error-cause,Error cause,X Moved to JavaScript group
-events,Events,
-ex,ex unit,
+events,Events,@howard-e
+ex,ex unit,@howard-e
 execcommand,execCommand(),
 explicit-resource-management,Explicit resource management,
 ext-blend-minmax,EXT_blend_minmax WebGL extension,
