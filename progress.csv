@@ -418,7 +418,7 @@ rem,rem,
 request-animation-frame,requestAnimationFrame(),
 request-animation-frame-workers,requestAnimationFrame() in workers,
 resizable-buffers,Resizable buffers,X Moved to JavaScript group
-resize,resize (CSS property),@gnarf
+resize,resize (CSS property),#56131
 resolution,resolution media query,@gnarf
 resolution-compat,resolution media query (compatibility prefixes),@gnarf
 resource-size,Resource size,@gnarf
