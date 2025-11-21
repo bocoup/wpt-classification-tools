@@ -593,10 +593,10 @@ webxr-device,WebXR,#55739
 webxr-dom-overlays,DOM overlays for WebXR,#55739
 webxr-gamepads,Gamepad (WebXR),#55739
 webxr-hand-input,Hand input,#55739
-webxr-hit-test,Hit test,#55663
+webxr-hit-test,Hit test,#55739
 webxr-layers,Layers (WebXR),#55739
 webxr-lighting-estimation,Lighting estimation,#55739
-wheel-events,Wheel events,#55663
+wheel-events,Wheel events,#56175
 where,:where(),#56174
 white-space,white-space,#56169
 widows-orphans,Widows and orphans,#56173
