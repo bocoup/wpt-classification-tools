@@ -558,7 +558,7 @@ web-cryptography,Web Cryptography,#55821
 webauthn,Web authentication,#55821
 webauthn-signals,Web authentication signal methods,#55821
 webdriver,WebDriver,#55821
-webgl,WebGL,#55821
+webgl,WebGL,#56239
 webgl-color-buffer-float,WEBGL_color_buffer_float WebGL extension,X no tests
 webgl-color-management,Color management for WebGL,X no tests
 webgl-compressed-texture-astc,WEBGL_compressed_texture_astc WebGL extension,X no tests
