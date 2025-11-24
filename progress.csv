@@ -450,9 +450,9 @@ service-workers,Service workers,
 setinterval,setInterval,#56144
 settimeout,setTimeout(),#56144
 shadow-parts,Shadow parts,#56127
-shape-outside,shape-outside,@stalgiag
-shapes,shapes,@stalgiag
-share,navigator.share(),@stalgiag(c)
+shape-outside,shape-outside,
+shapes,shapes,
+share,navigator.share(),#56228
 shared-storage,Shared storage,@stalgiag(c)
 shared-storage-locks,Shared storage locks,@stalgiag(c)
 shared-workers,Shared worker,@stalgiag(c)
