@@ -453,8 +453,8 @@ shadow-parts,Shadow parts,#56127
 shape-outside,shape-outside,
 shapes,shapes,
 share,navigator.share(),#56228
-shared-storage,Shared storage,@stalgiag(c)
-shared-storage-locks,Shared storage locks,@stalgiag(c)
+shared-storage,Shared storage,#56231
+shared-storage-locks,Shared storage locks,#56231
 shared-workers,Shared worker,@stalgiag(c)
 sizes-auto,"<img sizes=""auto"" loading=""lazy"">",@stalgiag(c)
 slot,<slot>,@stalgiag(c)
