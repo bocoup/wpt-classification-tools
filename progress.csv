@@ -584,7 +584,7 @@ webp,WebP,X no tests
 webrtc,WebRTC,#55821
 webrtc-sctp,WebRTC SCTP information,
 webvr,WebVR,#55821
-webvtt-cue-settings,WebVTT cue settings,#55821
+webvtt-cue-settings,WebVTT cue settings,#56233
 webxr-anchors,Anchors (WebXR),#55739
 webxr-ar,Augmented reality,#55739
 webxr-camera,Raw camera access for WebXR,#55739
