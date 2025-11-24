@@ -554,7 +554,7 @@ wasm-tail-call-optimization,Tail call optimization (WebAssembly),
 wasm-threads,Threads and atomics (WebAssembly),
 wasm-typed-fun-refs,Typed function references (WebAssembly),@ChrisC
 wbr,<wbr>,#55821
-web-cryptography,Web Cryptography,#55821
+web-cryptography,Web Cryptography,#56242
 webauthn,Web authentication,#56241
 webauthn-signals,Web authentication signal methods,#56241
 webdriver,WebDriver,#56240
