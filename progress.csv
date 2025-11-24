@@ -581,7 +581,7 @@ webgl2-color-management,Color management for WebGL2,X no tests
 webgl2-desynchronized,Desynchronized WebGL2 canvas,X only tests in 2D canvas contexts (no WebGL2-specific tests)
 webgpu,WebGPU,X no tests
 webp,WebP,X no tests
-webrtc,WebRTC,#55821
+webrtc,WebRTC,#56238
 webrtc-sctp,WebRTC SCTP information,X already classified by Philip #46082
 webvr,WebVR,#56236
 webvtt-cue-settings,WebVTT cue settings,#56233
