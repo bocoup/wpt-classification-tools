@@ -68,11 +68,11 @@ capture-stream-canvas,captureStream() for <canvas>,#56248
 caret-color,caret-color,#56249
 case-insensitive-attributes,Case-insensitive attribute selector,X not separable from the case-sensitive operator
 case-sensitive-attributes,Case-sensitive attribute selector,X not separable from the case-insensitive operator
-change-event,Change event,
-channel-messaging,Channel messaging,
-charset,@charset,
-check-visibility,checkVisibility(),
-cite,<cite>,
+change-event,Change event,@jugglinmike
+channel-messaging,Channel messaging,@jugglinmike
+charset,@charset,@jugglinmike
+check-visibility,checkVisibility(),@jugglinmike
+cite,<cite>,@jugglinmike
 clip,clip,
 clip-path-animatable,Animatable clipping paths,#55025
 clipboard-custom-format,Custom formats for clipboard items,
