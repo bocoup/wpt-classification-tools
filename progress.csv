@@ -159,7 +159,7 @@ empty,:empty,@howard-e(c)
 enterkeyhint,enterkeyhint,X no tests
 error-cause,Error cause,X Moved to JavaScript group
 events,Events,@howard-e(wip that may become ?)
-ex,ex unit,@howard-e
+ex,ex unit,#56277
 execcommand,execCommand(),@howard-e
 explicit-resource-management,Explicit resource management,@howard-e
 ext-blend-minmax,EXT_blend_minmax WebGL extension,@howard-e
