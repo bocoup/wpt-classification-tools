@@ -24,6 +24,7 @@ describe each web feature to be classified in WPT:
     project
   - prefixed with `X` - the feature has been reviewed and judged unsuitable for
     classification; a short note about the judgement follows the `X` character
+  - prefixed with `?` - the feature has been initially reviewed and judged too challenging to be done quickly by the current viewer; a short note about the source of difficulty follows the `?`
 
 ## License
 
