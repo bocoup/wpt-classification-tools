@@ -68,7 +68,7 @@ capture-stream-canvas,captureStream() for <canvas>,#56248
 caret-color,caret-color,#56249
 case-insensitive-attributes,Case-insensitive attribute selector,X not separable from the case-sensitive operator
 case-sensitive-attributes,Case-sensitive attribute selector,X not separable from the case-insensitive operator
-change-event,Change event,@jugglinmike
+change-event,Change event,#56252
 channel-messaging,Channel messaging,@jugglinmike
 charset,@charset,@jugglinmike
 check-visibility,checkVisibility(),@jugglinmike
@@ -265,7 +265,7 @@ input-checkbox,"<input type=""checkbox"">",
 input-color,"<input type=""color"">",
 input-date-time,Date and time <input> types,#55150
 input-email-tel-url,"Email, telephone, and URL <input> types",
-input-event,input (event),
+input-event,input (event),X not separable from other input events--see https://github.com/web-platform-tests/wpt/pull/56252
 input-file,"<input type=""file"">",#55150
 input-hidden,"<input type=""hidden"">",
 input-image,"<input type=""image"">",
