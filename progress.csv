@@ -457,13 +457,13 @@ shared-storage,Shared storage,#56231
 shared-storage-locks,Shared storage locks,#56231
 shared-workers,Shared worker,@stalgiag(c)
 sizes-auto,"<img sizes=""auto"" loading=""lazy"">",#56232
-slot,<slot>,@stalgiag(c)
+slot,<slot>,#56244
 small,<small>,X Only tested indirectly
 smil-svg-animations,SMIL SVG animations,@stalgiag(c)
 smooth,smooth,@stalgiag(c)
 source,<source>,#56124
 sourcemap-header,Sourcemap header,X no tests
-span,<span>,@stalgiag
+span,<span>,? too numerous to determine the relevant tests without a better understanding of wpt structure
 speak,speak,
 speak-as,speak-as,
 speech-recognition-grammar,Speech recognition grammar,
