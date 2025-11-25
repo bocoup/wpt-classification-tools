@@ -38,9 +38,9 @@ background-origin,background-origin,#55585
 background-position,background-position,#55585
 background-repeat,background-repeat,#55585
 background-size,background-size,#55585
-barcode,Barcode detector,#55697
+barcode,Barcode detector,#56246
 barprop,BarProp,#55697
-base,<base>,#55697
+base,<base>,#56247
 base64encodedecode,Base64 encoding and decoding,#55697
 bdi,<bdi>,#55697
 bdo,<bdo>,#55697
