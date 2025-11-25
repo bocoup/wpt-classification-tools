@@ -7,6 +7,8 @@ import subprocess
 import sys
 import yaml
 
+progress_filepath=os.path.join(os.path.dirname(os.path.realpath(__file__)), 'progress.csv')
+
 def read_classifiers(source):
     with open(source, 'r') as handle:
         return yaml.safe_load(handle)['features']
@@ -57,7 +59,7 @@ def expand_classifier(directory, classifier):
     return { 'included': included, 'excluded': excluded }
 
 def name_from_id(feature_id):
-    with open('../docs/2025-09-25-progress.csv', 'r') as progress_file:
+    with open(progress_filepath, 'r') as progress_file:
         reader = csv.reader(progress_file)
         for row in reader:
             if row[0] == feature_id:
