@@ -459,7 +459,7 @@ shared-workers,Shared worker,@stalgiag(c)
 sizes-auto,"<img sizes=""auto"" loading=""lazy"">",#56232
 slot,<slot>,#56244
 small,<small>,X Only tested indirectly
-smil-svg-animations,SMIL SVG animations,@stalgiag(c)
+smil-svg-animations,SMIL SVG animations,#56245
 smooth,smooth,@stalgiag(c)
 source,<source>,#56124
 sourcemap-header,Sourcemap header,X no tests
