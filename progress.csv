@@ -464,8 +464,8 @@ smooth,smooth,#56264
 source,<source>,#56124
 sourcemap-header,Sourcemap header,X no tests
 span,<span>,? too numerous to determine the relevant tests without a better understanding of wpt structure
-speak,speak,@stalgiag
-speak-as,speak-as,@stalgiag
+speak,speak,#56271
+speak-as,speak-as,#56271
 speech-recognition-grammar,Speech recognition grammar,@stalgiag
 speech-synthesis,Speech synthesis,@stalgiag
 spellcheck,spellcheck,@stalgiag
