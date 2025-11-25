@@ -460,22 +460,22 @@ sizes-auto,"<img sizes=""auto"" loading=""lazy"">",#56232
 slot,<slot>,#56244
 small,<small>,X Only tested indirectly
 smil-svg-animations,SMIL SVG animations,#56245
-smooth,smooth,@stalgiag(c)
+smooth,smooth,#56264
 source,<source>,#56124
 sourcemap-header,Sourcemap header,X no tests
 span,<span>,? too numerous to determine the relevant tests without a better understanding of wpt structure
-speak,speak,
-speak-as,speak-as,
-speech-recognition-grammar,Speech recognition grammar,
-speech-synthesis,Speech synthesis,
-spellcheck,spellcheck,
-srcset,srcset and sizes,
-static-positioning,Static positioning,
+speak,speak,@stalgiag
+speak-as,speak-as,@stalgiag
+speech-recognition-grammar,Speech recognition grammar,@stalgiag
+speech-synthesis,Speech synthesis,@stalgiag
+spellcheck,spellcheck,@stalgiag
+srcset,srcset and sizes,@stalgiag
+static-positioning,Static positioning,@stalgiag
 steps-easing,steps() easing,#55481
 storage-manager,Storage manager,
-stretch,stretch,
-strong,<strong>,
-style,<style>,
+stretch,stretch,@stalgiag
+strong,<strong>,@stalgiag
+style,<style>,@stalgiag
 style-attr,style (attribute),
 sub-sup,<sub> and <sup>,
 summarizer,Summarizer,
