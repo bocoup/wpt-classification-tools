@@ -61,13 +61,13 @@ calc,calc(),#55025
 canvas,<canvas>,@jugglinmike
 canvas-2d,2D canvas,@jugglinmike
 canvas-2d-desynchronized,Desynchronized 2D canvas,@jugglinmike
-canvas-2d-willreadfrequently,willReadFrequently,
-canvas-context-lost,contextlost and contextrestored,
-capture-stream-audio-video,captureStream() for <audio> and <video>,
-capture-stream-canvas,captureStream() for <canvas>,
-caret-color,caret-color,
-case-insensitive-attributes,Case-insensitive attribute selector,
-case-sensitive-attributes,Case-sensitive attribute selector,
+canvas-2d-willreadfrequently,willReadFrequently,@jugglinmike
+canvas-context-lost,contextlost and contextrestored,@jugglinmike
+capture-stream-audio-video,captureStream() for <audio> and <video>,@jugglinmike
+capture-stream-canvas,captureStream() for <canvas>,@jugglinmike
+caret-color,caret-color,@jugglinmike
+case-insensitive-attributes,Case-insensitive attribute selector,@jugglinmike
+case-sensitive-attributes,Case-sensitive attribute selector,@jugglinmike
 change-event,Change event,
 channel-messaging,Channel messaging,
 charset,@charset,
