@@ -533,25 +533,25 @@ viewport-units,Viewport units,#55025
 virtual-pressure-sources,Virtual pressure sources,X already classified
 virtual-sensors,Virtual sensors,#56202
 visibility,visibility,#56201
-wasm,WebAssembly,
-wasm-bigint,BigInt to i64 conversion (WebAssembly),
-wasm-bulk-memory,Bulk memory operations (WebAssembly),
-wasm-exception-handling,Exception handling (WebAssembly),
-wasm-exnref-exceptions,Exception references with exnref (WebAssembly),
-wasm-extended-constant-expressions,Extended constant expressions (WebAssembly),
-wasm-garbage-collection,Garbage collection (WebAssembly),
-wasm-memory64,Memory64 (WebAssembly),
-wasm-multi-memory,Multi-memory (WebAssembly),
-wasm-multi-value,Multi-value (WebAssembly),
-wasm-mutable-globals,Import and export of mutable globals (WebAssembly),
-wasm-non-trapping-float-to-int,Non-trapping float-to-int conversion (WebAssembly),
-wasm-reference-types,Reference types (WebAssembly),
-wasm-sign-extension-operators,Sign extension operators (WebAssembly),
-wasm-simd,Fixed-width SIMD (WebAssembly),
-wasm-simd-relaxed,Relaxed-width SIMD (WebAssembly),
-wasm-string-builtins,String builtins (WebAssembly),
-wasm-tail-call-optimization,Tail call optimization (WebAssembly),
-wasm-threads,Threads and atomics (WebAssembly),
+wasm,WebAssembly,@ChrisC
+wasm-bigint,BigInt to i64 conversion (WebAssembly),@ChrisC
+wasm-bulk-memory,Bulk memory operations (WebAssembly),@ChrisC
+wasm-exception-handling,Exception handling (WebAssembly),@ChrisC
+wasm-exnref-exceptions,Exception references with exnref (WebAssembly),@ChrisC
+wasm-extended-constant-expressions,Extended constant expressions (WebAssembly),@ChrisC
+wasm-garbage-collection,Garbage collection (WebAssembly),@ChrisC
+wasm-memory64,Memory64 (WebAssembly),@ChrisC
+wasm-multi-memory,Multi-memory (WebAssembly),@ChrisC
+wasm-multi-value,Multi-value (WebAssembly),@ChrisC
+wasm-mutable-globals,Import and export of mutable globals (WebAssembly),@ChrisC
+wasm-non-trapping-float-to-int,Non-trapping float-to-int conversion (WebAssembly),@ChrisC
+wasm-reference-types,Reference types (WebAssembly),@ChrisC
+wasm-sign-extension-operators,Sign extension operators (WebAssembly),@ChrisC
+wasm-simd,Fixed-width SIMD (WebAssembly),@ChrisC
+wasm-simd-relaxed,Relaxed-width SIMD (WebAssembly),@ChrisC
+wasm-string-builtins,String builtins (WebAssembly),@ChrisC
+wasm-tail-call-optimization,Tail call optimization (WebAssembly),@ChrisC
+wasm-threads,Threads and atomics (WebAssembly),@ChrisC
 wasm-typed-fun-refs,Typed function references (WebAssembly),@ChrisC
 wbr,<wbr>,#56243
 web-cryptography,Web Cryptography,#56242
