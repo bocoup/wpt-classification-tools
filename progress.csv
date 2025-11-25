@@ -466,7 +466,7 @@ sourcemap-header,Sourcemap header,X no tests
 span,<span>,? too numerous to determine the relevant tests without a better understanding of wpt structure
 speak,speak,#56271
 speak-as,speak-as,#56271
-speech-recognition-grammar,Speech recognition grammar,@stalgiag
+speech-recognition-grammar,Speech recognition grammar,X SpeechGrammar and SpeechGrammarList have been removed from the Web Speech API spec
 speech-synthesis,Speech synthesis,@stalgiag
 spellcheck,spellcheck,@stalgiag
 srcset,srcset and sizes,@stalgiag
