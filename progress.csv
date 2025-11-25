@@ -149,30 +149,30 @@ download,download,#56142
 draganddrop,Drag and Drop,#56141
 early-data,Early data,#56140
 edit-context,EditContext,X covered
-element,element(),@howard-e
-element-capture,Element capture,@howard-e(c)
-element-from-point,document.elementFromPoint() and document.elementsFromPoint(),@howard-e(c)
-em,<em>,@howard-e
-em-unit,em unit,@howard-e
-embed,<embed>,@howard-e
-empty,:empty,@howard-e
-enterkeyhint,enterkeyhint,@howard-e
+element,element(),X no tests covered by background-*
+element-capture,Element capture,#56266
+element-from-point,document.elementFromPoint() and document.elementsFromPoint(),#56267
+em,<em>,covered by expansive element tests
+em-unit,em unit,#56268
+embed,<embed>,#56269
+empty,:empty,@howard-e(c)
+enterkeyhint,enterkeyhint,X no tests
 error-cause,Error cause,X Moved to JavaScript group
-events,Events,@howard-e
+events,Events,@howard-e(wip that may become ?)
 ex,ex unit,@howard-e
-execcommand,execCommand(),
-explicit-resource-management,Explicit resource management,
-ext-blend-minmax,EXT_blend_minmax WebGL extension,
-ext-color-buffer-float,EXT_color_buffer_float WebGL extension,
-ext-color-buffer-half-float,EXT_color_buffer_half_float WebGL extension,
-ext-disjoint-timer-query,EXT_disjoint_timer_query WebGL extension,
-ext-float-blend,EXT_float_blend WebGL extension,
-ext-frag-depth,EXT_frag_depth WebGL extension,
-ext-shader-texture-lod,EXT_shader_texture_lod WebGL extension,
-ext-srgb,EXT_sRGB WebGL extension,
-ext-texture-compression-bptc,EXT_texture_compression_bptc WebGL extension,
+execcommand,execCommand(),@howard-e
+explicit-resource-management,Explicit resource management,@howard-e
+ext-blend-minmax,EXT_blend_minmax WebGL extension,@howard-e
+ext-color-buffer-float,EXT_color_buffer_float WebGL extension,@howard-e
+ext-color-buffer-half-float,EXT_color_buffer_half_float WebGL extension,@howard-e
+ext-disjoint-timer-query,EXT_disjoint_timer_query WebGL extension,@howard-e
+ext-float-blend,EXT_float_blend WebGL extension,@howard-e
+ext-frag-depth,EXT_frag_depth WebGL extension,@howard-e
+ext-shader-texture-lod,EXT_shader_texture_lod WebGL extension,@howard-e
+ext-srgb,EXT_sRGB WebGL extension,@howard-e
+ext-texture-compression-bptc,EXT_texture_compression_bptc WebGL extension,@howard-e
 ext-texture-compression-rgtc,EXT_texture_compression_rgtc WebGL extension,X WebGL feature
-ext-texture-filter-anisotropic,EXT_texture_filter_anisotropic WebGL extension,
+ext-texture-filter-anisotropic,EXT_texture_filter_anisotropic WebGL extension,@howard-e
 ext-texture-norm16,EXT_texture_norm16 WebGL extension,X WebGL feature
 external,window.external,X no tests (spec'd to do nothing)
 fast-seek,fastSeek(),X no tests
