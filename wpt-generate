@@ -32,6 +32,10 @@ def list_files(dirname):
         )
     )
 
+def is_auxilliary_dir(dirname):
+    dirparts = dirname.split(os.path.sep)
+    return set(['resources', 'support']).intersection(dirparts)
+
 def main():
     directories = itertools.groupby(
         sorted(
@@ -51,22 +55,27 @@ def main():
             all_filenames
         )
 
-        web_features_filename = os.path.join(dirname, 'WEB_FEATURES.yml')
-        try:
-            with open(web_features_filename, 'x') as handle:
-                handle.write('features:\n')
-        except FileExistsError:
-            pass
+        if is_auxilliary_dir(dirname):
+            stdout += f'{dirname} (not a test-containing directory))\n'
+            stdout += '\n'.join(test_filenames)
+            stdout += '\n\n'
+        else:
+            web_features_filename = os.path.join(dirname, 'WEB_FEATURES.yml')
+            try:
+                with open(web_features_filename, 'x') as handle:
+                    handle.write('features:\n')
+            except FileExistsError:
+                pass
 
-        with open(web_features_filename, 'a') as handle:
-            handle.write('- name: \n')
-            handle.write('  files:\n')
-            handle.write('\n'.join(yaml_filenames))
-            handle.write('\n')
+            with open(web_features_filename, 'a') as handle:
+                handle.write('- name: \n')
+                handle.write('  files:\n')
+                handle.write('\n'.join(yaml_filenames))
+                handle.write('\n')
 
-        stdout += f'{web_features_filename}\n'
-        stdout += '\n'.join(test_filenames)
-        stdout += '\n\n'
+            stdout += f'{web_features_filename}\n'
+            stdout += '\n'.join(test_filenames)
+            stdout += '\n\n'
 
     return stdout
 
