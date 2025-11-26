@@ -1,0 +1,54 @@
+name: WPT Web Feature Status Report
+
+on:
+  workflow_dispatch:
+
+jobs:
+  status:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout classification tools
+        uses: actions/checkout@v4
+        with:
+          repository: bocoup/wpt-classification-tools
+          path: classification-tools
+
+      - name: Checkout WPT repository
+        uses: actions/checkout@v4
+        with:
+          repository: web-platform-tests/wpt
+          path: wpt
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install pyyaml
+
+      - name: Run wpt-status
+        id: status
+        working-directory: wpt
+        run: |
+          python3 ../classification-tools/wpt-status > status_output.txt
+          cat status_output.txt
+
+      - name: Create job summary
+        run: |
+          echo "## WPT Classification Status" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          cat wpt/status_output.txt >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Output is also available in the job logs above.**" >> $GITHUB_STEP_SUMMARY
+
+      - name: Upload status output
+        uses: actions/upload-artifact@v4
+        with:
+          name: wpt-status-output
+          path: wpt/status_output.txt
+          retention-days: 30
+
