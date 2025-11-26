@@ -75,18 +75,18 @@ check-visibility,checkVisibility(),#45787
 cite,<cite>,X no tests
 clip,clip,#56293
 clip-path-animatable,Animatable clipping paths,#55025
-clipboard-custom-format,Custom formats for clipboard items,
-clipboard-events,Clipboard events,
-clipboard-supports,ClipboardItem.supports(),
-clipboard-svg,SVG clipboard items,
-clipboard-unsanitized-formats,Read unsanitized clipboard data,
-code,<code>,
-color,Color,
+clipboard-custom-format,Custom formats for clipboard items,@jugglinmike
+clipboard-events,Clipboard events,@jugglinmike
+clipboard-supports,ClipboardItem.supports(),@jugglinmike
+clipboard-svg,SVG clipboard items,@jugglinmike
+clipboard-unsanitized-formats,Read unsanitized clipboard data,@jugglinmike
+code,<code>,@jugglinmike
+color,Color,@jugglinmike
 color-adjust,color-adjust,X no tests in isolation (only alongside the print-color-adjust web feature)
-color-contrast,color-contrast(),
-color-gamut,color-gamut media query,
-colrv0,COLRv0,
-colrv1,COLRv1,
+color-contrast,color-contrast(),@jugglinmike
+color-gamut,color-gamut media query,@jugglinmike
+colrv0,COLRv0,@jugglinmike
+colrv1,COLRv1,@jugglinmike
 column-breaks,Column breaks,
 column-fill,column-fill,
 column-pseudo,::column,
