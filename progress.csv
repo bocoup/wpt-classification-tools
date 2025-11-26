@@ -144,7 +144,7 @@ document-write,document.write(),
 dom,DOM,
 dom-geometry,DOM Geometry,
 dominant-baseline,dominant-baseline,
-domparser,DOMParser,
+domparser,DOMParser,@ChrisC
 download,download,#56142
 draganddrop,Drag and Drop,#56141
 early-data,Early data,#56140
@@ -535,13 +535,13 @@ virtual-sensors,Virtual sensors,#56202
 visibility,visibility,#56201
 wasm,WebAssembly,@ChrisC
 wasm-bigint,BigInt to i64 conversion (WebAssembly),@ChrisC
-wasm-bulk-memory,Bulk memory operations (WebAssembly),@ChrisC
+wasm-bulk-memory,Bulk memory operations (WebAssembly),X already classified
 wasm-exception-handling,Exception handling (WebAssembly),@ChrisC
 wasm-exnref-exceptions,Exception references with exnref (WebAssembly),@ChrisC
 wasm-extended-constant-expressions,Extended constant expressions (WebAssembly),@ChrisC
 wasm-garbage-collection,Garbage collection (WebAssembly),@ChrisC
-wasm-memory64,Memory64 (WebAssembly),@ChrisC
-wasm-multi-memory,Multi-memory (WebAssembly),@ChrisC
+wasm-memory64,Memory64 (WebAssembly),X already classified
+wasm-multi-memory,Multi-memory (WebAssembly),X already classified
 wasm-multi-value,Multi-value (WebAssembly),@ChrisC
 wasm-mutable-globals,Import and export of mutable globals (WebAssembly),@ChrisC
 wasm-non-trapping-float-to-int,Non-trapping float-to-int conversion (WebAssembly),@ChrisC
