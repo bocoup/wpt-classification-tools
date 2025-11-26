@@ -144,7 +144,7 @@ document-write,document.write(),
 dom,DOM,
 dom-geometry,DOM Geometry,
 dominant-baseline,dominant-baseline,
-domparser,DOMParser,@ChrisC
+domparser,DOMParser,#56164
 download,download,#56142
 draganddrop,Drag and Drop,#56141
 early-data,Early data,#56140
