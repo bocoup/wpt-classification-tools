@@ -469,8 +469,8 @@ speak-as,speak-as,#56271
 speech-recognition-grammar,Speech recognition grammar,X SpeechGrammar and SpeechGrammarList have been removed from the Web Speech API spec
 speech-synthesis,Speech synthesis,X already mapped by Philip
 spellcheck,spellcheck,#56273
-srcset,srcset and sizes,@stalgiag
-static-positioning,Static positioning,@stalgiag
+srcset,srcset and sizes,#56275
+static-positioning,Static positioning,#56304
 steps-easing,steps() easing,#55481
 storage-manager,Storage manager,
 stretch,stretch,@stalgiag
