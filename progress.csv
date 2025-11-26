@@ -428,16 +428,16 @@ root,:root,@gnarf
 ruby,<ruby>,#56156
 ruby-overhang,ruby-overhang,#56156
 s,<s>,X No specific tests
-safe-area-inset,Safe area inset environment variables,
-samp,<samp>,
-scope-pseudo,:scope (pseudo-class),
-scoped-custom-element-registries,Scoped custom element registries,
-screen,Screen,
-screen-orientation-lock,Screen orientation lock,
-script,<script> and <noscript>,
-scroll-behavior,scroll-behavior,
-scroll-buttons,::scroll-button,
-scroll-elements,Scroll methods on elements,
+safe-area-inset,Safe area inset environment variables,@gnarf
+samp,<samp>,@gnarf
+scope-pseudo,:scope (pseudo-class),@gnarf
+scoped-custom-element-registries,Scoped custom element registries,@gnarf
+screen,Screen,@gnarf
+screen-orientation-lock,Screen orientation lock,@gnarf
+script,<script> and <noscript>,@gnarf
+scroll-behavior,scroll-behavior,@gnarf
+scroll-buttons,::scroll-button,@gnarf
+scroll-elements,Scroll methods on elements,@gnarf
 scroll-markers,Scroll markers,
 search-input-type,"<input type=""search"">",
 section,<section>,
