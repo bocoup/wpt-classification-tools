@@ -160,31 +160,31 @@ enterkeyhint,enterkeyhint,X no tests
 error-cause,Error cause,X Moved to JavaScript group
 events,Events,@howard-e(wip that may become ?)
 ex,ex unit,#56277
-execcommand,execCommand(),@howard-e
-explicit-resource-management,Explicit resource management,@howard-e
-ext-blend-minmax,EXT_blend_minmax WebGL extension,@howard-e
-ext-color-buffer-float,EXT_color_buffer_float WebGL extension,@howard-e
-ext-color-buffer-half-float,EXT_color_buffer_half_float WebGL extension,@howard-e
-ext-disjoint-timer-query,EXT_disjoint_timer_query WebGL extension,@howard-e
-ext-float-blend,EXT_float_blend WebGL extension,@howard-e
-ext-frag-depth,EXT_frag_depth WebGL extension,@howard-e
-ext-shader-texture-lod,EXT_shader_texture_lod WebGL extension,@howard-e
-ext-srgb,EXT_sRGB WebGL extension,@howard-e
-ext-texture-compression-bptc,EXT_texture_compression_bptc WebGL extension,@howard-e
+execcommand,execCommand(),@howard-e(c)
+explicit-resource-management,Explicit resource management,X Moved to JavaScript group
+ext-blend-minmax,EXT_blend_minmax WebGL extension,X WebGL feature
+ext-color-buffer-float,EXT_color_buffer_float WebGL extension,X WebGL feature
+ext-color-buffer-half-float,EXT_color_buffer_half_float WebGL extension,X WebGL feature
+ext-disjoint-timer-query,EXT_disjoint_timer_query WebGL extension,X WebGL feature
+ext-float-blend,EXT_float_blend WebGL extension,X WebGL feature
+ext-frag-depth,EXT_frag_depth WebGL extension,X WebGL feature
+ext-shader-texture-lod,EXT_shader_texture_lod WebGL extension,X WebGL feature
+ext-srgb,EXT_sRGB WebGL extension,X WebGL feature
+ext-texture-compression-bptc,EXT_texture_compression_bptc WebGL extension,X WebGL feature
 ext-texture-compression-rgtc,EXT_texture_compression_rgtc WebGL extension,X WebGL feature
-ext-texture-filter-anisotropic,EXT_texture_filter_anisotropic WebGL extension,@howard-e
+ext-texture-filter-anisotropic,EXT_texture_filter_anisotropic WebGL extension,X WebGL feature
 ext-texture-norm16,EXT_texture_norm16 WebGL extension,X WebGL feature
 external,window.external,X no tests (spec'd to do nothing)
 fast-seek,fastSeek(),X no tests
-federated-credentials,Federated credentials,
-fetch,Fetch,
-fetchlater,fetchLater,
-fieldset,<fieldset> and <legend>,
-figure,<figure> and <figcaption>,
-file,File API,
-filter,filter,
-fit-content,fit-content,
-fit-content-function,fit-content(),
+federated-credentials,Federated credentials,@howard-e
+fetch,Fetch,@howard-e
+fetchlater,fetchLater,@howard-e
+fieldset,<fieldset> and <legend>,@howard-e
+figure,<figure> and <figcaption>,@howard-e
+file,File API,@howard-e
+filter,filter,@howard-e
+fit-content,fit-content,@howard-e
+fit-content-function,fit-content(),@howard-e
 fixed-positioning,Fixed positioning,
 flexbox-gap,Flexbox gap,
 float-clear,float and clear,
