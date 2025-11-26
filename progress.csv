@@ -476,18 +476,18 @@ storage-manager,Storage manager,
 stretch,stretch,@stalgiag
 strong,<strong>,@stalgiag
 style,<style>,@stalgiag
-style-attr,style (attribute),
-sub-sup,<sub> and <sup>,
-summarizer,Summarizer,
-supports,@supports,
-supports-compat,@supports (compatibility prefix),
-svg,SVG,
-svg-discouraged,SVG 1.1 (discouraged),
-svg-filters,SVG filters,
-system-color,System colors,
-tab-size,tab-size,
-table,Tables,
-table-discouraged,Table styling,
+style-attr,style (attribute),@stalgiag
+sub-sup,<sub> and <sup>,@stalgiag
+summarizer,Summarizer,@stalgiag
+supports,@supports,@stalgiag
+supports-compat,@supports (compatibility prefix),@stalgiag
+svg,SVG,@stalgiag
+svg-discouraged,SVG 1.1 (discouraged),@stalgiag
+svg-filters,SVG filters,@stalgiag
+system-color,System colors,@stalgiag
+tab-size,tab-size,@stalgiag
+table,Tables,@stalgiag
+table-discouraged,Table styling,@stalgiag
 target,:target,
 target-within,:target-within,
 text-align,text-align,
