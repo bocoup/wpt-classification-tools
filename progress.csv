@@ -69,11 +69,11 @@ caret-color,caret-color,#56249
 case-insensitive-attributes,Case-insensitive attribute selector,X not separable from the case-sensitive operator
 case-sensitive-attributes,Case-sensitive attribute selector,X not separable from the case-insensitive operator
 change-event,Change event,#56252
-channel-messaging,Channel messaging,@jugglinmike
-charset,@charset,@jugglinmike
-check-visibility,checkVisibility(),@jugglinmike
-cite,<cite>,@jugglinmike
-clip,clip,
+channel-messaging,Channel messaging,#56289
+charset,@charset,#56291
+check-visibility,checkVisibility(),#45787
+cite,<cite>,X no tests
+clip,clip,#56293
 clip-path-animatable,Animatable clipping paths,#55025
 clipboard-custom-format,Custom formats for clipboard items,
 clipboard-events,Clipboard events,
@@ -395,7 +395,7 @@ pointer-events,pointer-events,
 popover-hint,"popover=""hint""",
 portal,Portals,
 position,Position,
-postmessage,postMessage,
+postmessage,postMessage,#56289
 pre,<pre>,
 prefers-reduced-data,prefers-reduced-data media query,
 prefers-reduced-motion,prefers-reduced-motion media query,
