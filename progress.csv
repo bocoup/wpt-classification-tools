@@ -473,14 +473,14 @@ srcset,srcset and sizes,#56275
 static-positioning,Static positioning,#56304
 steps-easing,steps() easing,#55481
 storage-manager,Storage manager,
-stretch,stretch,@stalgiag
-strong,<strong>,@stalgiag
-style,<style>,@stalgiag
-style-attr,style (attribute),@stalgiag
-sub-sup,<sub> and <sup>,@stalgiag
-summarizer,Summarizer,@stalgiag
-supports,@supports,@stalgiag
-supports-compat,@supports (compatibility prefix),@stalgiag
+stretch,stretch,#56305
+strong,<strong>,#56306
+style,<style>,#56309
+style-attr,style (attribute),#56309
+sub-sup,<sub> and <sup>,X no tests
+summarizer,Summarizer,#56315
+supports,@supports,#56320
+supports-compat,@supports (compatibility prefix),#56320
 svg,SVG,@stalgiag
 svg-discouraged,SVG 1.1 (discouraged),@stalgiag
 svg-filters,SVG filters,@stalgiag
