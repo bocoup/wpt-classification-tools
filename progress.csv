@@ -539,7 +539,7 @@ wasm-bulk-memory,Bulk memory operations (WebAssembly),X already classified
 wasm-exception-handling,Exception handling (WebAssembly),#56386
 wasm-exnref-exceptions,Exception references with exnref (WebAssembly),#56386
 wasm-extended-constant-expressions,Extended constant expressions (WebAssembly),@ChrisC
-wasm-garbage-collection,Garbage collection (WebAssembly),@ChrisC
+wasm-garbage-collection,Garbage collection (WebAssembly),#56387
 wasm-memory64,Memory64 (WebAssembly),X already classified
 wasm-multi-memory,Multi-memory (WebAssembly),X already classified
 wasm-multi-value,Multi-value (WebAssembly),@ChrisC
