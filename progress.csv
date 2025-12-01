@@ -87,16 +87,16 @@ color-contrast,color-contrast(),@jugglinmike
 color-gamut,color-gamut media query,@jugglinmike
 colrv0,COLRv0,@jugglinmike
 colrv1,COLRv1,@jugglinmike
-column-breaks,Column breaks,
-column-fill,column-fill,
-column-pseudo,::column,
-column-span,column-span,
-composed-ranges,Selection composed ranges,
-composition-events,Composition events,
-compression-dictionary-transport,Compression Dictionary Transport,
-contain,contain,
-contain-layout,Layout containment,
-contain-paint,Paint containment,
+column-breaks,Column breaks,@jugglinmike
+column-fill,column-fill,@jugglinmike
+column-pseudo,::column,@jugglinmike
+column-span,column-span,@jugglinmike
+composed-ranges,Selection composed ranges,@jugglinmike
+composition-events,Composition events,@jugglinmike
+compression-dictionary-transport,Compression Dictionary Transport,@jugglinmike
+contain,contain,@jugglinmike
+contain-layout,Layout containment,@jugglinmike
+contain-paint,Paint containment,@jugglinmike
 contain-size,Size containment,
 contain-style,Style containment,
 content,Content,
