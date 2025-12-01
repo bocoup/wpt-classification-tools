@@ -536,8 +536,8 @@ visibility,visibility,#56201
 wasm,WebAssembly,@ChrisC
 wasm-bigint,BigInt to i64 conversion (WebAssembly),@ChrisC
 wasm-bulk-memory,Bulk memory operations (WebAssembly),X already classified
-wasm-exception-handling,Exception handling (WebAssembly),@ChrisC
-wasm-exnref-exceptions,Exception references with exnref (WebAssembly),@ChrisC
+wasm-exception-handling,Exception handling (WebAssembly),#56386
+wasm-exnref-exceptions,Exception references with exnref (WebAssembly),#56386
 wasm-extended-constant-expressions,Extended constant expressions (WebAssembly),@ChrisC
 wasm-garbage-collection,Garbage collection (WebAssembly),@ChrisC
 wasm-memory64,Memory64 (WebAssembly),X already classified
