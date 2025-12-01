@@ -547,8 +547,8 @@ wasm-mutable-globals,Import and export of mutable globals (WebAssembly),@ChrisC
 wasm-non-trapping-float-to-int,Non-trapping float-to-int conversion (WebAssembly),@ChrisC
 wasm-reference-types,Reference types (WebAssembly),@ChrisC
 wasm-sign-extension-operators,Sign extension operators (WebAssembly),@ChrisC
-wasm-simd,Fixed-width SIMD (WebAssembly),@ChrisC
-wasm-simd-relaxed,Relaxed-width SIMD (WebAssembly),@ChrisC
+wasm-simd,Fixed-width SIMD (WebAssembly),#56385
+wasm-simd-relaxed,Relaxed-width SIMD (WebAssembly),#56385
 wasm-string-builtins,String builtins (WebAssembly),@ChrisC
 wasm-tail-call-optimization,Tail call optimization (WebAssembly),@ChrisC
 wasm-threads,Threads and atomics (WebAssembly),@ChrisC
