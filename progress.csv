@@ -75,18 +75,18 @@ check-visibility,checkVisibility(),#45787
 cite,<cite>,X no tests
 clip,clip,#56293
 clip-path-animatable,Animatable clipping paths,#55025
-clipboard-custom-format,Custom formats for clipboard items,@jugglinmike
-clipboard-events,Clipboard events,@jugglinmike
-clipboard-supports,ClipboardItem.supports(),@jugglinmike
-clipboard-svg,SVG clipboard items,@jugglinmike
-clipboard-unsanitized-formats,Read unsanitized clipboard data,@jugglinmike
-code,<code>,@jugglinmike
-color,Color,@jugglinmike
+clipboard-custom-format,Custom formats for clipboard items,#56416
+clipboard-events,Clipboard events,#56416
+clipboard-supports,ClipboardItem.supports(),X no independent tests
+clipboard-svg,SVG clipboard items,#56416
+clipboard-unsanitized-formats,Read unsanitized clipboard data,#56416
+code,<code>,X no tests
+color,Color,? very large number of irrelevant usages; feature is extremely old
 color-adjust,color-adjust,X no tests in isolation (only alongside the print-color-adjust web feature)
-color-contrast,color-contrast(),@jugglinmike
-color-gamut,color-gamut media query,@jugglinmike
-colrv0,COLRv0,@jugglinmike
-colrv1,COLRv1,@jugglinmike
+color-contrast,color-contrast(),#56418
+color-gamut,color-gamut media query,#56418
+colrv0,COLRv0,X no dedicated tests
+colrv1,COLRv1,X no dedicated tests
 column-breaks,Column breaks,@jugglinmike
 column-fill,column-fill,@jugglinmike
 column-pseudo,::column,@jugglinmike
