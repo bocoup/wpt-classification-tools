@@ -4,7 +4,7 @@ set -e
 
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
-filename=$(mktemp "${SCRIPT_DIR}/search-results/$(date --iso-8601=seconds)-XXXXXXXX.txt")
+filename=$(mktemp "${SCRIPT_DIR}/search-results/$(date +%Y-%m-%dT%H:%M:%S)-XXXXXXXX.txt")
 
 git grep $@ -- \
   ':(exclude)tools' \
