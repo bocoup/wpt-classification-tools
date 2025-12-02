@@ -66,7 +66,21 @@ def name_from_id(feature_id):
                 return row[1]
         raise Exception(f'Unrecognized feature ID: "{feature_id}"')
 
-def main(feature_id):
+def git(*args):
+    return subprocess.run(
+        ['git', *args],
+        stdout=subprocess.PIPE,
+        text=True,
+        check=True
+    )
+
+def infer_feature_id(stdout):
+    ids = set(re.findall('^\+\s*- name:\s*(.*)$', stdout, re.MULTILINE))
+    assert len(ids) == 1, f'Expected exactly one feature ID, found {len(ids)}: {ids}'
+    return ids.pop()
+
+def main():
+    feature_id = infer_feature_id(git('diff', '--staged', '--unified=0').stdout)
     included = []
     excluded = []
 
@@ -85,20 +99,9 @@ def main(feature_id):
             excluded.extend(expanded['excluded'])
 
     feature_name = name_from_id(feature_id)
+    assert len(included) > 0
 
-    commit_title = f'Map "{feature_name}" to web-features'
-    commit_body = f'This classifier includes {len(included)} files and excludes {len(excluded)} files'
-    subprocess.run(
-        [
-            'git',
-            'commit',
-            '-m',
-            commit_title,
-            '-m',
-            commit_body
-        ],
-        check=True
-    )
+    git('commit', '-m', f'Map "{feature_name}" to web-features')
 
 if __name__ == '__main__':
-    main(sys.argv[1])
+    main()
