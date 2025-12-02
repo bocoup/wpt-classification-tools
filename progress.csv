@@ -127,7 +127,7 @@ date-to-gmt-string,toGMTString(),X Moved to JavaScript group
 dedicated-workers,Dedicated workers,
 del,<del>,
 description-list,Description list,
-device-queries,Device media queries,@ChrisC
+device-queries,Device media queries,#56437
 devicepixelratio,devicePixelRatio,X Not observable in isolation (?)
 dfn,<dfn>,
 digital-goods,Digital goods,
@@ -279,9 +279,9 @@ input-submit,"<input type=""submit"">",
 inputmode,inputmode,
 ins,<ins>,
 insertable-streams,Insertable streams for MediaStreamTrack,
-interaction,Interaction media queries,@ChrisC
+interaction,Interaction media queries,X unclassifiable see future work notes
 interactivity,interactivity,
-inverted-colors,inverted-colors media query,@ChrisC
+inverted-colors,inverted-colors media query,#56437
 invoker-commands,Invoker commands,X in-progress by Philip https://github.com/web-platform-tests/wpt/pull/54711
 is,:is(),
 is-error,Error.isError(),X Moved to JavaScript group
@@ -322,8 +322,8 @@ mask-type,mask-type,
 masonry,Masonry,
 matchmedia,matchMedia,
 media-capture,Media capture,
-media-queries,Media queries,@ChrisC
-media-query-range-syntax,Media query range syntax,@ChrisC
+media-queries,Media queries,#56437
+media-query-range-syntax,Media query range syntax,#56437
 mediacontroller,MediaController,
 menu,<menu>,
 meta,<meta>,
@@ -397,8 +397,8 @@ portal,Portals,
 position,Position,
 postmessage,postMessage,#56289
 pre,<pre>,
-prefers-reduced-data,prefers-reduced-data media query,@ChrisC
-prefers-reduced-motion,prefers-reduced-motion media query,@ChrisC
+prefers-reduced-data,prefers-reduced-data media query,#56437
+prefers-reduced-motion,prefers-reduced-motion media query,#56437
 print,window.print(),
 print-events,Print events,
 private-network-access,Private network access,
