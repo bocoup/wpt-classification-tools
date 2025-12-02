@@ -428,10 +428,10 @@ root,:root,@gnarf
 ruby,<ruby>,#56156
 ruby-overhang,ruby-overhang,#56156
 s,<s>,X No specific tests
-safe-area-inset,Safe area inset environment variables,#56310
-samp,<samp>,X Nothing directly testing
-scope-pseudo,:scope (pseudo-class),#56311
-scoped-custom-element-registries,Scoped custom element registries,#56312
+safe-area-inset,Safe area inset environment variables,@gnarf
+samp,<samp>,@gnarf
+scope-pseudo,:scope (pseudo-class),@gnarf
+scoped-custom-element-registries,Scoped custom element registries,@gnarf
 screen,Screen,@gnarf
 screen-orientation-lock,Screen orientation lock,@gnarf
 script,<script> and <noscript>,@gnarf
