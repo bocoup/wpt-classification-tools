@@ -24,10 +24,16 @@ def compare_filepaths(filepath1, filepath2):
         return 1
     return 0
 
-def list_files(dirname):
+def is_test_file(entry, dirname):
+    return os.path.isfile(os.path.join(dirname, entry)) and \
+        '-ref.' not in entry and \
+        '-notref.' not in entry and \
+        entry != 'WEB_FEATURES.yml'
+
+def list_test_files(dirname):
     return sorted(
         filter(
-            lambda filename: os.path.isfile(os.path.join(dirname, filename)),
+            lambda entry: is_test_file(entry, dirname),
             os.listdir(dirname)
         )
     )
@@ -47,17 +53,17 @@ def main():
 
     stdout = ''
 
-    for dirname, test_filepaths in directories:
-        all_filenames = list_files(dirname)
-        test_filenames = set(map(lambda filepath: os.path.basename(filepath), test_filepaths))
+    for dirname, matching_test_filepaths in directories:
+        all_test_filenames = list_test_files(dirname)
+        matching_test_filenames = set(map(lambda filepath: os.path.basename(filepath), matching_test_filepaths))
         yaml_filenames = map(
-            lambda filename: f'{" " if filename in test_filenames else "#"} - {os.path.basename(filename)}',
-            all_filenames
+            lambda filename: f'{" " if filename in matching_test_filenames else "#"} - {os.path.basename(filename)}',
+            all_test_filenames
         )
 
         if is_auxilliary_dir(dirname):
             stdout += f'{dirname} (not a test-containing directory))\n'
-            stdout += '\n'.join(test_filenames)
+            stdout += '\n'.join(matching_test_filenames)
             stdout += '\n\n'
         else:
             web_features_filename = os.path.join(dirname, 'WEB_FEATURES.yml')
@@ -74,7 +80,7 @@ def main():
                 handle.write('\n')
 
             stdout += f'{web_features_filename}\n'
-            stdout += '\n'.join(test_filenames)
+            stdout += '\n'.join(matching_test_filenames)
             stdout += '\n\n'
 
     return stdout
