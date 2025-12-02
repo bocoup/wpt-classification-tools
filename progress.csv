@@ -515,16 +515,16 @@ time,<time>,@stalgiag
 time-relative-selectors,Time-relative pseudo-selectors,#55150@stalgiag
 title,<title>,@stalgiag
 title-attr,title (attribute),@stalgiag
-touch-action,touch-action,
+touch-action,touch-action,@ChrisC
 transferable-arraybuffer,Transferable ArrayBuffer,X Moved to JavaScript group
-transforms2d,2D transforms,
-transitions,Transitions (CSS),
-translate,translate,
+transforms2d,2D transforms,@ChrisC
+transitions,Transitions (CSS),@ChrisC
+translate,translate,@ChrisC
 u,<u>,
-unset-value,unset,
-url,URL,
-user-action-pseudos,User action pseudo-classes,
-user-agent-sniffing,User agent sniffing,
+unset-value,unset,@ChrisC
+url,URL,@ChrisC
+user-action-pseudos,User action pseudo-classes,@ChrisC
+user-agent-sniffing,User agent sniffing,@ChrisC
 var,<var>,
 vertical-align,vertical-align,
 video,<video>,
