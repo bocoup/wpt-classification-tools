@@ -490,31 +490,31 @@ table,Tables,#56381
 table-discouraged,Table styling,#56381
 target,:target,#56400
 target-within,:target-within,X no tests
-text-align,text-align,
-text-align-last,text-align-last,
-text-autospace,text-autospace,
-text-combine-upright,text-combine-upright,
-text-decoration,text-decoration,
-text-decoration-line-blink,text-decoration-line: blink,
-text-decoration-selection,text-decoration in ::selection,
-text-encoding,Text encoding and decoding,
+text-align,text-align,@stalgiag
+text-align-last,text-align-last,@stalgiag
+text-autospace,text-autospace,@stalgiag
+text-combine-upright,text-combine-upright,@stalgiag
+text-decoration,text-decoration, @stalgiag
+text-decoration-line-blink,text-decoration-line: blink,@stalgiag
+text-decoration-selection,text-decoration in ::selection,@stalgiag
+text-encoding,Text encoding and decoding,@stalgiag
 text-indent-each-line,text-indent: each-line,#55150
-text-indent-hanging,text-indent: hanging,
-text-justify,text-justify,
-text-orientation,text-orientation,
-text-overflow,Text overflow,
-text-shadow,text-shadow,
-text-size-adjust,text-size-adjust,
-text-stroke-fill,Text stroke and fill (compatibility prefixes),
-text-tracks,Text tracks,
-text-transform,text-transform,
-text-underline-position,text-underline-position,
-text-wrap-stable,text-wrap: stable,
-textarea,<textarea>,
-time,<time>,
-time-relative-selectors,Time-relative pseudo-selectors,#55150
-title,<title>,
-title-attr,title (attribute),
+text-indent-hanging,text-indent: hanging,@stalgiag
+text-justify,text-justify,@stalgiag
+text-orientation,text-orientation,@stalgiag
+text-overflow,Text overflow,@stalgiag
+text-shadow,text-shadow,@stalgiag
+text-size-adjust,text-size-adjust,@stalgiag
+text-stroke-fill,Text stroke and fill (compatibility prefixes),@stalgiag
+text-tracks,Text tracks,@stalgiag
+text-transform,text-transform,@stalgiag
+text-underline-position,text-underline-position,@stalgiag
+text-wrap-stable,text-wrap: stable,@stalgiag
+textarea,<textarea>,@stalgiag
+time,<time>,@stalgiag
+time-relative-selectors,Time-relative pseudo-selectors,#55150@stalgiag
+title,<title>,@stalgiag
+title-attr,title (attribute),@stalgiag
 touch-action,touch-action,
 transferable-arraybuffer,Transferable ArrayBuffer,X Moved to JavaScript group
 transforms2d,2D transforms,
