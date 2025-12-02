@@ -533,26 +533,26 @@ viewport-units,Viewport units,#55025
 virtual-pressure-sources,Virtual pressure sources,X already classified
 virtual-sensors,Virtual sensors,#56202
 visibility,visibility,#56201
-wasm,WebAssembly,@ChrisC
-wasm-bigint,BigInt to i64 conversion (WebAssembly),@ChrisC
+wasm,WebAssembly,#56401
+wasm-bigint,BigInt to i64 conversion (WebAssembly),X no tests see future work notes
 wasm-bulk-memory,Bulk memory operations (WebAssembly),X already classified
 wasm-exception-handling,Exception handling (WebAssembly),#56386
 wasm-exnref-exceptions,Exception references with exnref (WebAssembly),#56386
-wasm-extended-constant-expressions,Extended constant expressions (WebAssembly),@ChrisC
+wasm-extended-constant-expressions,Extended constant expressions (WebAssembly),X no tests see future work notes
 wasm-garbage-collection,Garbage collection (WebAssembly),#56387
 wasm-memory64,Memory64 (WebAssembly),X already classified
 wasm-multi-memory,Multi-memory (WebAssembly),X already classified
-wasm-multi-value,Multi-value (WebAssembly),@ChrisC
+wasm-multi-value,Multi-value (WebAssembly),#56401
 wasm-mutable-globals,Import and export of mutable globals (WebAssembly),#56389
-wasm-non-trapping-float-to-int,Non-trapping float-to-int conversion (WebAssembly),@ChrisC
-wasm-reference-types,Reference types (WebAssembly),@ChrisC
-wasm-sign-extension-operators,Sign extension operators (WebAssembly),@ChrisC
+wasm-non-trapping-float-to-int,Non-trapping float-to-int conversion (WebAssembly),X no tests see future work notes
+wasm-reference-types,Reference types (WebAssembly),#56402
+wasm-sign-extension-operators,Sign extension operators (WebAssembly),X no tests see future work notes
 wasm-simd,Fixed-width SIMD (WebAssembly),#56385
 wasm-simd-relaxed,Relaxed-width SIMD (WebAssembly),#56385
 wasm-string-builtins,String builtins (WebAssembly),#56389
-wasm-tail-call-optimization,Tail call optimization (WebAssembly),@ChrisC
-wasm-threads,Threads and atomics (WebAssembly),@ChrisC
-wasm-typed-fun-refs,Typed function references (WebAssembly),@ChrisC
+wasm-tail-call-optimization,Tail call optimization (WebAssembly),#56402
+wasm-threads,Threads and atomics (WebAssembly),#56401
+wasm-typed-fun-refs,Typed function references (WebAssembly),#56402
 wbr,<wbr>,#56243
 web-cryptography,Web Cryptography,#56242
 webauthn,Web authentication,#56241
