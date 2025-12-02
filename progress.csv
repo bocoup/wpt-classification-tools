@@ -155,12 +155,12 @@ element-from-point,document.elementFromPoint() and document.elementsFromPoint(),
 em,<em>,covered by expansive element tests
 em-unit,em unit,#56268
 embed,<embed>,#56269
-empty,:empty,@howard-e(c)
+empty,:empty,#56412
 enterkeyhint,enterkeyhint,X no tests
 error-cause,Error cause,X Moved to JavaScript group
 events,Events,@howard-e(wip that may become ?)
 ex,ex unit,#56277
-execcommand,execCommand(),@howard-e(c)
+execcommand,execCommand(),#56413
 explicit-resource-management,Explicit resource management,X Moved to JavaScript group
 ext-blend-minmax,EXT_blend_minmax WebGL extension,X WebGL feature
 ext-color-buffer-float,EXT_color_buffer_float WebGL extension,X WebGL feature
@@ -176,20 +176,20 @@ ext-texture-filter-anisotropic,EXT_texture_filter_anisotropic WebGL extension,X 
 ext-texture-norm16,EXT_texture_norm16 WebGL extension,X WebGL feature
 external,window.external,X no tests (spec'd to do nothing)
 fast-seek,fastSeek(),X no tests
-federated-credentials,Federated credentials,@howard-e
-fetch,Fetch,@howard-e
-fetchlater,fetchLater,@howard-e
-fieldset,<fieldset> and <legend>,@howard-e
-figure,<figure> and <figcaption>,@howard-e
-file,File API,@howard-e
+federated-credentials,Federated credentials,#56414
+fetch,Fetch,? at a glance seems like a '**' over the 'fetch' folder but a significant amount of usages to look through that may require deeper knowledge. Could return to this
+fetchlater,fetchLater,? same as above. fetch and fetchlater should go together
+fieldset,<fieldset> and <legend>,#56415
+figure,<figure> and <figcaption>,#56417
+file,File API,X covered
 filter,filter,@howard-e
 fit-content,fit-content,@howard-e
 fit-content-function,fit-content(),@howard-e
-fixed-positioning,Fixed positioning,
-flexbox-gap,Flexbox gap,
-float-clear,float and clear,
-focus-events,Focus events,
-focus-within,:focus-within,
+fixed-positioning,Fixed positioning,@howard-e
+flexbox-gap,Flexbox gap,@howard-e
+float-clear,float and clear,@howard-e
+focus-events,Focus events,@howard-e
+focus-within,:focus-within,@howard-e
 font-display,font-display,
 font-face,@font-face,
 font-family,font-family,
