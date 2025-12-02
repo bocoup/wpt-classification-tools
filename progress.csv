@@ -421,7 +421,7 @@ resizable-buffers,Resizable buffers,X Moved to JavaScript group
 resize,resize (CSS property),X no tests specifically for this feature
 resolution,resolution media query,X No specific tests, mixed up with media-query
 resolution-compat,resolution media query (compatibility prefixes),X No specific tests, mixed up with media-query
-resource-size,Resource size,#56308
+resource-size,Resource size,@gnarf
 rgb,RGB,#56146
 rhythmic-sizing,Rhythmic sizing,#56154
 root,:root,@gnarf
