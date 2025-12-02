@@ -524,7 +524,7 @@ u,<u>,
 unset-value,unset,@ChrisC
 url,URL,@ChrisC
 user-action-pseudos,User action pseudo-classes,@ChrisC
-user-agent-sniffing,User agent sniffing,@ChrisC
+user-agent-sniffing,User agent sniffing,#56440
 var,<var>,
 vertical-align,vertical-align,
 video,<video>,
