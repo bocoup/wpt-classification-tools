@@ -519,7 +519,7 @@ touch-action,touch-action,@ChrisC
 transferable-arraybuffer,Transferable ArrayBuffer,X Moved to JavaScript group
 transforms2d,2D transforms,@ChrisC
 transitions,Transitions (CSS),@ChrisC
-translate,translate,@ChrisC
+translate,translate,#56478
 u,<u>,
 unset-value,unset,#56477
 url,URL,#56444
