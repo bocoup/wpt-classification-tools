@@ -523,7 +523,7 @@ translate,translate,@ChrisC
 u,<u>,
 unset-value,unset,@ChrisC
 url,URL,@ChrisC
-user-action-pseudos,User action pseudo-classes,@ChrisC
+user-action-pseudos,User action pseudo-classes,#56443
 user-agent-sniffing,User agent sniffing,#56440
 var,<var>,
 vertical-align,vertical-align,
