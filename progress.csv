@@ -432,8 +432,8 @@ safe-area-inset,Safe area inset environment variables,#56310
 samp,<samp>,X Nothing directly testing
 scope-pseudo,:scope (pseudo-class),#56311
 scoped-custom-element-registries,Scoped custom element registries,#56312
-screen,Screen,@gnarf
-screen-orientation-lock,Screen orientation lock,@gnarf
+screen,Screen,#56464
+screen-orientation-lock,Screen orientation lock,#56465
 script,<script> and <noscript>,@gnarf
 scroll-behavior,scroll-behavior,@gnarf
 scroll-buttons,::scroll-button,@gnarf
