@@ -509,7 +509,7 @@ text-stroke-fill,Text stroke and fill (compatibility prefixes),@stalgiag
 text-tracks,Text tracks,@stalgiag
 text-transform,text-transform,@stalgiag
 text-underline-position,text-underline-position,@stalgiag
-text-wrap-stable,text-wrap: stable,@stalgiag
+text-wrap-stable,text-wrap: stable,X this is only tested in parsing tests that test other values as well
 textarea,<textarea>,@stalgiag
 time,<time>,@stalgiag
 time-relative-selectors,Time-relative pseudo-selectors,#55150@stalgiag
