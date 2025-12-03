@@ -23,6 +23,7 @@ def main(progress_filename):
     classified = set()
     unclassifiable = set()
     submitted = set()
+    skipped = set()
     unclassified = set()
 
     with open(progress_filename, 'r') as progress_file:
@@ -30,6 +31,8 @@ def main(progress_filename):
         for row in reader:
             if row['status'] and row['status'].startswith('X'):
                 unclassifiable.add(row['id'])
+            elif row['status'] and row['status'].startswith('?'):
+                skipped.add(row['id'])
             elif row['id'] in all_classified:
                 classified.add(row['id'])
             elif row['status'] and row['status'].startswith('#'):
@@ -37,10 +40,11 @@ def main(progress_filename):
             else:
                 unclassified.add(row['id'])
 
-    total = len(classified) + len(unclassifiable) + len(submitted) + len(unclassified)
+    total = len(classified) + len(unclassifiable) + len(submitted) + len(skipped) + len(unclassified)
 
     print('Classified:        {:3d}'.format(len(classified)))
     print('Unclassifiable:    {:3d}'.format(len(unclassifiable)))
+    print('Skipped:           {:3d}'.format(len(skipped)))
     print('Submitted:         {:3d}'.format(len(submitted)))
     print('Unclassified:    + {:3d}'.format(len(unclassified)))
     print('                 -----');
