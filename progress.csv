@@ -183,8 +183,8 @@ fieldset,<fieldset> and <legend>,#56415
 figure,<figure> and <figcaption>,#56417
 file,File API,X covered
 filter,filter,@howard-e
-fit-content,fit-content,@howard-e
-fit-content-function,fit-content(),@howard-e
+fit-content,fit-content,#56463
+fit-content-function,fit-content(),#56473
 fixed-positioning,Fixed positioning,@howard-e
 flexbox-gap,Flexbox gap,@howard-e
 float-clear,float and clear,@howard-e
