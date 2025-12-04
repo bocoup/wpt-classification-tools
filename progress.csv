@@ -517,7 +517,7 @@ title,<title>,#56461
 title-attr,title (attribute),#56462
 touch-action,touch-action,@ChrisC
 transferable-arraybuffer,Transferable ArrayBuffer,X Moved to JavaScript group
-transforms2d,2D transforms,@ChrisC
+transforms2d,2D transforms,#56498
 transitions,Transitions (CSS),#56480
 translate,translate,#56478
 u,<u>,
