@@ -437,7 +437,7 @@ screen-orientation-lock,Screen orientation lock,#56465
 script,<script> and <noscript>,@gnarf
 scroll-behavior,scroll-behavior,#56467
 scroll-buttons,::scroll-button,#56469
-scroll-elements,Scroll methods on elements,@gnarf
+scroll-elements,Scroll methods on elements,#56509
 scroll-markers,Scroll markers,@gnarf
 search-input-type,"<input type=""search"">",@gnarf
 section,<section>,@gnarf
