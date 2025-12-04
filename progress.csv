@@ -438,15 +438,15 @@ script,<script> and <noscript>,@gnarf
 scroll-behavior,scroll-behavior,#56467
 scroll-buttons,::scroll-button,#56469
 scroll-elements,Scroll methods on elements,@gnarf
-scroll-markers,Scroll markers,
-search-input-type,"<input type=""search"">",
-section,<section>,
-secure-payment-confirmation,Secure payment confirmation,
-select,<select>,
-selection,::selection,
-selectors,Selectors (core),
+scroll-markers,Scroll markers,@gnarf
+search-input-type,"<input type=""search"">",@gnarf
+section,<section>,@gnarf
+secure-payment-confirmation,Secure payment confirmation,@gnarf
+select,<select>,@gnarf
+selection,::selection,@gnarf
+selectors,Selectors (core),@gnarf
 serializable-errors,Serializable errors,X bundled with other tests (see files that depend on html/webappapis/structured-clone/structured-clone-battery-of-tests.js)
-service-workers,Service workers,
+service-workers,Service workers,@gnarf
 setinterval,setInterval,#56144
 settimeout,setTimeout(),#56144
 shadow-parts,Shadow parts,#56127
