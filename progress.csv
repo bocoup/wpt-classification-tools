@@ -441,7 +441,7 @@ scroll-elements,Scroll methods on elements,#56509
 scroll-markers,Scroll markers,#56511
 search-input-type,"<input type=""search"">",#56512
 section,<section>,X no tests specifically for this feature
-secure-payment-confirmation,Secure payment confirmation,@gnarf
+secure-payment-confirmation,Secure payment confirmation,#56517
 select,<select>,@gnarf
 selection,::selection,@gnarf
 selectors,Selectors (core),@gnarf
