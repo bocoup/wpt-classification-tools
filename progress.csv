@@ -515,7 +515,7 @@ time,<time>,#56460
 time-relative-selectors,Time-relative pseudo-selectors,#55150@stalgiag
 title,<title>,#56461
 title-attr,title (attribute),#56462
-touch-action,touch-action,@ChrisC
+touch-action,touch-action,#56513
 transferable-arraybuffer,Transferable ArrayBuffer,X Moved to JavaScript group
 transforms2d,2D transforms,#56498
 transitions,Transitions (CSS),#56480
