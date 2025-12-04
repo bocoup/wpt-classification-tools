@@ -373,20 +373,20 @@ overflow-wrap,overflow-wrap,
 overscroll-behavior,overscroll-behavior,
 ovr-multiview2,OVR_multiview2 WebGL extension,
 p,<p>,
-padding,padding,
-page-breaks,Page breaks,
-page-setup,Page setup,
-page-transition-events,Page transition events,
-page-visibility,Page visibility,
-page-visibility-state,Page visibility state,
-paint,paint(),
-parse-html-unsafe,Unsanitized HTML parsing methods,
-partitioned-cookies,Partitioned cookies,
-password-credentials,Password credentials,
-path-shape,path(),
-performance,Performance,
-performancetiming,PerformanceTiming and PerformanceNavigation,
-physical-properties,Physical properties,
+padding,padding,@gnarf
+page-breaks,Page breaks,@gnarf
+page-setup,Page setup,@gnarf
+page-transition-events,Page transition events,@gnarf
+page-visibility,Page visibility,@gnarf
+page-visibility-state,Page visibility state,@gnarf
+paint,paint(),@gnarf
+parse-html-unsafe,Unsanitized HTML parsing methods,@gnarf
+partitioned-cookies,Partitioned cookies,@gnarf
+password-credentials,Password credentials,@gnarf
+path-shape,path(),@gnarf
+performance,Performance,@gnarf
+performancetiming,PerformanceTiming and PerformanceNavigation,@gnarf
+physical-properties,Physical properties,@gnarf
 picture,<picture>,
 ping,ping,#55150
 placeholder,::placeholder,
