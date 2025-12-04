@@ -185,9 +185,9 @@ file,File API,X covered
 filter,filter,@howard-e
 fit-content,fit-content,#56463
 fit-content-function,fit-content(),#56473
-fixed-positioning,Fixed positioning,@howard-e
-flexbox-gap,Flexbox gap,@howard-e
-float-clear,float and clear,@howard-e
+fixed-positioning,Fixed positioning,#56500
+flexbox-gap,Flexbox gap,? this TODO implies it is unable to be classified for now https://github.com/web-platform-tests/wpt/blob/5adfe4e8cd223729aa2942915e8a515c079ed0ef/css/css-flexbox/WEB_FEATURES.yml#L4
+float-clear,float and clear,#56506
 focus-events,Focus events,@howard-e
 focus-within,:focus-within,@howard-e
 font-display,font-display,
