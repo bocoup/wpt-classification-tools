@@ -502,19 +502,19 @@ text-indent-each-line,text-indent: each-line,#55150
 text-indent-hanging,text-indent: hanging,#56434
 text-justify,text-justify,@stalgiag
 text-orientation,text-orientation,@stalgiag
-text-overflow,Text overflow,@stalgiag
-text-shadow,text-shadow,@stalgiag
+text-overflow,Text overflow,#56479
+text-shadow,text-shadow,#56472
 text-size-adjust,text-size-adjust,@stalgiag
-text-stroke-fill,Text stroke and fill (compatibility prefixes),@stalgiag
-text-tracks,Text tracks,@stalgiag
+text-stroke-fill,Text stroke and fill (compatibility prefixes),#56476
+text-tracks,Text tracks,#56470
 text-transform,text-transform,@stalgiag
 text-underline-position,text-underline-position,@stalgiag
 text-wrap-stable,text-wrap: stable,X this is only tested in parsing tests that test other values as well
-textarea,<textarea>,@stalgiag
-time,<time>,@stalgiag
+textarea,<textarea>,#56466
+time,<time>,#56460
 time-relative-selectors,Time-relative pseudo-selectors,#55150@stalgiag
-title,<title>,@stalgiag
-title-attr,title (attribute),@stalgiag
+title,<title>,#56461
+title-attr,title (attribute),#56462
 touch-action,touch-action,@ChrisC
 transferable-arraybuffer,Transferable ArrayBuffer,X Moved to JavaScript group
 transforms2d,2D transforms,@ChrisC
