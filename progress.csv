@@ -50,8 +50,8 @@ beforeunload,beforeunload,#55697
 bfcache-blocking-reasons,Back/forward cache blocking reasons,#55697
 blockquote,<blockquote>,X no tests
 body,<body>,#55697
-border-radius,border-radius,@jugglinmike
-borders,Borders,@jugglinmike
+border-radius,border-radius,#56424
+borders,Borders,#56424
 box-shadow,box-shadow,@jugglinmike
 box-sizing,box-sizing,@jugglinmike
 br,<br>,@jugglinmike
@@ -87,10 +87,10 @@ color-contrast,color-contrast(),#56418
 color-gamut,color-gamut media query,#56418
 colrv0,COLRv0,X no dedicated tests
 colrv1,COLRv1,X no dedicated tests
-column-breaks,Column breaks,@jugglinmike
-column-fill,column-fill,@jugglinmike
+column-breaks,Column breaks,#56533
+column-fill,column-fill,#56533
 column-pseudo,::column,@jugglinmike
-column-span,column-span,@jugglinmike
+column-span,column-span,#56533
 composed-ranges,Selection composed ranges,@jugglinmike
 composition-events,Composition events,@jugglinmike
 compression-dictionary-transport,Compression Dictionary Transport,@jugglinmike
@@ -335,7 +335,7 @@ min-max-width-height,Min and max width and height,
 mix-blend-mode,mix-blend-mode,
 mouse-events,Mouse events,
 move-before,moveBefore(),
-multi-column,Multi-column layout,
+multi-column,Multi-column layout,#56533
 mutation-events,Mutation events,#55200
 mutationobserver,MutationObserver,
 named-color,Named colors,
@@ -374,7 +374,7 @@ overscroll-behavior,overscroll-behavior,
 ovr-multiview2,OVR_multiview2 WebGL extension,
 p,<p>,
 padding,padding,@gnarf
-page-breaks,Page breaks,@gnarf
+page-breaks,Page breaks,#56533
 page-setup,Page setup,@gnarf
 page-transition-events,Page transition events,@gnarf
 page-visibility,Page visibility,@gnarf
