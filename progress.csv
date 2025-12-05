@@ -299,16 +299,16 @@ layout-direction-override,Layout direction override,
 letter-spacing,letter-spacing,
 line-clamp,line-clamp,
 line-height,line-height,
-link,<link>,@stalgiag
-link-rel-dns-prefetch,"<link rel=""dns-prefetch"">",@stalgiag
-link-rel-expect,"<link rel=""expect"">",@stalgiag
-link-rel-preconnect,"<link rel=""preconnect"">",@stalgiag
-link-rel-prefetch,"<link rel=""prefetch"">",@stalgiag
-link-rel-preload,"<link rel=""preload"">",@stalgiag
-link-selectors,Link selectors,@stalgiag
-list-elements,"<ol>, <ul>, and <li>",@stalgiag
-list-style,List style,@stalgiag
-local-network-access,Local network access,@stalgiag
+link,<link>,#56502
+link-rel-dns-prefetch,"<link rel=""dns-prefetch"">",x only tested in a test that tests other features
+link-rel-expect,"<link rel=""expect"">",#56502
+link-rel-preconnect,"<link rel=""preconnect"">",#56502
+link-rel-prefetch,"<link rel=""prefetch"">",#56502
+link-rel-preload,"<link rel=""preload"">",#56502
+link-selectors,Link selectors,#56504
+list-elements,"<ol>, <ul>, and <li>",#56507
+list-style,List style,#56510
+local-network-access,Local network access,#56516
 localstorage,localStorage and sessionStorage,
 location,Location,
 long-animation-frames,Long animation frames,
