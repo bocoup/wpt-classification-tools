@@ -177,8 +177,8 @@ ext-texture-norm16,EXT_texture_norm16 WebGL extension,X WebGL feature
 external,window.external,X no tests (spec'd to do nothing)
 fast-seek,fastSeek(),X no tests
 federated-credentials,Federated credentials,#56414
-fetch,Fetch,@ChrisC
-fetchlater,fetchLater,@ChrisC
+fetch,Fetch,#56551
+fetchlater,fetchLater,#56551
 fieldset,<fieldset> and <legend>,#56415
 figure,<figure> and <figcaption>,#56417
 file,File API,X covered
