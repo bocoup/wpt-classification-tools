@@ -226,7 +226,7 @@ gradients,Gradients,
 hanging-punctuation,Hanging punctuation,
 hardware-concurrency,hardwareConcurrency,
 hashchange,hashchange,
-head,<head>,@ChrisC
+head,<head>,X no tests
 header-footer,<header> and <footer>,
 heading-selectors,Heading pseudo-classes,
 headings,<h1> through <h6>,
@@ -237,7 +237,7 @@ host-context,:host-context(),
 hr,<hr>,#56577
 hsl,HSL,
 hsts,HTTP Strict Transport Security,
-html,<html>,@ChrisC
+html,<html>,X no tests
 http-authentication,HTTP authentication,
 http11,HTTP/1.1,
 http2,HTTP/2,
