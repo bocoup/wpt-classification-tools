@@ -120,16 +120,16 @@ currentcolor,currentColor,
 cursor,Cursor styles,
 custom-ellipses,Custom ellipses,
 customizable-select,Customizable <select>,X in-progress by Philip https://github.com/web-platform-tests/wpt/pull/54712
-data,<data>,@ChrisC
+data,<data>,X no tests
 data-urls,Data URLs,
 dataset,Dataset,
 date-to-gmt-string,toGMTString(),X Moved to JavaScript group
 dedicated-workers,Dedicated workers,
-del,<del>,@ChrisC
+del,<del>,#56575
 description-list,Description list,
 device-queries,Device media queries,#56437
 devicepixelratio,devicePixelRatio,X Not observable in isolation (?)
-dfn,<dfn>,@ChrisC
+dfn,<dfn>,X no tests - All uses are incidental - editing tests & CSS tests using it for italic styling 
 digital-goods,Digital goods,
 display,Display,
 display-contents,display: contents,
@@ -242,7 +242,7 @@ http-authentication,HTTP authentication,
 http11,HTTP/1.1,
 http2,HTTP/2,
 http3,HTTP/3,
-i,<i>,@ChrisC
+i,<i>,X no tests
 iframe,<iframe>,
 iframe-credentialless,Credentialless iframes,X in-progress by Philip https://github.com/web-platform-tests/wpt/pull/54321
 iframe-sandbox,Sandboxed iframes,
@@ -277,7 +277,7 @@ input-reset,"<input type=""reset"">",
 input-selectors,Input selectors,
 input-submit,"<input type=""submit"">",
 inputmode,inputmode,
-ins,<ins>,@ChrisC
+ins,<ins>,#56575
 insertable-streams,Insertable streams for MediaStreamTrack,
 interaction,Interaction media queries,X unclassifiable see future work notes
 interactivity,interactivity,
@@ -288,7 +288,7 @@ is-error,Error.isError(),X Moved to JavaScript group
 is-secure-context,isSecureContext,
 isolation,isolation,
 js-modules,JavaScript modules,
-kbd,<kbd>,@ChrisC
+kbd,<kbd>,X All uses incidental - editing tests/accessibility tooltip tests/UI instructions
 keyboard-events,Keyboard events,
 khr-parallel-shader-compile,KHR_parallel_shader_compile WebGL extension,X WebGL feature
 label,<label>,@ChrisC
@@ -316,7 +316,7 @@ main,<main>,@ChrisC
 managed-media-source,Managed media source,
 manifest,Web app manifest,
 margin,margin,
-mark,<mark>,@ChrisC
+mark,<mark>,X HTML `<mark>` uses are incidental in editing/CSS tests
 mask-border,mask-border,
 mask-type,mask-type,
 masonry,Masonry,
@@ -404,7 +404,7 @@ print-events,Print events,
 private-network-access,Private network access,
 proto,__proto__,X Moved to JavaScript group
 push,Push messages,
-q,<q>,@ChrisC
+q,<q>,X Most tests are CSS quotes tests (`css/css-content/quotes-*.html`) which test CSS `quotes` property - not `<q>` element specifically
 q-unit,Q unit,
 reading-flow,reading-flow,
 regexp,Regular expressions,X Moved to JavaScript group
@@ -520,12 +520,12 @@ transferable-arraybuffer,Transferable ArrayBuffer,X Moved to JavaScript group
 transforms2d,2D transforms,#56498
 transitions,Transitions (CSS),#56480
 translate,translate,#56478
-u,<u>,@ChrisC
+u,<u>,X All uses incidental - CSS text-decoration tests / editing tests use `<u>` to test underline styling
 unset-value,unset,#56477
 url,URL,#56444
 user-action-pseudos,User action pseudo-classes,#56443
 user-agent-sniffing,User agent sniffing,#56440
-var,<var>,@ChrisC
+var,<var>,X All uses incidental - editing italic tests - mathml integration tests
 vertical-align,vertical-align,
 video,<video>,@ChrisC
 video-dynamic-range,video-dynamic-range media query,X unclassifiable see future project notes
