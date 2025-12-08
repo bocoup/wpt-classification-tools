@@ -411,12 +411,12 @@ regexp,Regular expressions,X Moved to JavaScript group
 regexp-compile,RegExp compile(),X Moved to JavaScript group
 regexp-escape,RegExp.escape(),X Moved to JavaScript group
 regexp-static-properties,RegExp static properties,X Moved to JavaScript group
-region-capture,Region capture,
+region-capture,Region capture,@stalgiag
 registerprotocolhandler,registerProtocolHandler,#55150
 relative-positioning,Relative positioning,
 rem,rem,
-request-animation-frame,requestAnimationFrame(),
-request-animation-frame-workers,requestAnimationFrame() in workers,
+request-animation-frame,requestAnimationFrame(),@stalgiag
+request-animation-frame-workers,requestAnimationFrame() in workers,@stalgiag
 resizable-buffers,Resizable buffers,X Moved to JavaScript group
 resize,resize (CSS property),X no tests specifically for this feature
 resolution,resolution media query,X No specific tests mixed up with media-query
@@ -512,7 +512,7 @@ text-underline-position,text-underline-position,@stalgiag
 text-wrap-stable,text-wrap: stable,X this is only tested in parsing tests that test other values as well
 textarea,<textarea>,#56466
 time,<time>,#56460
-time-relative-selectors,Time-relative pseudo-selectors,#55150@stalgiag
+time-relative-selectors,Time-relative pseudo-selectors,#55150
 title,<title>,#56461
 title-attr,title (attribute),#56462
 touch-action,touch-action,#56513
