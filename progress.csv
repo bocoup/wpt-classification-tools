@@ -234,7 +234,7 @@ hgroup,<hgroup>,@ChrisC
 history,History,
 host,Host,
 host-context,:host-context(),
-hr,<hr>,@ChrisC
+hr,<hr>,#56577
 hsl,HSL,
 hsts,HTTP Strict Transport Security,
 html,<html>,@ChrisC
