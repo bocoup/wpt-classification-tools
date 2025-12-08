@@ -188,8 +188,8 @@ fit-content-function,fit-content(),#56473
 fixed-positioning,Fixed positioning,#56500
 flexbox-gap,Flexbox gap,? this TODO implies it is unable to be classified for now https://github.com/web-platform-tests/wpt/blob/5adfe4e8cd223729aa2942915e8a515c079ed0ef/css/css-flexbox/WEB_FEATURES.yml#L4
 float-clear,float and clear,#56506
-focus-events,Focus events,@howard-e
-focus-within,:focus-within,@howard-e
+focus-events,Focus events,#56563
+focus-within,:focus-within,#56564
 font-display,font-display,@howard-e
 font-face,@font-face,@howard-e
 font-family,font-family,@howard-e
