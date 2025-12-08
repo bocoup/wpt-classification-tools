@@ -58,11 +58,11 @@ br,<br>,@jugglinmike
 brotli,Brotli compression,X not separable from other compressions
 button,<button>,@jugglinmike
 calc,calc(),#55025
-canvas,<canvas>,@jugglinmike
-canvas-2d,2D canvas,@jugglinmike
-canvas-2d-desynchronized,Desynchronized 2D canvas,@jugglinmike
-canvas-2d-willreadfrequently,willReadFrequently,@jugglinmike
-canvas-context-lost,contextlost and contextrestored,@jugglinmike
+canvas,<canvas>,@stalgiag
+canvas-2d,2D canvas,@stalgiag
+canvas-2d-desynchronized,Desynchronized 2D canvas,@stalgiag
+canvas-2d-willreadfrequently,willReadFrequently,@stalgiag
+canvas-context-lost,contextlost and contextrestored,@stalgiag
 capture-stream-audio-video,captureStream() for <audio> and <video>,#56248
 capture-stream-canvas,captureStream() for <canvas>,#56248
 caret-color,caret-color,#56249
