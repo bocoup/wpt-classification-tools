@@ -89,10 +89,10 @@ colrv0,COLRv0,X no dedicated tests
 colrv1,COLRv1,X no dedicated tests
 column-breaks,Column breaks,#56533
 column-fill,column-fill,#56533
-column-pseudo,::column,@jugglinmike
+column-pseudo,::column,#56533
 column-span,column-span,#56533
-composed-ranges,Selection composed ranges,@jugglinmike
-composition-events,Composition events,@jugglinmike
+composed-ranges,Selection composed ranges,#56596
+composition-events,Composition events,#56597
 compression-dictionary-transport,Compression Dictionary Transport,@jugglinmike
 contain,contain,@jugglinmike
 contain-layout,Layout containment,@jugglinmike
