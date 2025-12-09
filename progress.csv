@@ -212,7 +212,7 @@ font-variant-numeric,font-variant-numeric,@howard-e
 font-variation-settings,font-variation-settings,@howard-e
 font-weight,font-weight,@howard-e
 font-width,font-width,@howard-e
-form,<form>,@ChrisC
+form,<form>,#56605
 form-validity-pseudos,Form validity pseudo-classes,
 gamepad-haptics,Gamepad haptic feedback,#55150
 gamepad-touch,Gamepad touch buttons,X no tests (only tested as integrated with WebXR)
