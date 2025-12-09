@@ -97,8 +97,8 @@ compression-dictionary-transport,Compression Dictionary Transport,@jugglinmike
 contain,contain,@jugglinmike
 contain-layout,Layout containment,@jugglinmike
 contain-paint,Paint containment,@jugglinmike
-contain-size,Size containment,
-contain-style,Style containment,
+contain-size,Size containment,@jugglinmike
+contain-style,Style containment,@jugglinmike
 content,Content,
 contenteditable,contenteditable,
 contrast-color,contrast-color(),
