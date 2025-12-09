@@ -411,12 +411,12 @@ regexp,Regular expressions,X Moved to JavaScript group
 regexp-compile,RegExp compile(),X Moved to JavaScript group
 regexp-escape,RegExp.escape(),X Moved to JavaScript group
 regexp-static-properties,RegExp static properties,X Moved to JavaScript group
-region-capture,Region capture,@stalgiag
+region-capture,Region capture,#56579
 registerprotocolhandler,registerProtocolHandler,#55150
 relative-positioning,Relative positioning,
 rem,rem,
-request-animation-frame,requestAnimationFrame(),@stalgiag
-request-animation-frame-workers,requestAnimationFrame() in workers,@stalgiag
+request-animation-frame,requestAnimationFrame(),#56580
+request-animation-frame-workers,requestAnimationFrame() in workers,X philip already did this
 resizable-buffers,Resizable buffers,X Moved to JavaScript group
 resize,resize (CSS property),X no tests specifically for this feature
 resolution,resolution media query,X No specific tests mixed up with media-query
@@ -500,15 +500,15 @@ text-decoration-selection,text-decoration in ::selection,#56431
 text-encoding,Text encoding and decoding,#56432
 text-indent-each-line,text-indent: each-line,#55150
 text-indent-hanging,text-indent: hanging,#56434
-text-justify,text-justify,@stalgiag
-text-orientation,text-orientation,@stalgiag
+text-justify,text-justify,#56570
+text-orientation,text-orientation,#56570
 text-overflow,Text overflow,#56479
 text-shadow,text-shadow,#56472
-text-size-adjust,text-size-adjust,@stalgiag
+text-size-adjust,text-size-adjust,#56570
 text-stroke-fill,Text stroke and fill (compatibility prefixes),#56476
 text-tracks,Text tracks,#56470
-text-transform,text-transform,@stalgiag
-text-underline-position,text-underline-position,@stalgiag
+text-transform,text-transform,#56570
+text-underline-position,text-underline-position,#56570
 text-wrap-stable,text-wrap: stable,X this is only tested in parsing tests that test other values as well
 textarea,<textarea>,#56466
 time,<time>,#56460
