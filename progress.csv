@@ -93,12 +93,12 @@ column-pseudo,::column,#56533
 column-span,column-span,#56533
 composed-ranges,Selection composed ranges,#56596
 composition-events,Composition events,#56597
-compression-dictionary-transport,Compression Dictionary Transport,@jugglinmike
-contain,contain,@jugglinmike
-contain-layout,Layout containment,@jugglinmike
-contain-paint,Paint containment,@jugglinmike
-contain-size,Size containment,@jugglinmike
-contain-style,Style containment,@jugglinmike
+compression-dictionary-transport,Compression Dictionary Transport,#56603
+contain,contain,#56608
+contain-layout,Layout containment,#56608
+contain-paint,Paint containment,#56608
+contain-size,Size containment,#56608
+contain-style,Style containment,#56608
 content,Content,
 contenteditable,contenteditable,
 contrast-color,contrast-color(),
