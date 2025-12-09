@@ -56,7 +56,7 @@ box-shadow,box-shadow,#56535
 box-sizing,box-sizing,#56571
 br,<br>,@ChrisC
 brotli,Brotli compression,X not separable from other compressions
-button,<button>,@jugglinmike
+button,<button>,@ChrisC
 calc,calc(),#55025
 canvas,<canvas>,@stalgiag
 canvas-2d,2D canvas,@stalgiag
