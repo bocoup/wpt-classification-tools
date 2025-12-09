@@ -99,18 +99,18 @@ contain-layout,Layout containment,#56608
 contain-paint,Paint containment,#56608
 contain-size,Size containment,#56608
 contain-style,Style containment,#56608
-content,Content,
-contenteditable,contenteditable,
-contrast-color,contrast-color(),
-controls-list,controlslist,
-cookie-enabled,cookieEnabled,
-cookies,Cookies,
-counter-reset-reversed,Reversed counter-reset,
-counters,Counters (CSS),
+content,Content,@jugglinmike
+contenteditable,contenteditable,@jugglinmike
+contrast-color,contrast-color(),@jugglinmike
+controls-list,controlslist,@jugglinmike
+cookie-enabled,cookieEnabled,@jugglinmike
+cookies,Cookies,@jugglinmike
+counter-reset-reversed,Reversed counter-reset,@jugglinmike
+counters,Counters (CSS),@jugglinmike
 createimagebitmap,createImageBitmap,#55025
 crisp-edges,crisp-edges,#55150
-cross-fade,cross-fade(),
-csp,Content Security Policy (CSP),
+cross-fade,cross-fade(),@jugglinmike
+csp,Content Security Policy (CSP),@jugglinmike
 css-escape,CSS.escape(),
 css-object-model,CSS object model,
 css-object-model-discouraged,CSS object model (DOM level 2),
