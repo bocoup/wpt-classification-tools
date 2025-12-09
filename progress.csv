@@ -152,7 +152,7 @@ edit-context,EditContext,X covered
 element,element(),X no tests covered by background-*
 element-capture,Element capture,#56266
 element-from-point,document.elementFromPoint() and document.elementsFromPoint(),#56267
-em,<em>,covered by expansive element tests
+em,<em>,X covered by expansive element tests
 em-unit,em unit,#56268
 embed,<embed>,#56269
 empty,:empty,#56412
@@ -190,17 +190,17 @@ flexbox-gap,Flexbox gap,? this TODO implies it is unable to be classified for no
 float-clear,float and clear,#56506
 focus-events,Focus events,#56563
 focus-within,:focus-within,#56564
-font-display,font-display,@howard-e
-font-face,@font-face,@howard-e
-font-family,font-family,@howard-e
-font-family-math,Math font family,@howard-e
-font-family-system,System font,@howard-e
+font-display,font-display,@howard-e(c on font-wf)
+font-face,@font-face,@howard-e(c on font-wf)
+font-family,font-family,@howard-e(c on font-wf)
+font-family-math,Math font family,X no dedicated tests
+font-family-system,System font,@howard-e(c on font-wf)
 font-family-ui,UI fonts,#55150
-font-feature-settings,font-feature-settings,@howard-e
-font-kerning,font-kerning,@howard-e
-font-language-override,font-language-override,@howard-e
-font-loading,Font loading,@howard-e
-font-shorthand,Font shorthand,@howard-e
+font-feature-settings,font-feature-settings,@howard-e(c on font-wf)
+font-kerning,font-kerning,@howard-e(c on font-wf)
+font-language-override,font-language-override,X already covered
+font-loading,Font loading,@howard-e(c on font-wf)
+font-shorthand,Font shorthand,@howard-e(c on font-wf)
 font-size,font-size,@howard-e
 font-stretch,font-stretch,@howard-e
 font-style,font-style,@howard-e
