@@ -291,7 +291,7 @@ js-modules,JavaScript modules,
 kbd,<kbd>,X All uses incidental - editing tests/accessibility tooltip tests/UI instructions
 keyboard-events,Keyboard events,
 khr-parallel-shader-compile,KHR_parallel_shader_compile WebGL extension,X WebGL feature
-label,<label>,@ChrisC
+label,<label>,#56606
 lang,:lang(),
 lang-attr,lang,
 language,Language,
