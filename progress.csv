@@ -58,11 +58,11 @@ br,<br>,@ChrisC
 brotli,Brotli compression,X not separable from other compressions
 button,<button>,@ChrisC
 calc,calc(),#55025
-canvas,<canvas>,@stalgiag
-canvas-2d,2D canvas,@stalgiag
-canvas-2d-desynchronized,Desynchronized 2D canvas,@stalgiag
-canvas-2d-willreadfrequently,willReadFrequently,@stalgiag
-canvas-context-lost,contextlost and contextrestored,@stalgiag
+canvas,<canvas>,#56615
+canvas-2d,2D canvas,#56615
+canvas-2d-desynchronized,Desynchronized 2D canvas,X no non-overlapping tests-more info in #56615
+canvas-2d-willreadfrequently,willReadFrequently,X no non-overlapping tests-more info in #56615
+canvas-context-lost,contextlost and contextrestored,X no non-overlapping tests-more info in #56615
 capture-stream-audio-video,captureStream() for <audio> and <video>,#56248
 capture-stream-canvas,captureStream() for <canvas>,#56248
 caret-color,caret-color,#56249
@@ -116,9 +116,9 @@ css-object-model,CSS object model,
 css-object-model-discouraged,CSS object model (DOM level 2),
 css-supports,CSS.supports(),
 cubic-bezier-easing,cubic-bezier() easing,#55481
-currentcolor,currentColor,
-cursor,Cursor styles,
-custom-ellipses,Custom ellipses,
+currentcolor,currentColor,@stalgiag
+cursor,Cursor styles,@stalgiag
+custom-ellipses,Custom ellipses,@stalgiag
 customizable-select,Customizable <select>,X in-progress by Philip https://github.com/web-platform-tests/wpt/pull/54712
 data,<data>,X no tests
 data-urls,Data URLs,
