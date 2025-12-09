@@ -201,9 +201,9 @@ font-kerning,font-kerning,@howard-e(c on font-wf)
 font-language-override,font-language-override,X already covered
 font-loading,Font loading,@howard-e(c on font-wf)
 font-shorthand,Font shorthand,@howard-e(c on font-wf)
-font-size,font-size,@howard-e
-font-stretch,font-stretch,@howard-e
-font-style,font-style,@howard-e
+font-size,font-size,@howard-e(c on font-wf)
+font-stretch,font-stretch,@howard-e(c on font-wf)
+font-style,font-style,@howard-e(c on font-wf)
 font-variant,font-variant,@howard-e
 font-variant-caps,font-variant-caps,@howard-e
 font-variant-east-asian,font-variant-east-asian,@howard-e
