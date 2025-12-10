@@ -209,7 +209,7 @@ font-variant-caps,font-variant-caps,#56655
 font-variant-east-asian,font-variant-east-asian,#56655
 font-variant-ligatures,font-variant-ligatures,#56655
 font-variant-numeric,font-variant-numeric,#56655
-font-variation-settings,#56656
+font-variation-settings,font-variation-settings,#56656
 font-weight,font-weight,#56657
 font-width,font-width,#56653
 form,<form>,#56605
@@ -292,13 +292,13 @@ kbd,<kbd>,X All uses incidental - editing tests/accessibility tooltip tests/UI i
 keyboard-events,Keyboard events,
 khr-parallel-shader-compile,KHR_parallel_shader_compile WebGL extension,X WebGL feature
 label,<label>,#56606
-lang,:lang(),
-lang-attr,lang,
-language,Language,
-layout-direction-override,Layout direction override,
-letter-spacing,letter-spacing,
-line-clamp,line-clamp,
-line-height,line-height,
+lang,:lang(),@howard-e
+lang-attr,lang,@howard-e
+language,Language,@howard-e
+layout-direction-override,Layout direction override,@howard-e
+letter-spacing,letter-spacing,@howard-e
+line-clamp,line-clamp,@howard-e
+line-height,line-height,@howard-e
 link,<link>,#56502
 link-rel-dns-prefetch,"<link rel=""dns-prefetch"">",x only tested in a test that tests other features
 link-rel-expect,"<link rel=""expect"">",#56502
