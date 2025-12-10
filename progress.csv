@@ -217,15 +217,15 @@ form-validity-pseudos,Form validity pseudo-classes,
 gamepad-haptics,Gamepad haptic feedback,#55150
 gamepad-touch,Gamepad touch buttons,X no tests (only tested as integrated with WebXR)
 gamepad-vr,Gamepad VR hands and poses,
-gap-decorations,Gap decorations,
-get-computed-style,getComputedStyle(),
-getboxquads,getBoxQuads(),
-glyph-orientation-vertical,glyph-orientation-vertical,
-gpc,Global privacy control,
-gradients,Gradients,
-hanging-punctuation,Hanging punctuation,
-hardware-concurrency,hardwareConcurrency,
-hashchange,hashchange,
+gap-decorations,Gap decorations,@stalgiag
+get-computed-style,getComputedStyle(),@stalgiag
+getboxquads,getBoxQuads(),@stalgiag
+glyph-orientation-vertical,glyph-orientation-vertical,@stalgiag
+gpc,Global privacy control,@stalgiag
+gradients,Gradients,@stalgiag
+hanging-punctuation,Hanging punctuation,@stalgiag
+hardware-concurrency,hardwareConcurrency,@stalgiag
+hashchange,hashchange,@stalgiag
 head,<head>,X no tests
 header-footer,<header> and <footer>,@ChrisC
 heading-selectors,Heading pseudo-classes,
