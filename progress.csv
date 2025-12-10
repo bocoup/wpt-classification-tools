@@ -116,8 +116,8 @@ css-object-model,CSS object model,
 css-object-model-discouraged,CSS object model (DOM level 2),
 css-supports,CSS.supports(),
 cubic-bezier-easing,cubic-bezier() easing,#55481
-currentcolor,currentColor,@stalgiag
-cursor,Cursor styles,@stalgiag
+currentcolor,currentColor,#56618
+cursor,Cursor styles,#56619
 custom-ellipses,Custom ellipses,@stalgiag
 customizable-select,Customizable <select>,X in-progress by Philip https://github.com/web-platform-tests/wpt/pull/54712
 data,<data>,X no tests
