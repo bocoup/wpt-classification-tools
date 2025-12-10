@@ -190,28 +190,28 @@ flexbox-gap,Flexbox gap,? this TODO implies it is unable to be classified for no
 float-clear,float and clear,#56506
 focus-events,Focus events,#56563
 focus-within,:focus-within,#56564
-font-display,font-display,@howard-e(c on font-wf)
-font-face,@font-face,@howard-e(c on font-wf)
-font-family,font-family,@howard-e(c on font-wf)
+font-display,font-display,#56643
+font-face,@font-face,#56644
+font-family,font-family,#56645
 font-family-math,Math font family,X no dedicated tests
-font-family-system,System font,@howard-e(c on font-wf)
+font-family-system,System font,#56645
 font-family-ui,UI fonts,#55150
-font-feature-settings,font-feature-settings,@howard-e(c on font-wf)
-font-kerning,font-kerning,@howard-e(c on font-wf)
+font-feature-settings,font-feature-settings,#56646
+font-kerning,font-kerning,#56647
 font-language-override,font-language-override,X already covered
-font-loading,Font loading,@howard-e(c on font-wf)
-font-shorthand,Font shorthand,@howard-e(c on font-wf)
-font-size,font-size,@howard-e(c on font-wf)
-font-stretch,font-stretch,@howard-e(c on font-wf)
-font-style,font-style,@howard-e(c on font-wf)
-font-variant,font-variant,@howard-e
-font-variant-caps,font-variant-caps,@howard-e
-font-variant-east-asian,font-variant-east-asian,@howard-e
-font-variant-ligatures,font-variant-ligatures,@howard-e
-font-variant-numeric,font-variant-numeric,@howard-e
-font-variation-settings,font-variation-settings,@howard-e
-font-weight,font-weight,@howard-e
-font-width,font-width,@howard-e
+font-loading,Font loading,#56649
+font-shorthand,Font shorthand,#56651
+font-size,font-size,#56652
+font-stretch,font-stretch,#56653
+font-style,font-style,#56654
+font-variant,font-variant,#56655
+font-variant-caps,font-variant-caps,#56655
+font-variant-east-asian,font-variant-east-asian,#56655
+font-variant-ligatures,font-variant-ligatures,#56655
+font-variant-numeric,font-variant-numeric,#56655
+font-variation-settings,#56656
+font-weight,font-weight,#56657
+font-width,font-width,#56653
 form,<form>,#56605
 form-validity-pseudos,Form validity pseudo-classes,
 gamepad-haptics,Gamepad haptic feedback,#55150
