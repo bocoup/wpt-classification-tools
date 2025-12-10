@@ -118,7 +118,7 @@ css-supports,CSS.supports(),
 cubic-bezier-easing,cubic-bezier() easing,#55481
 currentcolor,currentColor,#56618
 cursor,Cursor styles,#56619
-custom-ellipses,Custom ellipses,@stalgiag
+custom-ellipses,Custom ellipses,#56623
 customizable-select,Customizable <select>,X in-progress by Philip https://github.com/web-platform-tests/wpt/pull/54712
 data,<data>,X no tests
 data-urls,Data URLs,
