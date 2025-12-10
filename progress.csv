@@ -101,12 +101,12 @@ contain-size,Size containment,#56608
 contain-style,Style containment,#56608
 content,Content,#56622
 contenteditable,contenteditable,#56632
-contrast-color,contrast-color(),@jugglinmike
-controls-list,controlslist,@jugglinmike
-cookie-enabled,cookieEnabled,@jugglinmike
-cookies,Cookies,@jugglinmike
-counter-reset-reversed,Reversed counter-reset,@jugglinmike
-counters,Counters (CSS),@jugglinmike
+contrast-color,contrast-color(),#56661
+controls-list,controlslist,#56638
+cookie-enabled,cookieEnabled,#56639
+cookies,Cookies,#56639
+counter-reset-reversed,Reversed counter-reset,#56670
+counters,Counters (CSS),#56670
 createimagebitmap,createImageBitmap,#55025
 crisp-edges,crisp-edges,#55150
 cross-fade,cross-fade(),@jugglinmike
