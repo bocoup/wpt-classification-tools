@@ -252,7 +252,7 @@ image-maps,Image maps,
 image-rendering,image-rendering,
 imagebitmaprenderingcontext,ImageBitmapRenderingContext,
 ime-mode,ime-mode,
-img,<img>,@ChrisC
+img,<img>,#56624
 import,@import,
 import-assertions,Import assertions,
 indexeddb,IndexedDB,
@@ -346,7 +346,7 @@ non-cookie-storage-access,Non-cookie storage access,
 notifications-apps,Notifications from service workers and installed apps,
 nth-child,:nth-child(),
 nth-of-type,:nth-of-type() pseudo-classes,
-object,<object>,@ChrisC
+object,<object>,#56624
 object-fit,object-fit,
 object-hasown,Object.hasOwn(),X Moved to JavaScript group
 object-object,Object,X Moved to JavaScript group
@@ -387,7 +387,7 @@ path-shape,path(),@gnarf
 performance,Performance,@gnarf
 performancetiming,PerformanceTiming and PerformanceNavigation,@gnarf
 physical-properties,Physical properties,@gnarf
-picture,<picture>,@ChrisC
+picture,<picture>,#56624
 ping,ping,#55150
 placeholder,::placeholder,
 placeholder-shown,:placeholder-shown,
@@ -527,7 +527,7 @@ user-action-pseudos,User action pseudo-classes,#56443
 user-agent-sniffing,User agent sniffing,#56440
 var,<var>,X All uses incidental - editing italic tests - mathml integration tests
 vertical-align,vertical-align,
-video,<video>,@ChrisC
+video,<video>,#56624
 video-dynamic-range,video-dynamic-range media query,X unclassifiable see future project notes
 viewport-units,Viewport units,#55025
 virtual-pressure-sources,Virtual pressure sources,X already classified
