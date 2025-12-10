@@ -365,7 +365,7 @@ opacity,opacity,
 opacity-svg,Opacity (SVG),
 open-closed,:open,
 outlines,Outlines,
-output,<output>,@ChrisC
+output,<output>,#56607
 overflow-anchor,overflow-anchor,#55025
 overflow-clip,overflow: clip,
 overflow-clip-margin,overflow-clip-margin,
