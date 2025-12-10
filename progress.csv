@@ -227,9 +227,9 @@ hanging-punctuation,Hanging punctuation,
 hardware-concurrency,hardwareConcurrency,
 hashchange,hashchange,
 head,<head>,X no tests
-header-footer,<header> and <footer>,
+header-footer,<header> and <footer>,@ChrisC
 heading-selectors,Heading pseudo-classes,
-headings,<h1> through <h6>,
+headings,<h1> through <h6>,@ChrisC
 hgroup,<hgroup>,X no tests
 history,History,
 host,Host,
@@ -259,24 +259,24 @@ indexeddb,IndexedDB,
 inherit-value,inherit,
 initial-value,initial,
 ink,Ink,
-input,<input>,
-input-button,"<input type=""button"">",
-input-checkbox,"<input type=""checkbox"">",
-input-color,"<input type=""color"">",
+input,<input>,@ChrisC
+input-button,"<input type=""button"">",@ChrisC
+input-checkbox,"<input type=""checkbox"">",@ChrisC
+input-color,"<input type=""color"">",@ChrisC
 input-date-time,Date and time <input> types,#55150
-input-email-tel-url,"Email, telephone, and URL <input> types",
+input-email-tel-url,"Email, telephone, and URL <input> types",@ChrisC
 input-event,input (event),X not separable from other input events--see https://github.com/web-platform-tests/wpt/pull/56252
 input-file,"<input type=""file"">",#55150
-input-hidden,"<input type=""hidden"">",
-input-image,"<input type=""image"">",
-input-number,"<input type=""number"">",
-input-password,"<input type=""password"">",
-input-radio,"<input type=""radio"">",
-input-range,"<input type=""range"">",
-input-reset,"<input type=""reset"">",
-input-selectors,Input selectors,
-input-submit,"<input type=""submit"">",
-inputmode,inputmode,
+input-hidden,"<input type=""hidden"">",@ChrisC
+input-image,"<input type=""image"">",@ChrisC
+input-number,"<input type=""number"">",@ChrisC
+input-password,"<input type=""password"">",@ChrisC
+input-radio,"<input type=""radio"">",@ChrisC
+input-range,"<input type=""range"">",@ChrisC
+input-reset,"<input type=""reset"">",@ChrisC
+input-selectors,Input selectors,@ChrisC
+input-submit,"<input type=""submit"">",@ChrisC
+inputmode,inputmode,@ChrisC
 ins,<ins>,#56575
 insertable-streams,Insertable streams for MediaStreamTrack,
 interaction,Interaction media queries,X unclassifiable see future work notes
@@ -326,9 +326,9 @@ media-queries,Media queries,#56437
 media-query-range-syntax,Media query range syntax,#56437
 mediacontroller,MediaController,
 menu,<menu>,X no tests
-meta,<meta>,
-meta-application-title,"<meta name=""application-title"">",
-meta-theme-color,"<meta name=""theme-color"">",
+meta,<meta>,@ChrisC
+meta-application-title,"<meta name=""application-title"">",@ChrisC
+meta-theme-color,"<meta name=""theme-color"">",@ChrisC
 min-max-clamp,"min(), max(), and clamp()",#55025
 min-max-content,min-content and max-content,
 min-max-width-height,Min and max width and height,
@@ -463,7 +463,7 @@ smil-svg-animations,SMIL SVG animations,#56245
 smooth,smooth,#56264
 source,<source>,#56124
 sourcemap-header,Sourcemap header,X no tests
-span,<span>,? too numerous to determine the relevant tests without a better understanding of wpt structure
+span,<span>,@ChrisC
 speak,speak,#56271
 speak-as,speak-as,#56271
 speech-recognition-grammar,Speech recognition grammar,X SpeechGrammar and SpeechGrammarList have been removed from the Web Speech API spec
