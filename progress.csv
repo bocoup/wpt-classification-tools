@@ -100,7 +100,7 @@ contain-paint,Paint containment,#56608
 contain-size,Size containment,#56608
 contain-style,Style containment,#56608
 content,Content,#56622
-contenteditable,contenteditable,@jugglinmike
+contenteditable,contenteditable,#56632
 contrast-color,contrast-color(),@jugglinmike
 controls-list,controlslist,@jugglinmike
 cookie-enabled,cookieEnabled,@jugglinmike
