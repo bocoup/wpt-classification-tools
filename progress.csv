@@ -383,7 +383,7 @@ paint,paint(),#56698
 parse-html-unsafe,Unsanitized HTML parsing methods,X Already classified by Philip
 partitioned-cookies,Partitioned cookies,#56702
 password-credentials,Password credentials,#56703
-path-shape,path(),@gnarf
+path-shape,path(),#56704
 performance,Performance,@gnarf
 performancetiming,PerformanceTiming and PerformanceNavigation,@gnarf
 physical-properties,Physical properties,@gnarf
