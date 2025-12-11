@@ -225,7 +225,7 @@ gpc,Global privacy control,X already mapped by Benjamin Vandersloot
 gradients,Gradients,#56663
 hanging-punctuation,Hanging punctuation,##56664
 hardware-concurrency,hardwareConcurrency,##56665
-hashchange,hashchange,@stalgiag
+hashchange,hashchange,#56686
 head,<head>,X no tests
 header-footer,<header> and <footer>,@ChrisC
 heading-selectors,Heading pseudo-classes,
@@ -389,18 +389,18 @@ performancetiming,PerformanceTiming and PerformanceNavigation,@gnarf
 physical-properties,Physical properties,@gnarf
 picture,<picture>,#56624
 ping,ping,#55150
-placeholder,::placeholder,
-placeholder-shown,:placeholder-shown,
-pointer-events,pointer-events,
-popover-hint,"popover=""hint""",
-portal,Portals,
-position,Position,
+placeholder,::placeholder,@stalgiag
+placeholder-shown,:placeholder-shown,@stalgiag
+pointer-events,pointer-events,@stalgiag
+popover-hint,"popover=""hint""",@stalgiag
+portal,Portals,@stalgiag
+position,Position,@stalgiag
 postmessage,postMessage,#56289
 pre,<pre>,#56578
 prefers-reduced-data,prefers-reduced-data media query,#56437
 prefers-reduced-motion,prefers-reduced-motion media query,#56437
-print,window.print(),
-print-events,Print events,
+print,window.print(),@stalgiag
+print-events,Print events,@stalgiag
 private-network-access,Private network access,
 proto,__proto__,X Moved to JavaScript group
 push,Push messages,
