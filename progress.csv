@@ -375,8 +375,8 @@ ovr-multiview2,OVR_multiview2 WebGL extension,
 p,<p>,#56578
 padding,padding,#56692
 page-breaks,Page breaks,#56533
-page-setup,Page setup,@gnarf
-page-transition-events,Page transition events,@gnarf
+page-setup,Page setup,#56694
+page-transition-events,Page transition events,X there were a lot of uses of these events but none seem to specifically test only these events
 page-visibility,Page visibility,@gnarf
 page-visibility-state,Page visibility state,@gnarf
 paint,paint(),@gnarf
