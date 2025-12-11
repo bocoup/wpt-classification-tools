@@ -181,15 +181,16 @@ def summarize_feature(feature_id):
             if classifier['name'] != feature_id:
                 continue
 
+            description = f'<code>{dirpath}</code>'
             body = summarize_feature_dir(dirpath, classifier)
-            directory_summaries += html_details(dirpath, body)
+            directory_summaries += html_details(description, body)
 
     summary = 'Matching test files for ' + html_anchor(
         html.escape(name_from_id(feature_id)),
         f'https://webstatus.dev/features/{feature_id}',
     )
 
-    return html_details(summary, directory_summaries)
+    return f'### {summary}\n\n{directory_summaries}\n'
 
 def main():
     stdout = git('diff', 'master...', '--unified=0').stdout
