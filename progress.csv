@@ -111,10 +111,10 @@ createimagebitmap,createImageBitmap,#55025
 crisp-edges,crisp-edges,#55150
 cross-fade,cross-fade(),#56683
 csp,Content Security Policy (CSP),#56684
-css-escape,CSS.escape(),@jugglinmike
-css-object-model,CSS object model,@jugglinmike
-css-object-model-discouraged,CSS object model (DOM level 2),@jugglinmike
-css-supports,CSS.supports(),@jugglinmike
+css-escape,CSS.escape(),#56706
+css-object-model,CSS object model,#56706
+css-object-model-discouraged,CSS object model (DOM level 2),X tests entangled with other removed APIs: css/cssom/historical.html
+css-supports,CSS.supports(),#56706
 cubic-bezier-easing,cubic-bezier() easing,#55481
 currentcolor,currentColor,#56618
 cursor,Cursor styles,#56619
