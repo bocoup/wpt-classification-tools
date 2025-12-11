@@ -5,7 +5,13 @@ set -e
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
 search_slug=$(echo "$@" | sed -e 's/[^A-Za-z0-9-]/_/g')
-filename="${SCRIPT_DIR}/search-results/$(date +%Y-%m-%dT%H:%M:%S)-${search_slug}.txt"
+if [[ $OSTYPE == "msys" ]]; then
+  # Windows OS hates : in the filename
+  datestr=$(date +%Y-%m-%dT%H%M%S)
+else
+  datestr=$(date +%Y-%m-%dT%H:%M:%S)
+fi
+filename="${SCRIPT_DIR}/search-results/$datestr-${search_slug}.txt"
 
 grep_command="git grep $(printf "%q " "$@") -- \
   ':(exclude)tools' \
