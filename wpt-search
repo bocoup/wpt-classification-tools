@@ -17,6 +17,7 @@ grep_command="git grep $(printf "%q " "$@") -- \
   ':(exclude)tools' \
   ':(exclude)conformance-checkers' \
   ':(exclude)docs' \
+  ':(exclude)infrastructure' \
   ':(exclude)*.min.js' \
   ':(exclude)*-ref.*' \
   ':(exclude)*-notref.*'"
