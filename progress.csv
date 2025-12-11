@@ -380,9 +380,9 @@ page-transition-events,Page transition events,X there were a lot of uses of thes
 page-visibility,Page visibility,#56697
 page-visibility-state,Page visibility state,X Only one instance and it was already covered
 paint,paint(),#56698
-parse-html-unsafe,Unsanitized HTML parsing methods,@gnarf
-partitioned-cookies,Partitioned cookies,@gnarf
-password-credentials,Password credentials,@gnarf
+parse-html-unsafe,Unsanitized HTML parsing methods,X Already classified by Philip
+partitioned-cookies,Partitioned cookies,#56702
+password-credentials,Password credentials,#56703
 path-shape,path(),@gnarf
 performance,Performance,@gnarf
 performancetiming,PerformanceTiming and PerformanceNavigation,@gnarf
