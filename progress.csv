@@ -216,11 +216,11 @@ form,<form>,#56605
 form-validity-pseudos,Form validity pseudo-classes,
 gamepad-haptics,Gamepad haptic feedback,#55150
 gamepad-touch,Gamepad touch buttons,X no tests (only tested as integrated with WebXR)
-gamepad-vr,Gamepad VR hands and poses,
-gap-decorations,Gap decorations,#56642,
+gamepad-vr,Gamepad VR hands and poses
+gap-decorations,Gap decorations,#56642
 get-computed-style,getComputedStyle(), #56648
 getboxquads,getBoxQuads(),##56650
-glyph-orientation-vertical,glyph-orientation-vertical,X No tests, arguably there is a test in "text-intro-03-b-manual.svg" but not exclusively for this feature
+glyph-orientation-vertical,glyph-orientation-vertical,X No tests, arguably there is a test in 'text-intro-03-b-manual.svg' but not exclusively for this feature
 gpc,Global privacy control,X already mapped by Benjamin Vandersloot
 gradients,Gradients,#56663
 hanging-punctuation,Hanging punctuation,##56664
