@@ -55,13 +55,25 @@ def compare_filepaths(filepath1, filepath2):
         return 1
     return 0
 
+def is_test(filepath):
+    return not (
+        '-ref.' in filepath or
+        filepath.endswith('WEB_FEATURES.yml') or
+        filepath.endswith('META.yml')
+    )
+
 def expand_classifier(directory, classifier):
     included = []
     excluded = []
 
     if classifier['files'] == '**':
         for dirpath, dirname, filenames in os.walk(directory):
-            included.extend(map(lambda filename: os.path.join(dirpath, filename), filenames))
+            included.extend(
+                filter(
+                    is_test,
+                    map(lambda filename: os.path.join(dirpath, filename), filenames)
+                )
+            )
     else:
         patterns = [
             compile_file_pattern(file_pattern) for file_pattern in classifier['files']
@@ -69,7 +81,7 @@ def expand_classifier(directory, classifier):
         used = set()
 
         for direntry in os.scandir(directory):
-            if not direntry.is_file():
+            if not direntry.is_file() or not is_test(direntry.path):
                 continue
             should_include = False
 
