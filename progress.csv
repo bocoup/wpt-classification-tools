@@ -216,7 +216,7 @@ form,<form>,#56605
 form-validity-pseudos,Form validity pseudo-classes,
 gamepad-haptics,Gamepad haptic feedback,#55150
 gamepad-touch,Gamepad touch buttons,X no tests (only tested as integrated with WebXR)
-gamepad-vr,Gamepad VR hands and poses
+gamepad-vr,Gamepad VR hands and poses,
 gap-decorations,Gap decorations,#56642
 get-computed-style,getComputedStyle(), #56648
 getboxquads,getBoxQuads(),##56650
