@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+set -eu
 
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
@@ -27,4 +27,4 @@ bash -c "$grep_command" >> $filename
 
 cat $filename >> ${filename}-orig
 
-vim $filename
+$EDITOR $filename
