@@ -373,7 +373,7 @@ overflow-wrap,overflow-wrap,
 overscroll-behavior,overscroll-behavior,
 ovr-multiview2,OVR_multiview2 WebGL extension,
 p,<p>,#56578
-padding,padding,@gnarf
+padding,padding,#56692
 page-breaks,Page breaks,#56533
 page-setup,Page setup,@gnarf
 page-transition-events,Page transition events,@gnarf
