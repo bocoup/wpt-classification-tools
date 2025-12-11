@@ -1,0 +1,203 @@
+#!/usr/bin/env python3
+
+import csv
+import os
+import re
+import subprocess
+import sys
+import yaml
+from functools import cmp_to_key
+from itertools import groupby
+import html
+
+MAX_FILENAME_CONTEXT = 2
+
+def context(test, max_size, items):
+    result = []
+    for index in range(len(items)):
+        if test(items[index]):
+            state = 'match'
+        else:
+            window = items[max(0, index-max_size):index+max_size+1]
+            if any(map(test, window)):
+                state = 'context'
+            else:
+                state = 'hidden'
+        result.append({'state': state, 'item': items[index]})
+    return result
+
+def read_classifiers(source):
+    with open(source, 'r') as handle:
+        return yaml.safe_load(handle)['features']
+
+def compile_file_pattern(source):
+    if source.startswith('!'):
+        bias = False
+        string = source[1:]
+    else:
+        bias = True
+        string = source
+
+    return bias, source, re.compile('^' + re.sub('\\*', '.*', string) + '$')
+
+def compare_filepaths(filepath1, filepath2):
+    dirname1 = os.path.dirname(filepath1)
+    dirname2 = os.path.dirname(filepath2)
+    if dirname1 < dirname2:
+        return -1
+    if dirname1 > dirname2:
+        return 1
+    filename1 = os.path.basename(filepath1)
+    filename2 = os.path.basename(filepath2)
+    if filename1 < filename2:
+        return -1
+    if filename1 > filename2:
+        return 1
+    return 0
+
+def is_test(filepath):
+    return not (
+        '-ref.' in filepath or
+        filepath.endswith('WEB_FEATURES.yml') or
+        filepath.endswith('META.yml')
+    )
+
+def expand_classifier(directory, classifier):
+    included = []
+    excluded = []
+
+    if classifier['files'] == '**':
+        for dirpath, dirname, filenames in os.walk(directory):
+            included.extend(
+                filter(
+                    is_test,
+                    map(lambda filename: os.path.join(dirpath, filename), filenames)
+                )
+            )
+    else:
+        patterns = [
+            compile_file_pattern(file_pattern) for file_pattern in classifier['files']
+        ]
+        used = set()
+
+        for direntry in os.scandir(directory):
+            if not direntry.is_file() or not is_test(direntry.path):
+                continue
+            should_include = False
+
+            for pattern_desc in patterns:
+                bias, source, pattern = pattern_desc
+                if pattern.search(direntry.name):
+                    should_include = bias
+                    used.add(source)
+
+            if should_include:
+                included.append(direntry.path)
+            else:
+                excluded.append(direntry.path)
+
+        unused = set(classifier['files']).difference(used)
+        if unused:
+            raise Exception(f'Unused pattern(s) for "{classifier["name"]}": {", ".join(unused)}')
+
+    return { 'included': included, 'excluded': excluded }
+
+def name_from_id(feature_id):
+    with open('../wpt-classification-tools/progress.csv', 'r') as progress_file:
+        reader = csv.reader(progress_file)
+        for row in reader:
+            if row[0] == feature_id:
+                return row[1]
+        raise Exception(f'Unrecognized feature ID: "{feature_id}"')
+
+def git(*args):
+    return subprocess.run(
+        ['git', *args],
+        stdout=subprocess.PIPE,
+        text=True,
+        check=True
+    )
+
+def html_anchor(text, href):
+    return f'<a href="{href}">{text}</a>'
+
+def html_details(summary, body):
+    return f'''<details>
+  <summary>{summary}</summary>
+
+{body}
+
+</details>'''
+
+def summarize_feature_dir(dirpath, classifier):
+    expanded = expand_classifier(dirpath, classifier)
+    included = expanded['included']
+    excluded = expanded['excluded']
+
+    all_filenames = sorted(
+        [*included, *excluded],
+        key=cmp_to_key(compare_filepaths)
+    )
+
+    def filename_to_list_item(filename):
+        resolved = os.path.normpath(filename)
+        github_base = 'https://github.com/web-platform-tests/wpt/blob/master/'
+        markdown_link = f'[{resolved}]({github_base}/{resolved})'
+        if filename in included:
+            return f'- [x] {markdown_link}'
+        elif filename in excluded:
+            return f'- [ ] {markdown_link}'
+
+        raise Exception(f'Unexpected filename: "{filename}"')
+
+    groups = groupby(
+        context(lambda item: item in included, MAX_FILENAME_CONTEXT, all_filenames),
+        lambda item: item['state']
+    )
+
+    body = ''
+    for (state, items) in groups:
+        filenames = [*map(lambda item: item['item'], items)]
+        markdown_list = '\n'.join(map(filename_to_list_item, filenames))
+        if state == 'hidden':
+            summary = f'({len(filenames)} non-matching test files hidden)'
+            #markdown_list = '\n'.join(map(lambda filename: f'- {filename}', filenames))
+            body += '\n\n' + html_details(summary, markdown_list) + '\n'
+        else:
+            body += '\n' + markdown_list
+
+    return body
+
+def summarize_feature(feature_id):
+    directory_summaries = ''
+
+    for dirpath, dirnames, filenames in os.walk('.'):
+        if 'WEB_FEATURES.yml' not in filenames:
+            continue
+
+        classifiers = read_classifiers(os.path.join(dirpath, 'WEB_FEATURES.yml'))
+
+        for classifier in classifiers:
+            if classifier['name'] != feature_id:
+                continue
+
+            description = f'<code>{dirpath}</code>'
+            body = summarize_feature_dir(dirpath, classifier)
+            directory_summaries += html_details(description, body)
+
+    summary = 'Matching test files for ' + html_anchor(
+        html.escape(name_from_id(feature_id)),
+        f'https://webstatus.dev/features/{feature_id}',
+    )
+
+    return f'### {summary}\n\n{directory_summaries}\n'
+
+def main():
+    stdout = git('diff', 'master...', '--unified=0').stdout
+    feature_ids = set(re.findall('^\+\s*- name:\s*(.*)$', stdout, re.MULTILINE))
+    for feature_id in feature_ids:
+        with open(f'summary-{feature_id}.md', 'w') as file:
+            file.write(summarize_feature(feature_id))
+
+if __name__ == '__main__':
+    main()
