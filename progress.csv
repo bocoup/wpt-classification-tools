@@ -109,8 +109,8 @@ counter-reset-reversed,Reversed counter-reset,#56670
 counters,Counters (CSS),#56670
 createimagebitmap,createImageBitmap,#55025
 crisp-edges,crisp-edges,#55150
-cross-fade,cross-fade(),@jugglinmike
-csp,Content Security Policy (CSP),@jugglinmike
+cross-fade,cross-fade(),#56683
+csp,Content Security Policy (CSP),#56684
 css-escape,CSS.escape(),
 css-object-model,CSS object model,
 css-object-model-discouraged,CSS object model (DOM level 2),
