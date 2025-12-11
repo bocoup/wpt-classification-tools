@@ -389,19 +389,19 @@ performancetiming,PerformanceTiming and PerformanceNavigation,@gnarf
 physical-properties,Physical properties,@gnarf
 picture,<picture>,#56624
 ping,ping,#55150
-placeholder,::placeholder,@stalgiag
-placeholder-shown,:placeholder-shown,@stalgiag
+placeholder,::placeholder,#56691
+placeholder-shown,:placeholder-shown,#56691
 pointer-events,pointer-events,@stalgiag
-popover-hint,"popover=""hint""",@stalgiag
+popover-hint,"popover=""hint""",#56695
 portal,Portals,@stalgiag
 position,Position,@stalgiag
 postmessage,postMessage,#56289
 pre,<pre>,#56578
 prefers-reduced-data,prefers-reduced-data media query,#56437
 prefers-reduced-motion,prefers-reduced-motion media query,#56437
-print,window.print(),@stalgiag
-print-events,Print events,@stalgiag
-private-network-access,Private network access,
+print,window.print(),#56693
+print-events,Print events,#56693
+private-network-access,Private network access,#56696
 proto,__proto__,X Moved to JavaScript group
 push,Push messages,
 q,<q>,X Most tests are CSS quotes tests (`css/css-content/quotes-*.html`) which test CSS `quotes` property - not `<q>` element specifically
