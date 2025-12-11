@@ -148,7 +148,7 @@ def summarize_feature_dir(dirpath, classifier):
         filenames = [*map(lambda item: item['item'], items)]
         markdown_list = '\n'.join(map(filename_to_list_item, filenames))
         if state == 'hidden':
-            summary = f'({len(filenames)} non-matching files hidden)'
+            summary = f'({len(filenames)} non-matching test files hidden)'
             #markdown_list = '\n'.join(map(lambda filename: f'- {filename}', filenames))
             body += '\n\n' + html_details(summary, markdown_list) + '\n'
         else:
@@ -172,7 +172,7 @@ def summarize_feature(feature_id):
             body = summarize_feature_dir(dirpath, classifier)
             directory_summaries += html_details(dirpath, body)
 
-    summary = html_anchor(
+    summary = 'Matching test files for ' + html_anchor(
         html.escape(name_from_id(feature_id)),
         f'https://webstatus.dev/features/{feature_id}',
     )
