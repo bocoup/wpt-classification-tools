@@ -111,26 +111,26 @@ createimagebitmap,createImageBitmap,#55025
 crisp-edges,crisp-edges,#55150
 cross-fade,cross-fade(),#56683
 csp,Content Security Policy (CSP),#56684
-css-escape,CSS.escape(),
-css-object-model,CSS object model,
-css-object-model-discouraged,CSS object model (DOM level 2),
-css-supports,CSS.supports(),
+css-escape,CSS.escape(),@jugglinmike
+css-object-model,CSS object model,@jugglinmike
+css-object-model-discouraged,CSS object model (DOM level 2),@jugglinmike
+css-supports,CSS.supports(),@jugglinmike
 cubic-bezier-easing,cubic-bezier() easing,#55481
 currentcolor,currentColor,#56618
 cursor,Cursor styles,#56619
 custom-ellipses,Custom ellipses,#56623
 customizable-select,Customizable <select>,X in-progress by Philip https://github.com/web-platform-tests/wpt/pull/54712
 data,<data>,X no tests
-data-urls,Data URLs,
-dataset,Dataset,
+data-urls,Data URLs,@jugglinmike
+dataset,Dataset,@jugglinmike
 date-to-gmt-string,toGMTString(),X Moved to JavaScript group
-dedicated-workers,Dedicated workers,
+dedicated-workers,Dedicated workers,@jugglinmike
 del,<del>,#56575
-description-list,Description list,
+description-list,Description list,@jugglinmike
 device-queries,Device media queries,#56437
 devicepixelratio,devicePixelRatio,X Not observable in isolation (?)
 dfn,<dfn>,X no tests - All uses are incidental - editing tests & CSS tests using it for italic styling 
-digital-goods,Digital goods,
+digital-goods,Digital goods,@jugglinmike
 display,Display,
 display-contents,display: contents,
 display-flow-root,display: flow-root,
