@@ -352,14 +352,14 @@ object-hasown,Object.hasOwn(),X Moved to JavaScript group
 object-object,Object,X Moved to JavaScript group
 object-position,object-position,
 observable,Observable,
-oes-element-index-uint,OES_element_index_uint WebGL extension,
-oes-fbo-render-mipmap,OES_fbo_render_mipmap WebGL extension,
-oes-standard-derivatives,OES_standard_derivatives WebGL extension,
-oes-texture-float,OES_texture_float WebGL extension,
-oes-texture-float-linear,OES_texture_float_linear WebGL extension,
-oes-texture-half-float,OES_texture_half_float WebGL extension,
-oes-texture-half-float-linear,OES_texture_half_float_linear WebGL extension,
-oes-vertex-array-object,OES_vertex_array_object WebGL extension,
+oes-element-index-uint,OES_element_index_uint WebGL extension,X WebGL Feature
+oes-fbo-render-mipmap,OES_fbo_render_mipmap WebGL extension,X WebGL Feature
+oes-standard-derivatives,OES_standard_derivatives WebGL extension,X WebGL Feature
+oes-texture-float,OES_texture_float WebGL extension,X WebGL Feature
+oes-texture-float-linear,OES_texture_float_linear WebGL extension,X WebGL Feature
+oes-texture-half-float,OES_texture_half_float WebGL extension,X WebGL Feature
+oes-texture-half-float-linear,OES_texture_half_float_linear WebGL extension,X WebGL Feature
+oes-vertex-array-object,OES_vertex_array_object WebGL extension,X WebGL Feature
 online,Online status,
 opacity,opacity,
 opacity-svg,Opacity (SVG),
