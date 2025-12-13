@@ -326,9 +326,9 @@ media-queries,Media queries,#56437
 media-query-range-syntax,Media query range syntax,#56437
 mediacontroller,MediaController,
 menu,<menu>,X no tests
-meta,<meta>,@ChrisC
-meta-application-title,"<meta name=""application-title"">",@ChrisC
-meta-theme-color,"<meta name=""theme-color"">",@ChrisC
+meta,<meta>,#56726
+meta-application-title,"<meta name=""application-title"">",X no tests
+meta-theme-color,"<meta name=""theme-color"">",X no tests
 min-max-clamp,"min(), max(), and clamp()",#55025
 min-max-content,min-content and max-content,
 min-max-width-height,Min and max width and height,
