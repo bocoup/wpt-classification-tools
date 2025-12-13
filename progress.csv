@@ -54,9 +54,9 @@ border-radius,border-radius,#56424
 borders,Borders,#56424
 box-shadow,box-shadow,#56535
 box-sizing,box-sizing,#56571
-br,<br>,@ChrisC
+br,<br>,#56728
 brotli,Brotli compression,X not separable from other compressions
-button,<button>,@ChrisC
+button,<button>,#56727
 calc,calc(),#55025
 canvas,<canvas>,#56615
 canvas-2d,2D canvas,#56615
@@ -227,9 +227,9 @@ hanging-punctuation,Hanging punctuation,##56664
 hardware-concurrency,hardwareConcurrency,##56665
 hashchange,hashchange,#56686
 head,<head>,X no tests
-header-footer,<header> and <footer>,@ChrisC
-heading-selectors,Heading pseudo-classes,
-headings,<h1> through <h6>,@ChrisC
+header-footer,<header> and <footer>,X no tests
+heading-selectors,Heading pseudo-classes,#56730
+headings,<h1> through <h6>,#56729
 hgroup,<hgroup>,X no tests
 history,History,
 host,Host,
@@ -463,7 +463,7 @@ smil-svg-animations,SMIL SVG animations,#56245
 smooth,smooth,#56264
 source,<source>,#56124
 sourcemap-header,Sourcemap header,X no tests
-span,<span>,@ChrisC
+span,<span>,X no tests
 speak,speak,#56271
 speak-as,speak-as,#56271
 speech-recognition-grammar,Speech recognition grammar,X SpeechGrammar and SpeechGrammarList have been removed from the Web Speech API spec
