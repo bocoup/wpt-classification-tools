@@ -260,22 +260,22 @@ inherit-value,inherit,
 initial-value,initial,
 ink,Ink,
 input,<input>,@ChrisC
-input-button,"<input type=""button"">",@ChrisC
+input-button,"<input type=""button"">",#56667
 input-checkbox,"<input type=""checkbox"">",@ChrisC
-input-color,"<input type=""color"">",@ChrisC
+input-color,"<input type=""color"">",#56667
 input-date-time,Date and time <input> types,#55150
-input-email-tel-url,"Email, telephone, and URL <input> types",@ChrisC
+input-email-tel-url,"Email, telephone, and URL <input> types",#56667
 input-event,input (event),X not separable from other input events--see https://github.com/web-platform-tests/wpt/pull/56252
 input-file,"<input type=""file"">",#55150
-input-hidden,"<input type=""hidden"">",@ChrisC
-input-image,"<input type=""image"">",@ChrisC
+input-hidden,"<input type=""hidden"">",#56667
+input-image,"<input type=""image"">",#56667
 input-number,"<input type=""number"">",@ChrisC
-input-password,"<input type=""password"">",@ChrisC
+input-password,"<input type=""password"">",#56667
 input-radio,"<input type=""radio"">",@ChrisC
-input-range,"<input type=""range"">",@ChrisC
-input-reset,"<input type=""reset"">",@ChrisC
+input-range,"<input type=""range"">",#56667
+input-reset,"<input type=""reset"">",#56667
 input-selectors,Input selectors,@ChrisC
-input-submit,"<input type=""submit"">",@ChrisC
+input-submit,"<input type=""submit"">",#56667
 inputmode,inputmode,@ChrisC
 ins,<ins>,#56575
 insertable-streams,Insertable streams for MediaStreamTrack,
