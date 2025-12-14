@@ -138,7 +138,7 @@ display-list-item,display: list-item,
 display-ruby,display: ruby,
 display-table,display: table,
 div,<div>,#56578
-document-caretpositionfrompoint,document.caretPositionFromPoint(),
+document-caretpositionfrompoint,document.caretPositionFromPoint(),@gnarf
 document-colors,Document colors,
 document-write,document.write(),
 dom,DOM,
