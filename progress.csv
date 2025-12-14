@@ -138,9 +138,9 @@ display-list-item,display: list-item,
 display-ruby,display: ruby,
 display-table,display: table,
 div,<div>,#56578
-document-caretpositionfrompoint,document.caretPositionFromPoint(),@gnarf
-document-colors,Document colors,
-document-write,document.write(),
+document-caretpositionfrompoint,document.caretPositionFromPoint(),X already classified
+document-colors,Document colors,#56732
+document-write,document.write(),#56733
 dom,DOM,
 dom-geometry,DOM Geometry,
 dominant-baseline,dominant-baseline,
