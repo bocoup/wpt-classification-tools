@@ -131,12 +131,12 @@ device-queries,Device media queries,#56437
 devicepixelratio,devicePixelRatio,X Not observable in isolation (?)
 dfn,<dfn>,X no tests - All uses are incidental - editing tests & CSS tests using it for italic styling 
 digital-goods,Digital goods,@jugglinmike
-display,Display,
-display-contents,display: contents,
-display-flow-root,display: flow-root,
-display-list-item,display: list-item,
-display-ruby,display: ruby,
-display-table,display: table,
+display,Display,@stalgiag
+display-contents,display: contents,@stalgiag
+display-flow-root,display: flow-root,@stalgiag
+display-list-item,display: list-item,@stalgiag
+display-ruby,display: ruby,@stalgiag
+display-table,display: table,@stalgiag
 div,<div>,#56578
 document-caretpositionfrompoint,document.caretPositionFromPoint(),X already classified
 document-colors,Document colors,#56732
