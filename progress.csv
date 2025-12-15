@@ -283,7 +283,7 @@ interaction,Interaction media queries,X unclassifiable see future work notes
 interactivity,interactivity,@howard-e
 inverted-colors,inverted-colors media query,#56437
 invoker-commands,Invoker commands,X in-progress by Philip https://github.com/web-platform-tests/wpt/pull/54711
-is,:is(),@ChrisC
+is,:is(),#56766
 is-error,Error.isError(),X Moved to JavaScript group
 is-secure-context,isSecureContext,@howard-e
 isolation,isolation,@howard-e
@@ -597,7 +597,7 @@ webxr-hit-test,Hit test,#55739
 webxr-layers,Layers (WebXR),#55739
 webxr-lighting-estimation,Lighting estimation,#55739
 wheel-events,Wheel events,#56175
-where,:where(),@ChrisC
+where,:where(),#56766
 white-space,white-space,#56169
 widows-orphans,Widows and orphans,#56173
 width-height,Width and height,#56166
