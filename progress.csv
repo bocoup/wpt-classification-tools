@@ -233,7 +233,7 @@ headings,<h1> through <h6>,#56729
 hgroup,<hgroup>,X no tests
 history,History,
 host,Host,
-host-context,:host-context(),
+host-context,:host-context(),@ChrisC
 hr,<hr>,#56577
 hsl,HSL,
 hsts,HTTP Strict Transport Security,
