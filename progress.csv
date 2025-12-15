@@ -213,7 +213,7 @@ font-variation-settings,font-variation-settings,#56656
 font-weight,font-weight,#56657
 font-width,font-width,#56653
 form,<form>,#56605
-form-validity-pseudos,Form validity pseudo-classes,
+form-validity-pseudos,Form validity pseudo-classes,@ChrisC
 gamepad-haptics,Gamepad haptic feedback,#55150
 gamepad-touch,Gamepad touch buttons,X no tests (only tested as integrated with WebXR)
 gamepad-vr,Gamepad VR hands and poses,
@@ -283,7 +283,7 @@ interaction,Interaction media queries,X unclassifiable see future work notes
 interactivity,interactivity,
 inverted-colors,inverted-colors media query,#56437
 invoker-commands,Invoker commands,X in-progress by Philip https://github.com/web-platform-tests/wpt/pull/54711
-is,:is(),
+is,:is(),@ChrisC
 is-error,Error.isError(),X Moved to JavaScript group
 is-secure-context,isSecureContext,
 isolation,isolation,
@@ -344,8 +344,8 @@ nav,<nav>,X no tests
 navigator,Navigator,
 non-cookie-storage-access,Non-cookie storage access,
 notifications-apps,Notifications from service workers and installed apps,
-nth-child,:nth-child(),
-nth-of-type,:nth-of-type() pseudo-classes,
+nth-child,:nth-child(),@ChrisC
+nth-of-type,:nth-of-type() pseudo-classes,@ChrisC
 object,<object>,#56624
 object-fit,object-fit,
 object-hasown,Object.hasOwn(),X Moved to JavaScript group
@@ -363,7 +363,7 @@ oes-vertex-array-object,OES_vertex_array_object WebGL extension,X WebGL Feature
 online,Online status,
 opacity,opacity,
 opacity-svg,Opacity (SVG),
-open-closed,:open,
+open-closed,:open,@ChrisC
 outlines,Outlines,
 output,<output>,#56607
 overflow-anchor,overflow-anchor,#55025
@@ -424,7 +424,7 @@ resolution-compat,resolution media query (compatibility prefixes),X No specific 
 resource-size,Resource size,#56308
 rgb,RGB,#56146
 rhythmic-sizing,Rhythmic sizing,#56154
-root,:root,
+root,:root,@ChrisC
 ruby,<ruby>,#56156
 ruby-overhang,ruby-overhang,#56156
 s,<s>,X No specific tests
@@ -442,9 +442,9 @@ scroll-markers,Scroll markers,#56511
 search-input-type,"<input type=""search"">",#56512
 section,<section>,X no tests specifically for this feature
 secure-payment-confirmation,Secure payment confirmation,#56517
-select,<select>,
-selection,::selection,
-selectors,Selectors (core),
+select,<select>,@ChrisC
+selection,::selection,@ChrisC
+selectors,Selectors (core),@ChrisC
 serializable-errors,Serializable errors,X bundled with other tests (see files that depend on html/webappapis/structured-clone/structured-clone-battery-of-tests.js)
 service-workers,Service workers,
 setinterval,setInterval,#56144
@@ -489,7 +489,7 @@ tab-size,tab-size,#56375
 table,Tables,#56381
 table-discouraged,Table styling,#56381
 target,:target,#56400
-target-within,:target-within,X no tests
+target-within,:target-within,@ChrisC
 text-align,text-align,#56426
 text-align-last,text-align-last,#56426
 text-autospace,text-autospace,#56427
@@ -597,7 +597,7 @@ webxr-hit-test,Hit test,#55739
 webxr-layers,Layers (WebXR),#55739
 webxr-lighting-estimation,Lighting estimation,#55739
 wheel-events,Wheel events,#56175
-where,:where(),#56174
+where,:where(),@ChrisC
 white-space,white-space,#56169
 widows-orphans,Widows and orphans,#56173
 width-height,Width and height,#56166
