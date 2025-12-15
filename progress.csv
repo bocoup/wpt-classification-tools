@@ -393,7 +393,7 @@ placeholder,::placeholder,#56691
 placeholder-shown,:placeholder-shown,#56691
 pointer-events,pointer-events,@stalgiag
 popover-hint,"popover=""hint""",#56695
-portal,Portals,@stalgiag
+portal,Portals,X discourage feature-was removed from browsers-only legacy idl remains
 position,Position,@stalgiag
 postmessage,postMessage,#56289
 pre,<pre>,#56578
