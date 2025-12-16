@@ -35,13 +35,23 @@ class Expansion():
             f'{self.directory}{os.path.sep}WEB_FEATURES.yml ({self.feature_id}): {message}'
         )
 
+def is_test(filepath):
+    return not (
+        '-ref.' in filepath or
+        filepath.endswith('WEB_FEATURES.yml') or
+        filepath.endswith('META.yml')
+    )
+
 def expand_classifier(directory, classifier):
     expansion = Expansion(directory, classifier)
 
     if classifier['files'] == '**':
         for dirpath, dirname, filenames in os.walk(directory):
             expansion.tests.extend(
-                map(lambda filename: os.path.join(dirpath, filename), filenames)
+                filter(
+                    is_test,
+                    map(lambda filename: os.path.join(dirpath, filename), filenames)
+                )
             )
     else:
         patterns = [
@@ -50,7 +60,7 @@ def expand_classifier(directory, classifier):
         used = set()
 
         for direntry in os.scandir(directory):
-            if not direntry.is_file():
+            if not direntry.is_file() or not is_test(direntry.path):
                 continue
             should_include = False
 
