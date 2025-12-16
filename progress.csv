@@ -131,12 +131,12 @@ device-queries,Device media queries,#56437
 devicepixelratio,devicePixelRatio,X Not observable in isolation (?)
 dfn,<dfn>,X no tests - All uses are incidental - editing tests & CSS tests using it for italic styling 
 digital-goods,Digital goods,@jugglinmike
-display,Display,@stalgiag
-display-contents,display: contents,@stalgiag
-display-flow-root,display: flow-root,@stalgiag
-display-list-item,display: list-item,@stalgiag
-display-ruby,display: ruby,@stalgiag
-display-table,display: table,@stalgiag
+display,Display,#56758
+display-contents,display: contents,#56758
+display-flow-root,display: flow-root,#56758
+display-list-item,display: list-item,#56758
+display-ruby,display: ruby,#56758
+display-table,display: table,#56758
 div,<div>,#56578
 document-caretpositionfrompoint,document.caretPositionFromPoint(),X already classified
 document-colors,Document colors,#56732
@@ -391,10 +391,10 @@ picture,<picture>,#56624
 ping,ping,#55150
 placeholder,::placeholder,#56691
 placeholder-shown,:placeholder-shown,#56691
-pointer-events,pointer-events,@stalgiag
+pointer-events,pointer-events,#56749
 popover-hint,"popover=""hint""",#56695
 portal,Portals,X discourage feature-was removed from browsers-only legacy idl remains
-position,Position,@stalgiag
+position,Position,#56751
 postmessage,postMessage,#56289
 pre,<pre>,#56578
 prefers-reduced-data,prefers-reduced-data media query,#56437
