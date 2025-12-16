@@ -344,8 +344,8 @@ nav,<nav>,X no tests
 navigator,Navigator,
 non-cookie-storage-access,Non-cookie storage access,
 notifications-apps,Notifications from service workers and installed apps,
-nth-child,:nth-child(),@ChrisC
-nth-of-type,:nth-of-type() pseudo-classes,@ChrisC
+nth-child,:nth-child(),#56785
+nth-of-type,:nth-of-type() pseudo-classes,#56785
 object,<object>,#56624
 object-fit,object-fit,
 object-hasown,Object.hasOwn(),X Moved to JavaScript group
