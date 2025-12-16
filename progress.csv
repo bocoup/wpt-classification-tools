@@ -455,7 +455,7 @@ shapes,shapes,
 share,navigator.share(),#56228
 shared-storage,Shared storage,#56231
 shared-storage-locks,Shared storage locks,#56231
-shared-workers,Shared worker,@stalgiag(c)
+shared-workers,Shared worker,@jugglinmike
 sizes-auto,"<img sizes=""auto"" loading=""lazy"">",#56232
 slot,<slot>,#56244
 small,<small>,X Only tested indirectly
