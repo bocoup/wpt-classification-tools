@@ -121,8 +121,8 @@ cursor,Cursor styles,#56619
 custom-ellipses,Custom ellipses,#56623
 customizable-select,Customizable <select>,X in-progress by Philip https://github.com/web-platform-tests/wpt/pull/54712
 data,<data>,X no tests
-data-urls,Data URLs,@jugglinmike
-dataset,Dataset,@jugglinmike
+data-urls,Data URLs,#56745
+dataset,Dataset,#56756
 date-to-gmt-string,toGMTString(),X Moved to JavaScript group
 dedicated-workers,Dedicated workers,@jugglinmike
 del,<del>,#56575
