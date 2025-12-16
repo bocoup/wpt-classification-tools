@@ -71,7 +71,7 @@ def expand_classifier(directory, classifier):
                     used.add(source)
 
             if should_include:
-                expansion.tests.append(os.path.join(directory, direntry))
+                expansion.tests.append(direntry.path)
 
         unused = set(classifier['files']).difference(used)
         for pattern in unused:
@@ -106,6 +106,8 @@ def infer_feature_id(stdout):
 def main():
     feature_id = infer_feature_id(git('diff', '--staged', '--unified=0').stdout)
     violations = []
+    newly_classified_tests = set()
+    other_classified_tests = set()
 
     for dirpath, dirnames, filenames in os.walk('.'):
         if 'WEB_FEATURES.yml' not in filenames:
@@ -114,11 +116,16 @@ def main():
         classifiers = read_classifiers(os.path.join(dirpath, 'WEB_FEATURES.yml'))
 
         for classifier in classifiers:
-            if classifier['name'] != feature_id:
-                continue
-
             expansion = expand_classifier(dirpath, classifier)
-            violations.extend(expansion.violations)
+
+            if classifier['name'] != feature_id:
+                other_classified_tests.update(expansion.tests)
+            else:
+                newly_classified_tests.update(expansion.tests)
+                violations.extend(expansion.violations)
+
+    for test in newly_classified_tests.intersection(other_classified_tests):
+        violations.append(f'Test already classified: "{test}"')
 
     if len(violations):
         raise AssertionError(
