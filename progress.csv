@@ -298,7 +298,7 @@ language,Language,#56777
 layout-direction-override,Layout direction override,#56780
 letter-spacing,letter-spacing,#56782
 line-clamp,line-clamp,#56783
-line-height,line-height,@howard-e
+line-height,line-height,#56790
 link,<link>,#56502
 link-rel-dns-prefetch,"<link rel=""dns-prefetch"">",x only tested in a test that tests other features
 link-rel-expect,"<link rel=""expect"">",#56502
