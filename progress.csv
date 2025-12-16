@@ -363,7 +363,7 @@ oes-vertex-array-object,OES_vertex_array_object WebGL extension,X WebGL Feature
 online,Online status,@stalgiag
 opacity,opacity,@stalgiag
 opacity-svg,Opacity (SVG),@stalgiag
-open-closed,:open,@ChrisC
+open-pseudo,:open,#56793 renamed in https://github.com/web-platform-dx/web-features/pull/3435
 outlines,Outlines,@stalgiag
 output,<output>,#56607
 overflow-anchor,overflow-anchor,#55025
