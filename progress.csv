@@ -424,7 +424,7 @@ resolution-compat,resolution media query (compatibility prefixes),X No specific 
 resource-size,Resource size,#56308
 rgb,RGB,#56146
 rhythmic-sizing,Rhythmic sizing,#56154
-root,:root,@ChrisC
+root,:root,#56791
 ruby,<ruby>,#56156
 ruby-overhang,ruby-overhang,#56156
 s,<s>,X No specific tests
