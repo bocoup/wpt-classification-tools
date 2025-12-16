@@ -360,18 +360,18 @@ oes-texture-float-linear,OES_texture_float_linear WebGL extension,X WebGL Featur
 oes-texture-half-float,OES_texture_half_float WebGL extension,X WebGL Feature
 oes-texture-half-float-linear,OES_texture_half_float_linear WebGL extension,X WebGL Feature
 oes-vertex-array-object,OES_vertex_array_object WebGL extension,X WebGL Feature
-online,Online status,@stalgiag
-opacity,opacity,@stalgiag
-opacity-svg,Opacity (SVG),@stalgiag
+online,Online status,#56794
+opacity,opacity,#56789
+opacity-svg,Opacity (SVG),#56789
 open-pseudo,:open,#56793 renamed in https://github.com/web-platform-dx/web-features/pull/3435
-outlines,Outlines,@stalgiag
+outlines,Outlines,#56787
 output,<output>,#56607
 overflow-anchor,overflow-anchor,#55025
-overflow-clip,overflow: clip,@stalgiag
-overflow-clip-margin,overflow-clip-margin,@stalgiag
-overflow-wrap,overflow-wrap,@stalgiag
-overscroll-behavior,overscroll-behavior,@stalgiag
-ovr-multiview2,OVR_multiview2 WebGL extension,@stalgiag
+overflow-clip,overflow: clip,#56778
+overflow-clip-margin,overflow-clip-margin,#56778
+overflow-wrap,overflow-wrap,#56778
+overscroll-behavior,overscroll-behavior,#56784
+ovr-multiview2,OVR_multiview2 WebGL extension,X WebGL Feature
 p,<p>,#56578
 padding,padding,#56692
 page-breaks,Page breaks,#56533
