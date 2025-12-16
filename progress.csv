@@ -294,10 +294,10 @@ khr-parallel-shader-compile,KHR_parallel_shader_compile WebGL extension,X WebGL 
 label,<label>,#56606
 lang,:lang(),#56753
 lang-attr,lang,#56754
-language,Language,@howard-e
-layout-direction-override,Layout direction override,@howard-e
-letter-spacing,letter-spacing,@howard-e
-line-clamp,line-clamp,@howard-e
+language,Language,#56777
+layout-direction-override,Layout direction override,#56780
+letter-spacing,letter-spacing,#56782
+line-clamp,line-clamp,#56783
 line-height,line-height,@howard-e
 link,<link>,#56502
 link-rel-dns-prefetch,"<link rel=""dns-prefetch"">",x only tested in a test that tests other features
