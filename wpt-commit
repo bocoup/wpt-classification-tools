@@ -136,5 +136,7 @@ def main():
 
     git('commit', '-m', f'Map "{feature_name}" to web-features')
 
+    print(f'Successfully commited classifications for "{feature_name}" ({feature_id})')
+
 if __name__ == '__main__':
     main()
