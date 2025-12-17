@@ -22,7 +22,7 @@ aside,<aside>,X minimal semantics not tested in isolation
 atomics-pause,Atomics.pause(),X Belongs in JavaScript group
 audio,<audio>,#55481
 audio-session,Audio session,X no tests
-audio-video-tracks,Audio and video tracks,
+audio-video-tracks,Audio and video tracks,@jugglinmike
 autocapitalize,autocapitalize,#55150
 autocorrect,autocorrect,#55481
 autofocus,autofocus,#55481
@@ -141,9 +141,9 @@ div,<div>,#56578
 document-caretpositionfrompoint,document.caretPositionFromPoint(),X already classified
 document-colors,Document colors,#56732
 document-write,document.write(),#56733
-dom,DOM,
-dom-geometry,DOM Geometry,
-dominant-baseline,dominant-baseline,
+dom,DOM,@jugglinmike
+dom-geometry,DOM Geometry,@jugglinmike
+dominant-baseline,dominant-baseline,@jugglinmike
 domparser,DOMParser,#56164
 download,download,#56142
 draganddrop,Drag and Drop,#56141
@@ -231,14 +231,14 @@ header-footer,<header> and <footer>,X no tests
 heading-selectors,Heading pseudo-classes,#56730
 headings,<h1> through <h6>,#56729
 hgroup,<hgroup>,X no tests
-history,History,
-host,Host,
+history,History,@jugglinmike
+host,Host,@jugglinmike
 host-context,:host-context(),#56792
 hr,<hr>,#56577
-hsl,HSL,
-hsts,HTTP Strict Transport Security,
+hsl,HSL,@jugglinmike
+hsts,HTTP Strict Transport Security,@jugglinmike
 html,<html>,X no tests
-http-authentication,HTTP authentication,
+http-authentication,HTTP authentication,@jugglinmike
 http11,HTTP/1.1,
 http2,HTTP/2,
 http3,HTTP/3,
