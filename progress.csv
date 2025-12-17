@@ -337,20 +337,20 @@ mouse-events,Mouse events,
 move-before,moveBefore(),
 multi-column,Multi-column layout,#56533
 mutation-events,Mutation events,#55200
-mutationobserver,MutationObserver,
-named-color,Named colors,
-namespace,@namespace,
+mutationobserver,MutationObserver,@stalgiag
+named-color,Named colors,@stalgiag
+namespace,@namespace,@stalgiag
 nav,<nav>,X no tests
 navigator,Navigator,
-non-cookie-storage-access,Non-cookie storage access,
-notifications-apps,Notifications from service workers and installed apps,
+non-cookie-storage-access,Non-cookie storage access,@stalgiag
+notifications-apps,Notifications from service workers and installed apps,@stalgiag
 nth-child,:nth-child(),#56785
 nth-of-type,:nth-of-type() pseudo-classes,#56785
 object,<object>,#56624
-object-fit,object-fit,
+object-fit,object-fit,@stalgiag
 object-hasown,Object.hasOwn(),X Moved to JavaScript group
 object-object,Object,X Moved to JavaScript group
-object-position,object-position,
+object-position,object-position,@stalgiag
 observable,Observable,
 oes-element-index-uint,OES_element_index_uint WebGL extension,X WebGL Feature
 oes-fbo-render-mipmap,OES_fbo_render_mipmap WebGL extension,X WebGL Feature
