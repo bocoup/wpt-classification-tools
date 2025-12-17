@@ -119,7 +119,7 @@ cubic-bezier-easing,cubic-bezier() easing,#55481
 currentcolor,currentColor,#56618
 cursor,Cursor styles,#56619
 custom-ellipses,Custom ellipses,#56623
-customizable-select,Customizable <select>,X in-progress by Philip https://github.com/web-platform-tests/wpt/pull/54712
+customizable-select,Customizable <select>,#54712 (@foolip)
 data,<data>,X no tests
 data-urls,Data URLs,#56745
 dataset,Dataset,#56756
@@ -244,7 +244,7 @@ http2,HTTP/2,
 http3,HTTP/3,
 i,<i>,X no tests
 iframe,<iframe>,
-iframe-credentialless,Credentialless iframes,X in-progress by Philip https://github.com/web-platform-tests/wpt/pull/54321
+iframe-credentialless,Credentialless iframes,#54321 (@foolip)
 iframe-sandbox,Sandboxed iframes,
 iframe-srcdoc,srcdoc,
 image-function,image(),
@@ -282,7 +282,7 @@ insertable-streams,Insertable streams for MediaStreamTrack,
 interaction,Interaction media queries,X unclassifiable see future work notes
 interactivity,interactivity,@howard-e
 inverted-colors,inverted-colors media query,#56437
-invoker-commands,Invoker commands,X in-progress by Philip https://github.com/web-platform-tests/wpt/pull/54711
+invoker-commands,Invoker commands,#54711 (@foolip)
 is,:is(),#56766
 is-error,Error.isError(),X Moved to JavaScript group
 is-secure-context,isSecureContext,@howard-e
@@ -380,7 +380,7 @@ page-transition-events,Page transition events,X there were a lot of uses of thes
 page-visibility,Page visibility,#56697
 page-visibility-state,Page visibility state,X Only one instance and it was already covered
 paint,paint(),#56698
-parse-html-unsafe,Unsanitized HTML parsing methods,X Already classified by Philip
+parse-html-unsafe,Unsanitized HTML parsing methods,#46319 (@foolip)
 partitioned-cookies,Partitioned cookies,#56702
 password-credentials,Password credentials,#56703
 path-shape,path(),#56704
@@ -416,7 +416,7 @@ registerprotocolhandler,registerProtocolHandler,#55150
 relative-positioning,Relative positioning,
 rem,rem,
 request-animation-frame,requestAnimationFrame(),#56580
-request-animation-frame-workers,requestAnimationFrame() in workers,X philip already did this
+request-animation-frame-workers,requestAnimationFrame() in workers,#52537 (@foolip)
 resizable-buffers,Resizable buffers,X Moved to JavaScript group
 resize,resize (CSS property),X no tests specifically for this feature
 resolution,resolution media query,X No specific tests mixed up with media-query
@@ -467,7 +467,7 @@ span,<span>,X no tests
 speak,speak,#56271
 speak-as,speak-as,#56271
 speech-recognition-grammar,Speech recognition grammar,X SpeechGrammar and SpeechGrammarList have been removed from the Web Speech API spec
-speech-synthesis,Speech synthesis,X already mapped by Philip
+speech-synthesis,Speech synthesis,#45787 (@foolip)
 spellcheck,spellcheck,#56273
 srcset,srcset and sizes,#56275
 static-positioning,Static positioning,#56304
@@ -582,7 +582,7 @@ webgl2-desynchronized,Desynchronized WebGL2 canvas,X only tests in 2D canvas con
 webgpu,WebGPU,X no tests
 webp,WebP,X no tests
 webrtc,WebRTC,#56238
-webrtc-sctp,WebRTC SCTP information,X already classified by Philip #46082
+webrtc-sctp,WebRTC SCTP information,#46082 (@foolip)
 webvr,WebVR,#56236
 webvtt-cue-settings,WebVTT cue settings,#56233
 webxr-anchors,Anchors (WebXR),#55739
