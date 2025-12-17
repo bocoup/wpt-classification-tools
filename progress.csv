@@ -213,7 +213,7 @@ font-variation-settings,font-variation-settings,#56656
 font-weight,font-weight,#56657
 font-width,font-width,#56653
 form,<form>,#56605
-form-validity-pseudos,Form validity pseudo-classes,@ChrisC
+form-validity-pseudos,Form validity pseudo-classes,#56822
 gamepad-haptics,Gamepad haptic feedback,#55150
 gamepad-touch,Gamepad touch buttons,X no tests (only tested as integrated with WebXR)
 gamepad-vr,Gamepad VR hands and poses,@howard-e
