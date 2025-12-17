@@ -22,7 +22,7 @@ aside,<aside>,X minimal semantics not tested in isolation
 atomics-pause,Atomics.pause(),X Belongs in JavaScript group
 audio,<audio>,#55481
 audio-session,Audio session,X no tests
-audio-video-tracks,Audio and video tracks,@jugglinmike
+audio-video-tracks,Audio and video tracks,#56816
 autocapitalize,autocapitalize,#55150
 autocorrect,autocorrect,#55481
 autofocus,autofocus,#55481
@@ -142,8 +142,8 @@ document-caretpositionfrompoint,document.caretPositionFromPoint(),X already clas
 document-colors,Document colors,#56732
 document-write,document.write(),#56733
 dom,DOM,@jugglinmike
-dom-geometry,DOM Geometry,@jugglinmike
-dominant-baseline,dominant-baseline,@jugglinmike
+dom-geometry,DOM Geometry,#56821
+dominant-baseline,dominant-baseline,#56823
 domparser,DOMParser,#56164
 download,download,#56142
 draganddrop,Drag and Drop,#56141
