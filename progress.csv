@@ -334,7 +334,7 @@ min-max-content,min-content and max-content,
 min-max-width-height,Min and max width and height,
 mix-blend-mode,mix-blend-mode,
 mouse-events,Mouse events,
-move-before,moveBefore(),
+move-before,moveBefore(),@stalgiag
 multi-column,Multi-column layout,#56533
 mutation-events,Mutation events,#55200
 mutationobserver,MutationObserver,@stalgiag
@@ -351,7 +351,7 @@ object-fit,object-fit,@stalgiag
 object-hasown,Object.hasOwn(),X Moved to JavaScript group
 object-object,Object,X Moved to JavaScript group
 object-position,object-position,@stalgiag
-observable,Observable,
+observable,Observable,@stalgiag
 oes-element-index-uint,OES_element_index_uint WebGL extension,X WebGL Feature
 oes-fbo-render-mipmap,OES_fbo_render_mipmap WebGL extension,X WebGL Feature
 oes-standard-derivatives,OES_standard_derivatives WebGL extension,X WebGL Feature
