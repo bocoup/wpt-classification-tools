@@ -216,7 +216,7 @@ form,<form>,#56605
 form-validity-pseudos,Form validity pseudo-classes,#56822
 gamepad-haptics,Gamepad haptic feedback,#55150
 gamepad-touch,Gamepad touch buttons,X no tests (only tested as integrated with WebXR)
-gamepad-vr,Gamepad VR hands and poses,@howard-e
+gamepad-vr,Gamepad VR hands and poses,X no tests (part of WebXR)
 gap-decorations,Gap decorations,#56642
 get-computed-style,getComputedStyle(),#56648
 getboxquads,getBoxQuads(),#56650
@@ -310,8 +310,8 @@ list-elements,"<ol>, <ul>, and <li>",#56507
 list-style,List style,#56510
 local-network-access,Local network access,#56516
 localstorage,localStorage and sessionStorage,
-location,Location,@howard-e
-long-animation-frames,Long animation frames,@howard-e
+location,Location,@howard-e(c on location-wf)
+long-animation-frames,Long animation frames,#56817
 main,<main>,X no tests
 managed-media-source,Managed media source,
 manifest,Web app manifest,
