@@ -126,11 +126,11 @@ dataset,Dataset,#56756
 date-to-gmt-string,toGMTString(),X Moved to JavaScript group
 dedicated-workers,Dedicated workers,#56801
 del,<del>,#56575
-description-list,Description list,@jugglinmike
+description-list,Description list,#56814
 device-queries,Device media queries,#56437
 devicepixelratio,devicePixelRatio,X Not observable in isolation (?)
 dfn,<dfn>,X no tests - All uses are incidental - editing tests & CSS tests using it for italic styling 
-digital-goods,Digital goods,@jugglinmike
+digital-goods,Digital goods,#56815
 display,Display,#56758
 display-contents,display: contents,#56758
 display-flow-root,display: flow-root,#56758
