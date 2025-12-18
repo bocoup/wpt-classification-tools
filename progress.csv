@@ -141,7 +141,7 @@ div,<div>,#56578
 document-caretpositionfrompoint,document.caretPositionFromPoint(),X already classified
 document-colors,Document colors,#56732
 document-write,document.write(),#56733
-dom,DOM,@jugglinmike
+dom,DOM,? feature is very wide-spanning and well-established
 dom-geometry,DOM Geometry,#56821
 dominant-baseline,dominant-baseline,#56823
 domparser,DOMParser,#56164
@@ -231,12 +231,12 @@ header-footer,<header> and <footer>,X no tests
 heading-selectors,Heading pseudo-classes,#56730
 headings,<h1> through <h6>,#56729
 hgroup,<hgroup>,X no tests
-history,History,@jugglinmike
-host,Host,@jugglinmike
+history,History,#56830
+host,Host,#56839
 host-context,:host-context(),#56792
 hr,<hr>,#56577
-hsl,HSL,@jugglinmike
-hsts,HTTP Strict Transport Security,@jugglinmike
+hsl,HSL,#56865
+hsts,HTTP Strict Transport Security,#54311 (@foolip)
 html,<html>,X no tests
 http-authentication,HTTP authentication,@jugglinmike
 http11,HTTP/1.1,
