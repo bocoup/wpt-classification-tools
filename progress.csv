@@ -413,7 +413,7 @@ regexp-escape,RegExp.escape(),X Moved to JavaScript group
 regexp-static-properties,RegExp static properties,X Moved to JavaScript group
 region-capture,Region capture,#56579
 registerprotocolhandler,registerProtocolHandler,#55150
-relative-positioning,Relative positioning,@ChrisC
+relative-positioning,Relative positioning,#56873
 rem,rem,#56866
 request-animation-frame,requestAnimationFrame(),#56580
 request-animation-frame-workers,requestAnimationFrame() in workers,#52537 (@foolip)
