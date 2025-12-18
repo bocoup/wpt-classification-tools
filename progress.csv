@@ -403,7 +403,7 @@ print,window.print(),#56693
 print-events,Print events,#56693
 private-network-access,Private network access,#56696
 proto,__proto__,X Moved to JavaScript group
-push,Push messages,@ChrisC
+push,Push messages,#56847
 q,<q>,X Most tests are CSS quotes tests (`css/css-content/quotes-*.html`) which test CSS `quotes` property - not `<q>` element specifically
 q-unit,Q unit,@ChrisC
 reading-flow,reading-flow,@ChrisC
