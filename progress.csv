@@ -403,18 +403,18 @@ print,window.print(),#56693
 print-events,Print events,#56693
 private-network-access,Private network access,#56696
 proto,__proto__,X Moved to JavaScript group
-push,Push messages,
+push,Push messages,@ChrisC
 q,<q>,X Most tests are CSS quotes tests (`css/css-content/quotes-*.html`) which test CSS `quotes` property - not `<q>` element specifically
-q-unit,Q unit,
-reading-flow,reading-flow,
+q-unit,Q unit,@ChrisC
+reading-flow,reading-flow,@ChrisC
 regexp,Regular expressions,X Moved to JavaScript group
 regexp-compile,RegExp compile(),X Moved to JavaScript group
 regexp-escape,RegExp.escape(),X Moved to JavaScript group
 regexp-static-properties,RegExp static properties,X Moved to JavaScript group
 region-capture,Region capture,#56579
 registerprotocolhandler,registerProtocolHandler,#55150
-relative-positioning,Relative positioning,
-rem,rem,
+relative-positioning,Relative positioning,@ChrisC
+rem,rem,@ChrisC
 request-animation-frame,requestAnimationFrame(),#56580
 request-animation-frame-workers,requestAnimationFrame() in workers,#52537 (@foolip)
 resizable-buffers,Resizable buffers,X Moved to JavaScript group
@@ -450,8 +450,8 @@ service-workers,Service workers,
 setinterval,setInterval,#56144
 settimeout,setTimeout(),#56144
 shadow-parts,Shadow parts,#56127
-shape-outside,shape-outside,
-shapes,shapes,
+shape-outside,shape-outside,@ChrisC
+shapes,shapes,@ChrisC
 share,navigator.share(),#56228
 shared-storage,Shared storage,#56231
 shared-storage-locks,Shared storage locks,#56231
