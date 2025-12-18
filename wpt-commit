@@ -23,13 +23,36 @@ def compile_file_pattern(source):
 
     return bias, source, re.compile('^' + re.sub('\\*', '.*', string) + '$')
 
+class Expansion():
+    def __init__(self, directory, classifier):
+        self.directory = directory
+        self.feature_id = classifier['name']
+        self.tests = []
+        self.violations = []
+
+    def violation(self, message):
+        self.violations.append(
+            f'{self.directory}{os.path.sep}WEB_FEATURES.yml ({self.feature_id}): {message}'
+        )
+
+def is_test(filepath):
+    return not (
+        '-ref.' in filepath or
+        filepath.endswith('WEB_FEATURES.yml') or
+        filepath.endswith('META.yml')
+    )
+
 def expand_classifier(directory, classifier):
-    included = []
-    excluded = []
+    expansion = Expansion(directory, classifier)
 
     if classifier['files'] == '**':
         for dirpath, dirname, filenames in os.walk(directory):
-            included.extend(map(lambda filename: os.path.join(dirpath, filename), filenames))
+            expansion.tests.extend(
+                filter(
+                    is_test,
+                    map(lambda filename: os.path.join(dirpath, filename), filenames)
+                )
+            )
     else:
         patterns = [
             compile_file_pattern(file_pattern) for file_pattern in classifier['files']
@@ -37,7 +60,7 @@ def expand_classifier(directory, classifier):
         used = set()
 
         for direntry in os.scandir(directory):
-            if not direntry.is_file():
+            if not direntry.is_file() or not is_test(direntry.path):
                 continue
             should_include = False
 
@@ -48,15 +71,16 @@ def expand_classifier(directory, classifier):
                     used.add(source)
 
             if should_include:
-                included.append(os.path.join(directory, direntry))
-            else:
-                excluded.append(os.path.join(directory, direntry))
+                expansion.tests.append(direntry.path)
 
         unused = set(classifier['files']).difference(used)
-        if unused:
-            raise Exception(f'Unused pattern(s) for "{classifier["name"]}": {", ".join(unused)}')
+        for pattern in unused:
+            expansion.violation(f'Unused pattern: "{pattern}"')
 
-    return { 'included': included, 'excluded': excluded }
+    if len(expansion.tests) == 0:
+        expansion.violation(f'Expected classifier to match at least one test file')
+
+    return expansion
 
 def name_from_id(feature_id):
     with open(progress_filepath, 'r') as progress_file:
@@ -81,8 +105,9 @@ def infer_feature_id(stdout):
 
 def main():
     feature_id = infer_feature_id(git('diff', '--staged', '--unified=0').stdout)
-    included = []
-    excluded = []
+    violations = []
+    newly_classified_tests = set()
+    other_classified_tests = set()
 
     for dirpath, dirnames, filenames in os.walk('.'):
         if 'WEB_FEATURES.yml' not in filenames:
@@ -91,17 +116,27 @@ def main():
         classifiers = read_classifiers(os.path.join(dirpath, 'WEB_FEATURES.yml'))
 
         for classifier in classifiers:
-            if classifier['name'] != feature_id:
-                continue
+            expansion = expand_classifier(dirpath, classifier)
 
-            expanded = expand_classifier(dirpath, classifier)
-            included.extend(expanded['included'])
-            excluded.extend(expanded['excluded'])
+            if classifier['name'] != feature_id:
+                other_classified_tests.update(expansion.tests)
+            else:
+                newly_classified_tests.update(expansion.tests)
+                violations.extend(expansion.violations)
+
+    for test in newly_classified_tests.intersection(other_classified_tests):
+        violations.append(f'Test already classified: "{test}"')
+
+    if len(violations):
+        raise AssertionError(
+            f'{len(violations)} violations:\n' + '\n'.join(violations)
+        )
 
     feature_name = name_from_id(feature_id)
-    assert len(included) > 0
 
     git('commit', '-m', f'Map "{feature_name}" to web-features')
+
+    print(f'Successfully commited classifications for "{feature_name}" ({feature_id})')
 
 if __name__ == '__main__':
     main()
