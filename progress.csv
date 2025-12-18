@@ -443,7 +443,7 @@ search-input-type,"<input type=""search"">",#56512
 section,<section>,X no tests specifically for this feature
 secure-payment-confirmation,Secure payment confirmation,#56517
 select,<select>,@ChrisC
-selection,::selection,@ChrisC
+selection,::selection,#56825
 selectors,Selectors (core),@ChrisC
 serializable-errors,Serializable errors,X bundled with other tests (see files that depend on html/webappapis/structured-clone/structured-clone-battery-of-tests.js)
 service-workers,Service workers,
