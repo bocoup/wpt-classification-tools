@@ -450,8 +450,8 @@ service-workers,Service workers,
 setinterval,setInterval,#56144
 settimeout,setTimeout(),#56144
 shadow-parts,Shadow parts,#56127
-shape-outside,shape-outside,@ChrisC
-shapes,shapes,@ChrisC
+shape-outside,shape-outside,#56846
+shapes,shapes,#56846
 share,navigator.share(),#56228
 shared-storage,Shared storage,#56231
 shared-storage-locks,Shared storage locks,#56231
