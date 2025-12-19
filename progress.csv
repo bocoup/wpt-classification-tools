@@ -182,7 +182,7 @@ fetchlater,fetchLater,#56551
 fieldset,<fieldset> and <legend>,#56415
 figure,<figure> and <figcaption>,#56417
 file,File API,X covered
-filter,filter,@howard-e
+filter,filter,#56885
 fit-content,fit-content,#56463
 fit-content-function,fit-content(),#56473
 fixed-positioning,Fixed positioning,#56500
