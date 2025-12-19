@@ -158,7 +158,7 @@ embed,<embed>,#56269
 empty,:empty,#56412
 enterkeyhint,enterkeyhint,X no tests
 error-cause,Error cause,X Moved to JavaScript group
-events,Events,@howard-e(wip that may become ?)
+events,Events,#56886
 ex,ex unit,#56277
 execcommand,execCommand(),#56413
 explicit-resource-management,Explicit resource management,X Moved to JavaScript group
