@@ -317,11 +317,11 @@ managed-media-source,Managed media source,
 manifest,Web app manifest,
 margin,margin,
 mark,<mark>,X HTML `<mark>` uses are incidental in editing/CSS tests
-mask-border,mask-border,@stalgiag
-mask-type,mask-type,@stalgiag
-masonry,Masonry,@stalgiag
-matchmedia,matchMedia,@stalgiag
-media-capture,Media capture,@stalgiag
+mask-border,mask-border,#56859
+mask-type,mask-type,#56859
+masonry,Masonry,#56860
+matchmedia,matchMedia,#56862
+media-capture,Media capture,#56867
 media-queries,Media queries,#56437
 media-query-range-syntax,Media query range syntax,#56437
 mediacontroller,MediaController,
@@ -330,9 +330,9 @@ meta,<meta>,#56726
 meta-application-title,"<meta name=""application-title"">",X no tests
 meta-theme-color,"<meta name=""theme-color"">",X no tests
 min-max-clamp,"min(), max(), and clamp()",#55025
-min-max-content,min-content and max-content,@stalgiag
-min-max-width-height,Min and max width and height,@stalgiag
-mix-blend-mode,mix-blend-mode,@stalgiag
+min-max-content,min-content and max-content,#56870
+min-max-width-height,Min and max width and height,#56870
+mix-blend-mode,mix-blend-mode,
 mouse-events,Mouse events,
 move-before,moveBefore(),#53571 (@foolip)
 multi-column,Multi-column layout,#56533
