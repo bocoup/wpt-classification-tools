@@ -280,12 +280,12 @@ inputmode,inputmode,@ChrisC
 ins,<ins>,#56575
 insertable-streams,Insertable streams for MediaStreamTrack,
 interaction,Interaction media queries,X unclassifiable see future work notes
-interactivity,interactivity,@howard-e
+interactivity,interactivity,#56881
 inverted-colors,inverted-colors media query,#56437
 invoker-commands,Invoker commands,#54711 (@foolip)
 is,:is(),#56766
 is-error,Error.isError(),X Moved to JavaScript group
-is-secure-context,isSecureContext,@howard-e
+is-secure-context,isSecureContext,#56882
 isolation,isolation,@howard-e
 js-modules,JavaScript modules,
 kbd,<kbd>,X All uses incidental - editing tests/accessibility tooltip tests/UI instructions
@@ -310,8 +310,8 @@ list-elements,"<ol>, <ul>, and <li>",#56507
 list-style,List style,#56510
 local-network-access,Local network access,#56516
 localstorage,localStorage and sessionStorage,
-location,Location,@howard-e(c on location-wf)
-long-animation-frames,Long animation frames,#56817
+location,Location,#56880
+long-animation-frames,Long animation frames,X already covered
 main,<main>,X no tests
 managed-media-source,Managed media source,
 manifest,Web app manifest,
