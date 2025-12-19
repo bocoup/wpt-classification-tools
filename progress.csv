@@ -286,7 +286,7 @@ invoker-commands,Invoker commands,#54711 (@foolip)
 is,:is(),#56766
 is-error,Error.isError(),X Moved to JavaScript group
 is-secure-context,isSecureContext,#56882
-isolation,isolation,@howard-e
+isolation,isolation,#56883
 js-modules,JavaScript modules,
 kbd,<kbd>,X All uses incidental - editing tests/accessibility tooltip tests/UI instructions
 keyboard-events,Keyboard events,
