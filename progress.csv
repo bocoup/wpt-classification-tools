@@ -239,9 +239,9 @@ hsl,HSL,#56865
 hsts,HTTP Strict Transport Security,#54311 (@foolip)
 html,<html>,X no tests
 http-authentication,HTTP authentication,#56953
-http11,HTTP/1.1,@jugglinmike
-http2,HTTP/2,@jugglinmike
-http3,HTTP/3,@jugglinmike
+http11,HTTP/1.1,#56953
+http2,HTTP/2,#56953
+http3,HTTP/3,X no tests https://github.com/web-platform-tests/wpt/issues/46593
 i,<i>,X no tests
 iframe,<iframe>,@jugglinmike
 iframe-credentialless,Credentialless iframes,#54321 (@foolip)
