@@ -238,7 +238,7 @@ hr,<hr>,#56577
 hsl,HSL,#56865
 hsts,HTTP Strict Transport Security,#54311 (@foolip)
 html,<html>,X no tests
-http-authentication,HTTP authentication,@jugglinmike
+http-authentication,HTTP authentication,#56953
 http11,HTTP/1.1,
 http2,HTTP/2,
 http3,HTTP/3,
