@@ -300,7 +300,7 @@ letter-spacing,letter-spacing,#56782
 line-clamp,line-clamp,#56783
 line-height,line-height,#56790
 link,<link>,#56502
-link-rel-dns-prefetch,"<link rel=""dns-prefetch"">",x only tested in a test that tests other features
+link-rel-dns-prefetch,"<link rel=""dns-prefetch"">",X only tested in a test that tests other features
 link-rel-expect,"<link rel=""expect"">",#56502
 link-rel-preconnect,"<link rel=""preconnect"">",#56502
 link-rel-prefetch,"<link rel=""prefetch"">",#56502
