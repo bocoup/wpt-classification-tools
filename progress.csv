@@ -247,17 +247,17 @@ iframe,<iframe>,@jugglinmike
 iframe-credentialless,Credentialless iframes,#54321 (@foolip)
 iframe-sandbox,Sandboxed iframes,@jugglinmike
 iframe-srcdoc,srcdoc,@jugglinmike
-image-function,image(),
-image-maps,Image maps,
-image-rendering,image-rendering,
-imagebitmaprenderingcontext,ImageBitmapRenderingContext,
-ime-mode,ime-mode,
+image-function,image(),@jugglinmike
+image-maps,Image maps,@jugglinmike
+image-rendering,image-rendering,@jugglinmike
+imagebitmaprenderingcontext,ImageBitmapRenderingContext,@jugglinmike
+ime-mode,ime-mode,@jugglinmike
 img,<img>,#56624
-import,@import,
-import-assertions,Import assertions,
-indexeddb,IndexedDB,
-inherit-value,inherit,
-initial-value,initial,
+import,@import,@jugglinmike
+import-assertions,Import assertions,@jugglinmike
+indexeddb,IndexedDB,@jugglinmike
+inherit-value,inherit,@jugglinmike
+initial-value,initial,@jugglinmike
 ink,Ink,
 input,<input>,@ChrisC
 input-button,"<input type=""button"">",#56667
