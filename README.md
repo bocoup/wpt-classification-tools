@@ -21,7 +21,8 @@ describe each web feature to be classified in WPT:
   - prefixed with `#` - the feature has been classified and that classification
     submitted for review; the number following the `#` character is the
     identifier of the corresponding GitHub pull request filed against the WPT
-    project
+    project; this may optionally be prefixed with a GitHub handle signifying
+    authorship by someone outside of Bocoup
   - prefixed with `X` - the feature has been reviewed and judged unsuitable for
     classification; a short note about the judgement follows the `X` character
   - prefixed with `?` - the feature has been initially reviewed and judged too challenging to be done quickly by the current viewer; a short note about the source of difficulty follows the `?`
