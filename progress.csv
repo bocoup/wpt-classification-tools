@@ -324,7 +324,7 @@ matchmedia,matchMedia,#56862
 media-capture,Media capture,#56867
 media-queries,Media queries,#56437
 media-query-range-syntax,Media query range syntax,#56437
-mediacontroller,MediaController,@ChrisC
+mediacontroller,MediaController,@jugglinmike
 menu,<menu>,X no tests
 meta,<meta>,#56726
 meta-application-title,"<meta name=""application-title"">",X no tests
@@ -332,8 +332,8 @@ meta-theme-color,"<meta name=""theme-color"">",X no tests
 min-max-clamp,"min(), max(), and clamp()",#55025
 min-max-content,min-content and max-content,#56870
 min-max-width-height,Min and max width and height,#56870
-mix-blend-mode,mix-blend-mode,@ChrisC
-mouse-events,Mouse events,@ChrisC
+mix-blend-mode,mix-blend-mode,@jugglinmike
+mouse-events,Mouse events,@jugglinmike
 move-before,moveBefore(),#53571 (@foolip)
 multi-column,Multi-column layout,#56533
 mutation-events,Mutation events,#55200
@@ -341,7 +341,7 @@ mutationobserver,MutationObserver,#56818
 named-color,Named colors,#56819
 namespace,@namespace,#56820
 nav,<nav>,X no tests
-navigator,Navigator,@ChrisC
+navigator,Navigator,@jugglinmike
 non-cookie-storage-access,Non-cookie storage access,#56826
 notifications-apps,Notifications from service workers and installed apps,#56832
 nth-child,:nth-child(),#56785
