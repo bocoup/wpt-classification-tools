@@ -7,7 +7,7 @@ You are helping classify web platform tests (WPT) to map them to web-platform-dx
 
 # Workflow
 
-Follow these 7 steps for each feature classification:
+Follow these 5 steps for each feature classification:
 
 ## Step 1: Initial Setup
 
@@ -138,73 +138,6 @@ YAML format rules:
 - Exclusion patterns (`- '!pattern'`) work with `*` wildcards but will not work against a recursive wildcard pattern `**`
 - Exclusion patterns can include wildcards (e.g., `'!specific-*'`, `'!*-excluded.html'`)
 
-## Step 6: Run Linter
-
-1. Run `./wpt lint` from the repository root
-2. Check for any errors related to WEB_FEATURES.yml files
-3. Fix any formatting issues found
-4. Ask user for help if encountering unfamiliar lint errors
-5. Re-run linter until clean
-
-## Step 7: Generate Commit Message
-
-Format in plain text (match the style of recent commits):
-
-```
-maps {feature-name}
-
-Feature: {feature-name}
-Reference: https://github.com/web-platform-dx/web-features/blob/main/features/{feature-name}.yml
-
-Note: {brief description of what the feature does}
-
-Search strategy: {describe search terms and approach}
-
-Results:
-- Total matches found: {number}
-- Filtered: {number} files
-
-WEB_FEATURES.yml files created:
-✅ path/to/dir/WEB_FEATURES.yml - Description ({count} files)
-[... for each directory ...]
-
-Excluded ({count} files):
-- Category (X files): Reason for exclusion
-[... for each exclusion category ...]
-```
-
-Real example from `wheel-events`:
-
-```
-maps wheel-events
-
-Feature: Wheel events
-Reference: https://github.com/web-platform-dx/web-features/blob/main/features/wheel-events.yml
-
-Note: The wheel event fires when the user moves a mouse wheel or similar spatially rotating input device. Includes the WheelEvent API with properties like deltaX, deltaY, deltaZ, and deltaMode.
-
-Search strategy: Searched for "WheelEvent" API references, "wheel event" occurrences, and "deltaMode" property usage.
-
-Results:
-Total matches found: 144 across 51 unique files
-Filtered: 39 files WEB_FEATURES.yml files
-
-Created/Updated:
-✅ dom/events/WEB_FEATURES.yml - Event constructors test (1 file) - CREATED
-✅ dom/events/non-cancelable-when-passive/WEB_FEATURES.yml - Passive/non-passive wheel event listener tests (21 files) - CREATED
-✅ dom/events/scrolling/WEB_FEATURES.yml - Wheel event transaction tests (7 files) - UPDATED
-✅ uievents/WEB_FEATURES.yml - Historical and IDL harness tests (2 files) - CREATED
-✅ uievents/legacy-domevents-tests/submissions/Microsoft/WEB_FEATURES.yml - Legacy WheelEvent tests (6 files) - CREATED
-✅ uievents/order-of-events/mouse-events/WEB_FEATURES.yml - Wheel event ordering tests (2 files) - CREATED
-
-Excluded (12 files):
-- CSS scroll tests (3 files): css/css-overscroll-behavior, css/css-scroll-snap - Primary focus on CSS scrolling features
-- Cross-origin iframe test (1 file): Primary focus on cross-origin iframe scrolling behavior
-- Generic event tests (3 files): Event-timestamp-high-resolution, Document-createEvent, hasFeature - Test many event types, not wheel events specifically
-- Pointer events test (1 file): Primary focus on pointer events, not wheel events
-- SVG event attributes test (1 file): Primary focus on event attributes in general
-- Workers tests (2 files): Test interface object availability in workers (general infrastructure)
-```
 
 # Important Rules
 

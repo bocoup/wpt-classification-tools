@@ -36,17 +36,18 @@ echo "Output file: $OUTPUT_FILE"
 
 # Run git grep with exclusions and format as filepath:\t\tline_content
 git grep -i "$SEARCH_TERM" | \
-  grep -v '/wpt-classification-tools/' | \
-  grep -v '/search-results/' | \
-  grep -v '/tools/' | \
-  grep -v '/conformance-checkers/' | \
-  grep -v '/docs/' | \
+  grep -v 'acid/' | \
+  grep -v 'wpt-classification-tools/' | \
+  grep -v 'search-results/' | \
+  grep -v 'tools/' | \
+  grep -v 'conformance-checkers/' | \
+  grep -v 'docs/' | \
   grep -v '\.min\.js' | \
   grep -v -- '-ref\.' | \
   grep -v -- '-notref\.' | \
   grep -v '/reference/' | \
   grep -v '/support/' | \
-  grep -v '/test-plan/' | \
+  grep -v 'test-plan/' | \
   grep -v '^CODEOWNERS' | \
   grep -v '^\.prettierignore' | \
   grep -v '^lint\.ignore' | \
