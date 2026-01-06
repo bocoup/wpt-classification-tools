@@ -248,7 +248,7 @@ iframe-credentialless,Credentialless iframes,#54321 (@foolip)
 iframe-sandbox,Sandboxed iframes,@jugglinmike
 iframe-srcdoc,srcdoc,@jugglinmike
 image-function,image(),#56994
-image-maps,Image maps,@jugglinmike
+image-maps,Image maps,@ChrisC
 image-rendering,image-rendering,#56995
 imagebitmaprenderingcontext,ImageBitmapRenderingContext,#55025
 ime-mode,ime-mode,@jugglinmike
