@@ -256,7 +256,7 @@ img,<img>,#56624
 import,@import,#57000
 import-assertions,Import assertions,X no tests (this feature describes an abandonded form of the "import attributes" proposal)
 indexeddb,IndexedDB,#54311 (@foolip)
-inherit-value,inherit,@jugglinmike
+inherit-value,inherit,#57014
 initial-value,initial,@jugglinmike
 ink,Ink,
 input,<input>,@ChrisC
