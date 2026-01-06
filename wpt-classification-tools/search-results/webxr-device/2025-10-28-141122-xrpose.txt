@@ -1,8 +1,0 @@
-webxr/events_session_select.https.html:		      assert_true(pose instanceof XRPose);
-webxr/events_session_squeeze.https.html:		      assert_true(pose instanceof XRPose);
-webxr/idlharness.https.window.js:		      // TODO: XRPose
-webxr/xrPose_transform_sameObject.https.html:		let testName = "XRPose.transform meets [SameObject] requirement";
-webxr/xrPose_transform_sameObject.https.html:		        // we access it. This verifies that the XRPose does *not* do something
-webxr/xrPose_transform_sameObject.https.html:		            "XRPose.transform returns the same object.");
-webxr/xrView_match.https.html:		          // the views array. It should be an XRPose instead of the XRViewerPose derived
-webxr/xrView_match.https.html:		          assert_true(pose2 instanceof XRPose);

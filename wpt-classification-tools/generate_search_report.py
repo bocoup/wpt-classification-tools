@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """
+**DEPRECATED**
 Generate a markdown report from git grep search results.
 Shows context around matches with clickable links.
 """
