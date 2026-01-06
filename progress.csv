@@ -251,10 +251,10 @@ image-function,image(),#56994
 image-maps,Image maps,@ChrisC
 image-rendering,image-rendering,#56995
 imagebitmaprenderingcontext,ImageBitmapRenderingContext,#55025
-ime-mode,ime-mode,@jugglinmike
+ime-mode,ime-mode,X no tests
 img,<img>,#56624
-import,@import,@jugglinmike
-import-assertions,Import assertions,@jugglinmike
+import,@import,#57000
+import-assertions,Import assertions,X no tests (this feature describes an abandonded form of the "import attributes" proposal)
 indexeddb,IndexedDB,#54311 (@foolip)
 inherit-value,inherit,@jugglinmike
 initial-value,initial,@jugglinmike
