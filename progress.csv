@@ -258,7 +258,7 @@ import-assertions,Import assertions,X no tests (this feature describes an abando
 indexeddb,IndexedDB,#54311 (@foolip)
 inherit-value,inherit,#57014
 initial-value,initial,@jugglinmike
-ink,Ink,@jugglinmike
+ink,Ink,#57015
 input,<input>,@ChrisC
 input-button,"<input type=""button"">",#56667
 input-checkbox,"<input type=""checkbox"">",@ChrisC
@@ -278,7 +278,7 @@ input-selectors,Input selectors,@ChrisC
 input-submit,"<input type=""submit"">",#56667
 inputmode,inputmode,@ChrisC
 ins,<ins>,#56575
-insertable-streams,Insertable streams for MediaStreamTrack,@jugglinmike
+insertable-streams,Insertable streams for MediaStreamTrack,#57016
 interaction,Interaction media queries,X unclassifiable see future work notes
 interactivity,interactivity,#56881
 inverted-colors,inverted-colors media query,#56437
@@ -287,9 +287,9 @@ is,:is(),#56766
 is-error,Error.isError(),X Moved to JavaScript group
 is-secure-context,isSecureContext,#56882
 isolation,isolation,#56883
-js-modules,JavaScript modules,@jugglinmike
+js-modules,JavaScript modules,#57017
 kbd,<kbd>,X All uses incidental - editing tests/accessibility tooltip tests/UI instructions
-keyboard-events,Keyboard events,@jugglinmike
+keyboard-events,Keyboard events,#57021
 khr-parallel-shader-compile,KHR_parallel_shader_compile WebGL extension,X WebGL feature
 label,<label>,#56606
 lang,:lang(),#56753
@@ -309,13 +309,13 @@ link-selectors,Link selectors,#56504
 list-elements,"<ol>, <ul>, and <li>",#56507
 list-style,List style,#56510
 local-network-access,Local network access,#56516
-localstorage,localStorage and sessionStorage,@jugglinmike
+localstorage,localStorage and sessionStorage,#57022
 location,Location,#56880
 long-animation-frames,Long animation frames,#49227 (@chromium-wpt-export-bot)
 main,<main>,X no tests
-managed-media-source,Managed media source,@jugglinmike
+managed-media-source,Managed media source,X no tests
 manifest,Web app manifest,#54311 (@foolip)
-margin,margin,@jugglinmike
+margin,margin,#57026
 mark,<mark>,X HTML `<mark>` uses are incidental in editing/CSS tests
 mask-border,mask-border,#56859
 mask-type,mask-type,#56859
