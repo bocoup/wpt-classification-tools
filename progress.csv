@@ -530,7 +530,7 @@ vertical-align,vertical-align,
 video,<video>,#56624
 video-dynamic-range,video-dynamic-range media query,X unclassifiable see future project notes
 viewport-units,Viewport units,#55025
-virtual-pressure-sources,Virtual pressure sources,X already classified
+virtual-pressure-sources,Virtual pressure sources,@ChrisC
 virtual-sensors,Virtual sensors,#56202
 visibility,visibility,#56201
 wasm,WebAssembly,#56401
