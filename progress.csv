@@ -181,7 +181,7 @@ fetch,Fetch,#56551
 fetchlater,fetchLater,#56551
 fieldset,<fieldset> and <legend>,#56415
 figure,<figure> and <figcaption>,#56417
-file,File API,X covered
+file,File API,#54311 (@foolip)
 filter,filter,#56885
 fit-content,fit-content,#56463
 fit-content-function,fit-content(),#56473
@@ -255,7 +255,7 @@ ime-mode,ime-mode,@jugglinmike
 img,<img>,#56624
 import,@import,@jugglinmike
 import-assertions,Import assertions,@jugglinmike
-indexeddb,IndexedDB,@jugglinmike
+indexeddb,IndexedDB,#54311 (@foolip)
 inherit-value,inherit,@jugglinmike
 initial-value,initial,@jugglinmike
 ink,Ink,
@@ -314,7 +314,7 @@ location,Location,#56880
 long-animation-frames,Long animation frames,X already covered
 main,<main>,X no tests
 managed-media-source,Managed media source,
-manifest,Web app manifest,
+manifest,Web app manifest,#54311 (@foolip)
 margin,margin,
 mark,<mark>,X HTML `<mark>` uses are incidental in editing/CSS tests
 mask-border,mask-border,#56859
