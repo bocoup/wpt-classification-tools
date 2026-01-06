@@ -247,10 +247,10 @@ iframe,<iframe>,@jugglinmike
 iframe-credentialless,Credentialless iframes,#54321 (@foolip)
 iframe-sandbox,Sandboxed iframes,@jugglinmike
 iframe-srcdoc,srcdoc,@jugglinmike
-image-function,image(),@jugglinmike
+image-function,image(),#56994
 image-maps,Image maps,@jugglinmike
-image-rendering,image-rendering,@jugglinmike
-imagebitmaprenderingcontext,ImageBitmapRenderingContext,@jugglinmike
+image-rendering,image-rendering,#56995
+imagebitmaprenderingcontext,ImageBitmapRenderingContext,#55025
 ime-mode,ime-mode,@jugglinmike
 img,<img>,#56624
 import,@import,@jugglinmike
