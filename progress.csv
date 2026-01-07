@@ -341,7 +341,7 @@ mutationobserver,MutationObserver,#56818
 named-color,Named colors,#56819
 namespace,@namespace,#56820
 nav,<nav>,X no tests
-navigator,Navigator,@jugglinmike
+navigator,Navigator,X no tests (by definition)
 non-cookie-storage-access,Non-cookie storage access,#56826
 notifications-apps,Notifications from service workers and installed apps,#56832
 nth-child,:nth-child(),#56785
