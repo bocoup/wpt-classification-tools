@@ -526,7 +526,7 @@ url,URL,#56444
 user-action-pseudos,User action pseudo-classes,#56443
 user-agent-sniffing,User agent sniffing,#56440
 var,<var>,X All uses incidental - editing italic tests - mathml integration tests
-vertical-align,vertical-align,@ChrisC
+vertical-align,vertical-align,#57053
 video,<video>,#56624
 video-dynamic-range,video-dynamic-range media query,X unclassifiable see future project notes
 viewport-units,Viewport units,#55025
