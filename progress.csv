@@ -324,7 +324,7 @@ matchmedia,matchMedia,#56862
 media-capture,Media capture,#56867
 media-queries,Media queries,#56437
 media-query-range-syntax,Media query range syntax,#56437
-mediacontroller,MediaController,@jugglinmike
+mediacontroller,MediaController,X no tests (removed from HTML specification)
 menu,<menu>,X no tests
 meta,<meta>,#56726
 meta-application-title,"<meta name=""application-title"">",X no tests
@@ -332,8 +332,8 @@ meta-theme-color,"<meta name=""theme-color"">",X no tests
 min-max-clamp,"min(), max(), and clamp()",#55025
 min-max-content,min-content and max-content,#56870
 min-max-width-height,Min and max width and height,#56870
-mix-blend-mode,mix-blend-mode,@jugglinmike
-mouse-events,Mouse events,@jugglinmike
+mix-blend-mode,mix-blend-mode,#57029
+mouse-events,Mouse events,#57034
 move-before,moveBefore(),#53571 (@foolip)
 multi-column,Multi-column layout,#56533
 mutation-events,Mutation events,#55200
