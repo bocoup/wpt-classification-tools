@@ -434,7 +434,7 @@ scope-pseudo,:scope (pseudo-class),#56311
 scoped-custom-element-registries,Scoped custom element registries,#56312
 screen,Screen,#56464
 screen-orientation-lock,Screen orientation lock,#56465
-script,<script> and <noscript>,@ChrisC
+script,<script> and <noscript>,#57017
 scroll-behavior,scroll-behavior,#56467
 scroll-buttons,::scroll-button,#56469
 scroll-elements,Scroll methods on elements,#56509
