@@ -257,7 +257,7 @@ import,@import,#57000
 import-assertions,Import assertions,X no tests (this feature describes an abandonded form of the "import attributes" proposal)
 indexeddb,IndexedDB,#54311 (@foolip)
 inherit-value,inherit,#57014
-initial-value,initial,@jugglinmike
+initial-value,initial,#57086
 ink,Ink,#57015
 input,<input>,@ChrisC
 input-button,"<input type=""button"">",#56667
