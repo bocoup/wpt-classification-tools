@@ -446,7 +446,7 @@ select,<select>,@ChrisC
 selection,::selection,#56825
 selectors,Selectors (core),@ChrisC
 serializable-errors,Serializable errors,X bundled with other tests (see files that depend on html/webappapis/structured-clone/structured-clone-battery-of-tests.js)
-service-workers,Service workers,@ChrisC
+service-workers,Service workers,#57055
 setinterval,setInterval,#56144
 settimeout,setTimeout(),#56144
 shadow-parts,Shadow parts,#56127
