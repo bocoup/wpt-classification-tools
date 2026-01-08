@@ -259,9 +259,9 @@ indexeddb,IndexedDB,#54311 (@foolip)
 inherit-value,inherit,#57014
 initial-value,initial,#57086
 ink,Ink,#57015
-input,<input>,@ChrisC
+input,<input>,#57087
 input-button,"<input type=""button"">",#56667
-input-checkbox,"<input type=""checkbox"">",@ChrisC
+input-checkbox,"<input type=""checkbox"">",#57087
 input-color,"<input type=""color"">",#56667
 input-date-time,Date and time <input> types,#55150
 input-email-tel-url,"Email, telephone, and URL <input> types",#56667
@@ -269,9 +269,9 @@ input-event,input (event),X not separable from other input events--see https://g
 input-file,"<input type=""file"">",#55150
 input-hidden,"<input type=""hidden"">",#56667
 input-image,"<input type=""image"">",#56667
-input-number,"<input type=""number"">",@ChrisC
+input-number,"<input type=""number"">",#57087
 input-password,"<input type=""password"">",#56667
-input-radio,"<input type=""radio"">",@ChrisC
+input-radio,"<input type=""radio"">",#57087
 input-range,"<input type=""range"">",#56667
 input-reset,"<input type=""reset"">",#56667
 input-selectors,Input selectors,@ChrisC
