@@ -276,7 +276,7 @@ input-range,"<input type=""range"">",#56667
 input-reset,"<input type=""reset"">",#56667
 input-selectors,Input selectors,@ChrisC
 input-submit,"<input type=""submit"">",#56667
-inputmode,inputmode,@ChrisC
+inputmode,inputmode,X no tests
 ins,<ins>,#56575
 insertable-streams,Insertable streams for MediaStreamTrack,#57016
 interaction,Interaction media queries,X unclassifiable see future work notes
