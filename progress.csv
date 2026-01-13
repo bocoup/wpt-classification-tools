@@ -223,8 +223,8 @@ getboxquads,getBoxQuads(),#56650
 glyph-orientation-vertical,glyph-orientation-vertical,X No tests-arguably there is a test in 'text-intro-03-b-manual.svg' but not exclusively for this feature
 gpc,Global privacy control,#55796 (@bvandersloot-mozilla)
 gradients,Gradients,#56663
-hanging-punctuation,Hanging punctuation,##56664
-hardware-concurrency,hardwareConcurrency,##56665
+hanging-punctuation,Hanging punctuation,#56664
+hardware-concurrency,hardwareConcurrency,#56665
 hashchange,hashchange,#56686
 head,<head>,X no tests
 header-footer,<header> and <footer>,X no tests
