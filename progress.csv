@@ -130,7 +130,7 @@ description-list,Description list,#56814
 device-queries,Device media queries,#56437
 devicepixelratio,devicePixelRatio,X Not observable in isolation (?)
 dfn,<dfn>,X no tests - All uses are incidental - editing tests & CSS tests using it for italic styling 
-digital-goods,Digital goods,#56815
+digital-goods,Digital goods,X only interface definitions https://github.com/web-platform-tests/wpt/commit/51e1a8a2f27f0788c22c1c66b5c801f198f51cdf
 display,Display,#56758
 display-contents,display: contents,#56758
 display-flow-root,display: flow-root,#56758
