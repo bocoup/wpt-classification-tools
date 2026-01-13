@@ -460,7 +460,7 @@ sizes-auto,"<img sizes=""auto"" loading=""lazy"">",#56232
 slot,<slot>,#56244
 small,<small>,X Only tested indirectly
 smil-svg-animations,SMIL SVG animations,#56245
-smooth,smooth,#56264
+smooth,smooth,X no tests (see https://github.com/web-platform-tests/wpt/pull/56995)
 source,<source>,#56124
 sourcemap-header,Sourcemap header,X no tests
 span,<span>,X no tests
