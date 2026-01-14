@@ -49,7 +49,7 @@ beforeinstallprompt,beforeinstallprompt,X Not a thing
 beforeunload,beforeunload,#55697
 bfcache-blocking-reasons,Back/forward cache blocking reasons,#55697
 blockquote,<blockquote>,X no tests
-body,<body>,#55697
+body,<body>,X no tests; see https://github.com/web-platform-tests/wpt/pull/55697#issuecomment-3533959085
 border-radius,border-radius,#56424
 borders,Borders,#56424
 box-shadow,box-shadow,#56535
@@ -107,7 +107,7 @@ cookie-enabled,cookieEnabled,#56639
 cookies,Cookies,#56639
 counter-reset-reversed,Reversed counter-reset,#56670
 counters,Counters (CSS),#56670
-createimagebitmap,createImageBitmap,#55025
+createimagebitmap,createImageBitmap,
 crisp-edges,crisp-edges,#55150
 cross-fade,cross-fade(),#56683
 csp,Content Security Policy (CSP),#56684
@@ -336,7 +336,7 @@ mix-blend-mode,mix-blend-mode,#57029
 mouse-events,Mouse events,#57034
 move-before,moveBefore(),#53571 (@foolip)
 multi-column,Multi-column layout,#56533
-mutation-events,Mutation events,#55200
+mutation-events,Mutation events,X no tests; removed from all browsers https://github.com/web-platform-tests/wpt/pull/55941
 mutationobserver,MutationObserver,#56818
 named-color,Named colors,#56819
 namespace,@namespace,#56820
