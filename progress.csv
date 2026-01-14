@@ -274,7 +274,7 @@ input-password,"<input type=""password"">",#56667
 input-radio,"<input type=""radio"">",#57087
 input-range,"<input type=""range"">",#56667
 input-reset,"<input type=""reset"">",#56667
-input-selectors,Input selectors,@ChrisC
+input-selectors,Input selectors,#57177
 input-submit,"<input type=""submit"">",#56667
 inputmode,inputmode,X no tests
 ins,<ins>,#56575
@@ -444,7 +444,7 @@ section,<section>,X no tests specifically for this feature
 secure-payment-confirmation,Secure payment confirmation,#56517
 select,<select>,#57095
 selection,::selection,#56825
-selectors,Selectors (core),@ChrisC
+selectors,Selectors (core),#57177
 serializable-errors,Serializable errors,X bundled with other tests (see files that depend on html/webappapis/structured-clone/structured-clone-battery-of-tests.js)
 service-workers,Service workers,#57055
 setinterval,setInterval,#56144
