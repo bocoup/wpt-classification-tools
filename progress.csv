@@ -107,7 +107,7 @@ cookie-enabled,cookieEnabled,#56639
 cookies,Cookies,#56639
 counter-reset-reversed,Reversed counter-reset,#56670
 counters,Counters (CSS),#56670
-createimagebitmap,createImageBitmap,
+createimagebitmap,createImageBitmap,#57173
 crisp-edges,crisp-edges,#55150
 cross-fade,cross-fade(),#56683
 csp,Content Security Policy (CSP),#56684
