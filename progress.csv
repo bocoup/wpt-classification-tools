@@ -49,7 +49,7 @@ beforeinstallprompt,beforeinstallprompt,X Not a thing
 beforeunload,beforeunload,#55697
 bfcache-blocking-reasons,Back/forward cache blocking reasons,#55697
 blockquote,<blockquote>,X no tests
-body,<body>,#55697
+body,<body>,X no tests; see https://github.com/web-platform-tests/wpt/pull/55697#issuecomment-3533959085
 border-radius,border-radius,#56424
 borders,Borders,#56424
 box-shadow,box-shadow,#56535
@@ -107,7 +107,7 @@ cookie-enabled,cookieEnabled,#56639
 cookies,Cookies,#56639
 counter-reset-reversed,Reversed counter-reset,#56670
 counters,Counters (CSS),#56670
-createimagebitmap,createImageBitmap,#55025
+createimagebitmap,createImageBitmap,#57173
 crisp-edges,crisp-edges,#55150
 cross-fade,cross-fade(),#56683
 csp,Content Security Policy (CSP),#56684
@@ -129,8 +129,8 @@ del,<del>,#56575
 description-list,Description list,#56814
 device-queries,Device media queries,#56437
 devicepixelratio,devicePixelRatio,X Not observable in isolation (?)
-dfn,<dfn>,X no tests - All uses are incidental - editing tests & CSS tests using it for italic styling 
-digital-goods,Digital goods,#56815
+dfn,<dfn>,X no tests - All uses are incidental - editing tests & CSS tests using it for italic styling
+digital-goods,Digital goods,X only interface definitions https://github.com/web-platform-tests/wpt/commit/51e1a8a2f27f0788c22c1c66b5c801f198f51cdf
 display,Display,#56758
 display-contents,display: contents,#56758
 display-flow-root,display: flow-root,#56758
@@ -223,8 +223,8 @@ getboxquads,getBoxQuads(),#56650
 glyph-orientation-vertical,glyph-orientation-vertical,X No tests-arguably there is a test in 'text-intro-03-b-manual.svg' but not exclusively for this feature
 gpc,Global privacy control,#55796 (@bvandersloot-mozilla)
 gradients,Gradients,#56663
-hanging-punctuation,Hanging punctuation,##56664
-hardware-concurrency,hardwareConcurrency,##56665
+hanging-punctuation,Hanging punctuation,#56664
+hardware-concurrency,hardwareConcurrency,#56665
 hashchange,hashchange,#56686
 head,<head>,X no tests
 header-footer,<header> and <footer>,X no tests
@@ -248,20 +248,20 @@ iframe-credentialless,Credentialless iframes,#54321 (@foolip)
 iframe-sandbox,Sandboxed iframes,@jugglinmike
 iframe-srcdoc,srcdoc,@jugglinmike
 image-function,image(),#56994
-image-maps,Image maps,@ChrisC
+image-maps,Image maps,#57023
 image-rendering,image-rendering,#56995
 imagebitmaprenderingcontext,ImageBitmapRenderingContext,#55025
 ime-mode,ime-mode,X no tests
 img,<img>,#56624
 import,@import,#57000
-import-assertions,Import assertions,X no tests (this feature describes an abandonded form of the "import attributes" proposal)
+import-assertions,Import assertions,"X no tests (this feature describes an abandonded form of the ""import attributes"" proposal)"
 indexeddb,IndexedDB,#54311 (@foolip)
-inherit-value,inherit,@jugglinmike
-initial-value,initial,@jugglinmike
-ink,Ink,
-input,<input>,@ChrisC
+inherit-value,inherit,#57014
+initial-value,initial,#57086
+ink,Ink,#57015
+input,<input>,#57087
 input-button,"<input type=""button"">",#56667
-input-checkbox,"<input type=""checkbox"">",@ChrisC
+input-checkbox,"<input type=""checkbox"">",#57087
 input-color,"<input type=""color"">",#56667
 input-date-time,Date and time <input> types,#55150
 input-email-tel-url,"Email, telephone, and URL <input> types",#56667
@@ -269,16 +269,16 @@ input-event,input (event),X not separable from other input events--see https://g
 input-file,"<input type=""file"">",#55150
 input-hidden,"<input type=""hidden"">",#56667
 input-image,"<input type=""image"">",#56667
-input-number,"<input type=""number"">",@ChrisC
+input-number,"<input type=""number"">",#57087
 input-password,"<input type=""password"">",#56667
-input-radio,"<input type=""radio"">",@ChrisC
+input-radio,"<input type=""radio"">",#57087
 input-range,"<input type=""range"">",#56667
 input-reset,"<input type=""reset"">",#56667
-input-selectors,Input selectors,@ChrisC
+input-selectors,Input selectors,#57177
 input-submit,"<input type=""submit"">",#56667
-inputmode,inputmode,@ChrisC
+inputmode,inputmode,X no tests
 ins,<ins>,#56575
-insertable-streams,Insertable streams for MediaStreamTrack,
+insertable-streams,Insertable streams for MediaStreamTrack,#57016
 interaction,Interaction media queries,X unclassifiable see future work notes
 interactivity,interactivity,#56881
 inverted-colors,inverted-colors media query,#56437
@@ -287,9 +287,9 @@ is,:is(),#56766
 is-error,Error.isError(),X Moved to JavaScript group
 is-secure-context,isSecureContext,#56882
 isolation,isolation,#56883
-js-modules,JavaScript modules,
+js-modules,JavaScript modules,#57017
 kbd,<kbd>,X All uses incidental - editing tests/accessibility tooltip tests/UI instructions
-keyboard-events,Keyboard events,
+keyboard-events,Keyboard events,#57021
 khr-parallel-shader-compile,KHR_parallel_shader_compile WebGL extension,X WebGL feature
 label,<label>,#56606
 lang,:lang(),#56753
@@ -309,13 +309,13 @@ link-selectors,Link selectors,#56504
 list-elements,"<ol>, <ul>, and <li>",#56507
 list-style,List style,#56510
 local-network-access,Local network access,#56516
-localstorage,localStorage and sessionStorage,
+localstorage,localStorage and sessionStorage,#57022
 location,Location,#56880
 long-animation-frames,Long animation frames,#49227 (@chromium-wpt-export-bot)
 main,<main>,X no tests
-managed-media-source,Managed media source,
+managed-media-source,Managed media source,X no tests
 manifest,Web app manifest,#54311 (@foolip)
-margin,margin,
+margin,margin,#57026
 mark,<mark>,X HTML `<mark>` uses are incidental in editing/CSS tests
 mask-border,mask-border,#56859
 mask-type,mask-type,#56859
@@ -324,7 +324,7 @@ matchmedia,matchMedia,#56862
 media-capture,Media capture,#56867
 media-queries,Media queries,#56437
 media-query-range-syntax,Media query range syntax,#56437
-mediacontroller,MediaController,
+mediacontroller,MediaController,X no tests (removed from HTML specification)
 menu,<menu>,X no tests
 meta,<meta>,#56726
 meta-application-title,"<meta name=""application-title"">",X no tests
@@ -332,16 +332,16 @@ meta-theme-color,"<meta name=""theme-color"">",X no tests
 min-max-clamp,"min(), max(), and clamp()",#55025
 min-max-content,min-content and max-content,#56870
 min-max-width-height,Min and max width and height,#56870
-mix-blend-mode,mix-blend-mode,
-mouse-events,Mouse events,
+mix-blend-mode,mix-blend-mode,#57029
+mouse-events,Mouse events,#57034
 move-before,moveBefore(),#53571 (@foolip)
 multi-column,Multi-column layout,#56533
-mutation-events,Mutation events,#55200
+mutation-events,Mutation events,X no tests; removed from all browsers https://github.com/web-platform-tests/wpt/pull/55941
 mutationobserver,MutationObserver,#56818
 named-color,Named colors,#56819
 namespace,@namespace,#56820
 nav,<nav>,X no tests
-navigator,Navigator,
+navigator,Navigator,X no tests (by definition)
 non-cookie-storage-access,Non-cookie storage access,#56826
 notifications-apps,Notifications from service workers and installed apps,#56832
 nth-child,:nth-child(),#56785
@@ -434,7 +434,7 @@ scope-pseudo,:scope (pseudo-class),#56311
 scoped-custom-element-registries,Scoped custom element registries,#56312
 screen,Screen,#56464
 screen-orientation-lock,Screen orientation lock,#56465
-script,<script> and <noscript>,
+script,<script> and <noscript>,#57017
 scroll-behavior,scroll-behavior,#56467
 scroll-buttons,::scroll-button,#56469
 scroll-elements,Scroll methods on elements,#56509
@@ -442,11 +442,11 @@ scroll-markers,Scroll markers,#56511
 search-input-type,"<input type=""search"">",#56512
 section,<section>,X no tests specifically for this feature
 secure-payment-confirmation,Secure payment confirmation,#56517
-select,<select>,@ChrisC
+select,<select>,#57095
 selection,::selection,#56825
-selectors,Selectors (core),@ChrisC
+selectors,Selectors (core),#57177
 serializable-errors,Serializable errors,X bundled with other tests (see files that depend on html/webappapis/structured-clone/structured-clone-battery-of-tests.js)
-service-workers,Service workers,
+service-workers,Service workers,#57055
 setinterval,setInterval,#56144
 settimeout,setTimeout(),#56144
 shadow-parts,Shadow parts,#56127
@@ -460,7 +460,7 @@ sizes-auto,"<img sizes=""auto"" loading=""lazy"">",#56232
 slot,<slot>,#56244
 small,<small>,X Only tested indirectly
 smil-svg-animations,SMIL SVG animations,#56245
-smooth,smooth,#56264
+smooth,smooth,X no tests (see https://github.com/web-platform-tests/wpt/pull/56995)
 source,<source>,#56124
 sourcemap-header,Sourcemap header,X no tests
 span,<span>,X no tests
@@ -472,7 +472,7 @@ spellcheck,spellcheck,#56273
 srcset,srcset and sizes,#56275
 static-positioning,Static positioning,#56304
 steps-easing,steps() easing,#55481
-storage-manager,Storage manager,
+storage-manager,Storage manager,#57054
 stretch,stretch,#56305
 strong,<strong>,#56306
 style,<style>,#56309
@@ -526,11 +526,11 @@ url,URL,#56444
 user-action-pseudos,User action pseudo-classes,#56443
 user-agent-sniffing,User agent sniffing,#56440
 var,<var>,X All uses incidental - editing italic tests - mathml integration tests
-vertical-align,vertical-align,
+vertical-align,vertical-align,#57053
 video,<video>,#56624
 video-dynamic-range,video-dynamic-range media query,X unclassifiable see future project notes
 viewport-units,Viewport units,#55025
-virtual-pressure-sources,Virtual pressure sources,@ChrisC
+virtual-pressure-sources,Virtual pressure sources,X no tests
 virtual-sensors,Virtual sensors,#56202
 visibility,visibility,#56201
 wasm,WebAssembly,#56401

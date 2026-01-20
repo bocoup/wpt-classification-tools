@@ -23,6 +23,7 @@ def main(progress_filename):
     classified = set()
     unclassifiable = set()
     submitted = set()
+    open_prs = dict()
     skipped = set()
     unclassified = set()
 
@@ -37,11 +38,20 @@ def main(progress_filename):
                 classified.add(row['id'])
             elif row['status'] and row['status'].startswith('#'):
                 submitted.add(row['id'])
+                open_prs.setdefault(row['status'][1:], []).append(row['id'])
             else:
                 unclassified.add(row['id'])
 
     total = len(classified) + len(unclassifiable) + len(submitted) + len(skipped) + len(unclassified)
 
+    print(f'{len(open_prs)} open pull requests containing {len(submitted)} features:')
+    print('----------')
+    for pr_id, feature_ids in open_prs.items():
+        print(f'https://github.com/web-platform-tests/wpt/pull/{pr_id} ({", ".join(feature_ids)})')
+
+    print()
+    print('Statistics')
+    print('----------')
     print('Classified:        {:3d}'.format(len(classified)))
     print('Unclassifiable:    {:3d}'.format(len(unclassifiable)))
     print('Skipped:           {:3d}'.format(len(skipped)))

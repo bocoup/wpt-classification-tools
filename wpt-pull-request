@@ -1,0 +1,19 @@
+#!/bin/bash
+
+set -e
+
+SCRIPT_DIR="$(dirname "$(readlink -f "$0")")"
+scratch=$(mktemp -d -t wpt-pull-request.XXXXXXXXXX)
+
+function finish {
+  rm -rf "$scratch"
+}
+trap finish EXIT
+
+cat << HERE > $scratch/message.md
+Hello, reviewers! As of 2025-12-05, [the wpt-pr-bot is requesting reviews from code owners for changes to WEB_FEATURES.yml files](https://github.com/web-platform-tests/wpt-pr-bot/pull/268). To learn more about the purpose of these files, check out this presentation from TPAC 2025, [Annotating WPT to Surface the Status of the Platform](https://bocoup.github.io/presentation-tpac-web-features/).
+HERE
+
+summaries=$($SCRIPT_DIR/wpt-summarize $scratch)
+
+$EDITOR $scratch/message.md $summaries
