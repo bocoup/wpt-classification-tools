@@ -243,10 +243,10 @@ http11,HTTP/1.1,#56953
 http2,HTTP/2,#56953
 http3,HTTP/3,X no tests https://github.com/web-platform-tests/wpt/issues/46593
 i,<i>,X no tests
-iframe,<iframe>,@jugglinmike
+iframe,<iframe>,#57323
 iframe-credentialless,Credentialless iframes,#54321 (@foolip)
-iframe-sandbox,Sandboxed iframes,@jugglinmike
-iframe-srcdoc,srcdoc,@jugglinmike
+iframe-sandbox,Sandboxed iframes,#57323
+iframe-srcdoc,srcdoc,#57323
 image-function,image(),#56994
 image-maps,Image maps,#57023
 image-rendering,image-rendering,#56995
