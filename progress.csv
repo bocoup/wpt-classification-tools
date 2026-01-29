@@ -384,8 +384,8 @@ parse-html-unsafe,Unsanitized HTML parsing methods,#46319 (@foolip)
 partitioned-cookies,Partitioned cookies,#56702
 password-credentials,Password credentials,#56703
 path-shape,path(),#56704
-performance,Performance,X No description of API or spec in web-features repo
-performancetiming,PerformanceTiming and PerformanceNavigation,X Tests already covered with navigation-timing feature
+performance,Performance,#57402
+performancetiming,PerformanceTiming and PerformanceNavigation,X No tests--this feature was superceded by the navigation-timing feature
 physical-properties,Physical properties,#56731
 picture,<picture>,#56624
 ping,ping,#55150
