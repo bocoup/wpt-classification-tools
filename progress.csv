@@ -481,7 +481,7 @@ sub-sup,<sub> and <sup>,X no tests
 summarizer,Summarizer,#56315
 supports,@supports,#56320
 supports-compat,@supports (compatibility prefix),#56320
-svg,SVG,@jugglinmike
+svg,SVG,#57423
 svg-discouraged,SVG 1.1 (discouraged),#56384
 svg-filters,SVG filters,#56384
 system-color,System colors,#56382
