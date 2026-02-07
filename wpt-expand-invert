@@ -1,0 +1,82 @@
+#!/usr/bin/env python3
+
+import re
+import os
+import yaml
+
+# Automatically generate a negation of any web-feature classifier in WPT.
+# Intended usage:
+#
+# 1. Modify any `WEB_FEATURES.yml` file in WPT to include a line matching the
+#    following pattern:
+#    ```
+#    - "@INVERT {{FEATURE_NAME}}"
+#    ```
+#    ...where "{{FEATURE_NAME}}" is the name of another web-feature with
+#    classifiers in the same file. (This script honors the quotation mark
+#    character used in the above pattern, allowing the user to choose the
+#    appropriate style based on the surrounding context.)
+# 2. Run this script in the root of the WPT repository
+#
+# This script will modify the appropriate `WEB_FEATURES.yml` file in-place.
+
+INVERT_PATTERN = r'^(\s*)-(\s*)([\'"])@INVERT (.*)[\'"]([\r\n]*)'
+
+def get_filename_patterns(feature_name, classifiers):
+    for classifier in classifiers:
+        if classifier['name'] == feature_name:
+            return classifier['files']
+
+def read_classifiers(source):
+    with open(source, 'r') as handle:
+        return yaml.safe_load(handle)['features']
+
+def invert_pattern(pattern, quote_style):
+    if pattern.startswith('!'):
+        inverted = pattern[1:]
+    else:
+        inverted = f'!{pattern}'
+
+    quote = quote_style if inverted[0] in ['!', '*'] else ''
+
+    return f'{quote}{inverted}{quote}'
+
+def main():
+    for dirpath, dirnames, filenames in os.walk('.'):
+        if 'WEB_FEATURES.yml' not in filenames:
+            continue
+        filename = os.path.join(dirpath, 'WEB_FEATURES.yml')
+        classifiers = read_classifiers(filename)
+
+        # Manipulate the file as a string (rather than a YAML document) in
+        # order to preserve the existing formatting.
+        all_lines = []
+        to_replace = []
+        with open(filename, 'r') as handle:
+            for line in handle:
+                all_lines.append(line)
+                match = re.search(INVERT_PATTERN, line)
+                if not match:
+                    continue
+                to_replace.append(line)
+                print(f'Found @INVERT directive for in {filename}: "{line.strip()}"')
+                assert(get_filename_patterns(match[4], classifiers))
+
+        with open(filename, 'w') as handle:
+            for line in all_lines:
+                if line not in to_replace:
+                    handle.write(line)
+                    continue
+
+                match = re.search(INVERT_PATTERN, line)
+                assert match
+                to_invert = get_filename_patterns(match[4], classifiers)
+                handle.write(
+                  f'{match[1]}# The following patterns are intended to match every file that isn\'t matched by "{match[4]}" above.{match[5]}'
+                )
+                for pattern in to_invert:
+                    inverted = invert_pattern(pattern, match[3])
+                    handle.write(f'{match[1]}- {inverted}{match[5]}')
+
+if __name__ == '__main__':
+    main()
