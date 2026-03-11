@@ -1,0 +1,616 @@
+id,name,status
+a,<a>,#55200
+abbr,<abbr>,X no tests
+abortable-fetch,Abortable fetch,#55200
+absolute-positioning,Absolute positioning,#55200
+accesskey,accesskey,#55200
+accessor-methods,Accessor methods,X Moved to JavaScript group
+address,<address>,X no tests
+alerts,Alerts,#55200
+all,all,#55200
+alt-text-generated-content,Alt text for generated content,#55200
+alternative-style-sheets,Alternative style sheets,#55200
+angle-instanced-arrays,ANGLE_instanced_arrays WebGL extension,X WebGL feature
+animations-css,Animations (CSS),#55481
+app-file-handlers,File handlers,#55200
+app-launch-handler,Launch handler,X No tests
+app-protocol-handlers,Protocol handlers,#55481
+app-share-targets,Share targets,X no tests
+app-shortcuts,Application shortcuts,#55481
+article,<article>,X minimal semantics not tested in isolation
+aside,<aside>,X minimal semantics not tested in isolation
+atomics-pause,Atomics.pause(),X Belongs in JavaScript group
+audio,<audio>,#55481
+audio-session,Audio session,X no tests
+audio-video-tracks,Audio and video tracks,#56816
+autocapitalize,autocapitalize,#55150
+autocorrect,autocorrect,#55481
+autofocus,autofocus,#55481
+b,<b>,#55481
+backdrop,::backdrop,#55481
+background,background,#55585
+background-attachment,background-attachment,#55585
+background-blend-mode,background-blend-mode,#55585
+background-clip-border-area,background-clip: border-area,#55585
+background-color,background-color,#55585
+background-image,background-image,#55585
+background-origin,background-origin,#55585
+background-position,background-position,#55585
+background-repeat,background-repeat,#55585
+background-size,background-size,#55585
+barcode,Barcode detector,#56246
+barprop,BarProp,#55697
+base,<base>,#56247
+base64encodedecode,Base64 encoding and decoding,#55697
+bdi,<bdi>,#55697
+bdo,<bdo>,#55697
+before-after,::before and ::after,#55697
+beforeinstallprompt,beforeinstallprompt,X Not a thing
+beforeunload,beforeunload,#55697
+bfcache-blocking-reasons,Back/forward cache blocking reasons,#55697
+blockquote,<blockquote>,X no tests
+body,<body>,X no tests; see https://github.com/web-platform-tests/wpt/pull/55697#issuecomment-3533959085
+border-radius,border-radius,#56424
+borders,Borders,#56424
+box-shadow,box-shadow,#56535
+box-sizing,box-sizing,#56571
+br,<br>,#56728
+brotli,Brotli compression,X not separable from other compressions
+button,<button>,#56727
+calc,calc(),#55025
+canvas,<canvas>,#56615
+canvas-2d,2D canvas,#56615
+canvas-2d-desynchronized,Desynchronized 2D canvas,X no non-overlapping tests-more info in #56615
+canvas-2d-willreadfrequently,willReadFrequently,X no non-overlapping tests-more info in #56615
+canvas-context-lost,contextlost and contextrestored,X no non-overlapping tests-more info in #56615
+capture-stream-audio-video,captureStream() for <audio> and <video>,#56248
+capture-stream-canvas,captureStream() for <canvas>,#56248
+caret-color,caret-color,#56249
+case-insensitive-attributes,Case-insensitive attribute selector,X not separable from the case-sensitive operator
+case-sensitive-attributes,Case-sensitive attribute selector,X not separable from the case-insensitive operator
+change-event,Change event,#56252
+channel-messaging,Channel messaging,#56289
+charset,@charset,#56291
+check-visibility,checkVisibility(),#45787
+cite,<cite>,X no tests
+clip,clip,#56293
+clip-path-animatable,Animatable clipping paths,#55025
+clipboard-custom-format,Custom formats for clipboard items,#56416
+clipboard-events,Clipboard events,#56416
+clipboard-supports,ClipboardItem.supports(),X no independent tests
+clipboard-svg,SVG clipboard items,#56416
+clipboard-unsanitized-formats,Read unsanitized clipboard data,#56416
+code,<code>,X no tests
+color,Color,#57328
+color-adjust,color-adjust,X no tests in isolation (only alongside the print-color-adjust web feature)
+color-contrast,color-contrast(),#56418
+color-gamut,color-gamut media query,#56418
+colrv0,COLRv0,X no dedicated tests
+colrv1,COLRv1,X no dedicated tests
+column-breaks,Column breaks,#56533
+column-fill,column-fill,#56533
+column-pseudo,::column,#56533
+column-span,column-span,#56533
+composed-ranges,Selection composed ranges,#56596
+composition-events,Composition events,#56597
+compression-dictionary-transport,Compression Dictionary Transport,#56603
+contain,contain,#56608
+contain-layout,Layout containment,#56608
+contain-paint,Paint containment,#56608
+contain-size,Size containment,#56608
+contain-style,Style containment,#56608
+content,Content,#56622
+contenteditable,contenteditable,#56632
+contrast-color,contrast-color(),#56661
+controls-list,controlslist,#56638
+cookie-enabled,cookieEnabled,#56639
+cookies,Cookies,#56639
+counter-reset-reversed,Reversed counter-reset,#56670
+counters,Counters (CSS),#56670
+createimagebitmap,createImageBitmap,#57173
+crisp-edges,crisp-edges,#55150
+cross-fade,cross-fade(),#56683
+csp,Content Security Policy (CSP),#56684
+css-escape,CSS.escape(),#56706
+css-object-model,CSS object model,#56706
+css-object-model-discouraged,CSS object model (DOM level 2),X tests entangled with other removed APIs: css/cssom/historical.html
+css-supports,CSS.supports(),#56706
+cubic-bezier-easing,cubic-bezier() easing,#55481
+currentcolor,currentColor,#56618
+cursor,Cursor styles,#56619
+custom-ellipses,Custom ellipses,#56623
+customizable-select,Customizable <select>,#54712 (@foolip)
+data,<data>,X no tests
+data-urls,Data URLs,#56745
+dataset,Dataset,#56756
+date-to-gmt-string,toGMTString(),X Moved to JavaScript group
+dedicated-workers,Dedicated workers,#56801
+del,<del>,#56575
+description-list,Description list,#56814
+device-queries,Device media queries,#56437
+devicepixelratio,devicePixelRatio,X Not observable in isolation (?)
+dfn,<dfn>,X no tests - All uses are incidental - editing tests & CSS tests using it for italic styling
+digital-goods,Digital goods,X only interface definitions https://github.com/web-platform-tests/wpt/commit/51e1a8a2f27f0788c22c1c66b5c801f198f51cdf
+display,Display,#56758
+display-contents,display: contents,#56758
+display-flow-root,display: flow-root,#56758
+display-list-item,display: list-item,#56758
+display-ruby,display: ruby,#56758
+display-table,display: table,#56758
+div,<div>,#56578
+document-caretpositionfrompoint,document.caretPositionFromPoint(),#51310 (@nairnandu)
+document-colors,Document colors,#56732
+document-write,document.write(),#56733
+dom,DOM,X feature is very wide-spanning and well-established
+dom-geometry,DOM Geometry,#56821
+dominant-baseline,dominant-baseline,#56823
+domparser,DOMParser,#56164
+download,download,#56142
+draganddrop,Drag and Drop,#56141
+early-data,Early data,#56140
+edit-context,EditContext,#45787 (@foolip)
+element,element(),X no tests covered by background-*
+element-capture,Element capture,#56266
+element-from-point,document.elementFromPoint() and document.elementsFromPoint(),#56267
+em,<em>,X covered by expansive element tests
+em-unit,em unit,#56268
+embed,<embed>,#56269
+empty,:empty,#56412
+enterkeyhint,enterkeyhint,X no tests
+error-cause,Error cause,X Moved to JavaScript group
+events,Events,#56886
+ex,ex unit,#56277
+execcommand,execCommand(),#56413
+explicit-resource-management,Explicit resource management,X Moved to JavaScript group
+ext-blend-minmax,EXT_blend_minmax WebGL extension,X WebGL feature
+ext-color-buffer-float,EXT_color_buffer_float WebGL extension,X WebGL feature
+ext-color-buffer-half-float,EXT_color_buffer_half_float WebGL extension,X WebGL feature
+ext-disjoint-timer-query,EXT_disjoint_timer_query WebGL extension,X WebGL feature
+ext-float-blend,EXT_float_blend WebGL extension,X WebGL feature
+ext-frag-depth,EXT_frag_depth WebGL extension,X WebGL feature
+ext-shader-texture-lod,EXT_shader_texture_lod WebGL extension,X WebGL feature
+ext-srgb,EXT_sRGB WebGL extension,X WebGL feature
+ext-texture-compression-bptc,EXT_texture_compression_bptc WebGL extension,X WebGL feature
+ext-texture-compression-rgtc,EXT_texture_compression_rgtc WebGL extension,X WebGL feature
+ext-texture-filter-anisotropic,EXT_texture_filter_anisotropic WebGL extension,X WebGL feature
+ext-texture-norm16,EXT_texture_norm16 WebGL extension,X WebGL feature
+external,window.external,X no tests (spec'd to do nothing)
+fast-seek,fastSeek(),X no tests
+federated-credentials,Federated credentials,#56414
+fetch,Fetch,#56551
+fetchlater,fetchLater,#56551
+fieldset,<fieldset> and <legend>,#56415
+figure,<figure> and <figcaption>,#56417
+file,File API,#54311 (@foolip)
+filter,filter,#56885
+fit-content,fit-content,#56463
+fit-content-function,fit-content(),#56473
+fixed-positioning,Fixed positioning,#56500
+flexbox-gap,Flexbox gap,#57287
+float-clear,float and clear,#56506
+focus-events,Focus events,#56563
+focus-within,:focus-within,#56564
+font-display,font-display,#56643
+font-face,@font-face,#56644
+font-family,font-family,#56645
+font-family-math,Math font family,X no dedicated tests
+font-family-system,System font,#56645
+font-family-ui,UI fonts,#55150
+font-feature-settings,font-feature-settings,#56646
+font-kerning,font-kerning,#56647
+font-language-override,font-language-override,#55130 (@chromium-wpt-export-bot)
+font-loading,Font loading,#56649
+font-shorthand,Font shorthand,#56651
+font-size,font-size,#56652
+font-stretch,font-stretch,#56653
+font-style,font-style,#56654
+font-variant,font-variant,#56655
+font-variant-caps,font-variant-caps,#56655
+font-variant-east-asian,font-variant-east-asian,#56655
+font-variant-ligatures,font-variant-ligatures,#56655
+font-variant-numeric,font-variant-numeric,#56655
+font-variation-settings,font-variation-settings,#56656
+font-weight,font-weight,#56657
+font-width,font-width,#56653
+form,<form>,#56605
+form-validity-pseudos,Form validity pseudo-classes,#56822
+gamepad-haptics,Gamepad haptic feedback,#55150
+gamepad-touch,Gamepad touch buttons,X no tests (only tested as integrated with WebXR)
+gamepad-vr,Gamepad VR hands and poses,X no tests (part of WebXR)
+gap-decorations,Gap decorations,#56642
+get-computed-style,getComputedStyle(),#56648
+getboxquads,getBoxQuads(),#56650
+glyph-orientation-vertical,glyph-orientation-vertical,X No tests-arguably there is a test in 'text-intro-03-b-manual.svg' but not exclusively for this feature
+gpc,Global privacy control,#55796 (@bvandersloot-mozilla)
+gradients,Gradients,#56663
+hanging-punctuation,Hanging punctuation,#56664
+hardware-concurrency,hardwareConcurrency,#56665
+hashchange,hashchange,#56686
+head,<head>,X no tests
+header-footer,<header> and <footer>,X no tests
+heading-selectors,Heading pseudo-classes,#56730
+headings,<h1> through <h6>,#56729
+hgroup,<hgroup>,X no tests
+history,History,#56830
+host,Host,#56839
+host-context,:host-context(),#56792
+hr,<hr>,#56577
+hsl,HSL,#56865
+hsts,HTTP Strict Transport Security,#54311 (@foolip)
+html,<html>,X no tests
+http-authentication,HTTP authentication,#56953
+http11,HTTP/1.1,X no tests https://github.com/web-platform-tests/wpt/pull/56953
+http2,HTTP/2,#56953
+http3,HTTP/3,X no tests https://github.com/web-platform-tests/wpt/issues/46593
+i,<i>,X no tests
+iframe,<iframe>,#57323
+iframe-credentialless,Credentialless iframes,#54321 (@foolip)
+iframe-sandbox,Sandboxed iframes,#57323
+iframe-srcdoc,srcdoc,#57323
+image-function,image(),#56994
+image-maps,Image maps,#57023
+image-rendering,image-rendering,#56995
+imagebitmaprenderingcontext,ImageBitmapRenderingContext,#55025
+ime-mode,ime-mode,X no tests
+img,<img>,#56624
+import,@import,#57000
+import-assertions,Import assertions,"X no tests (this feature describes an abandonded form of the ""import attributes"" proposal)"
+indexeddb,IndexedDB,#54311 (@foolip)
+inherit-value,inherit,#57014
+initial-value,initial,#57554
+ink,Ink,#57015
+input,<input>,#57087
+input-button,"<input type=""button"">",#56667
+input-checkbox,"<input type=""checkbox"">",#57087
+input-color,"<input type=""color"">",#56667
+input-date-time,Date and time <input> types,#55150
+input-email-tel-url,"Email, telephone, and URL <input> types",#56667
+input-event,input (event),X not separable from other input events--see https://github.com/web-platform-tests/wpt/pull/56252
+input-file,"<input type=""file"">",#55150
+input-hidden,"<input type=""hidden"">",#56667
+input-image,"<input type=""image"">",#56667
+input-number,"<input type=""number"">",#57087
+input-password,"<input type=""password"">",#56667
+input-radio,"<input type=""radio"">",#57087
+input-range,"<input type=""range"">",#56667
+input-reset,"<input type=""reset"">",#56667
+input-selectors,Input selectors,#57177
+input-submit,"<input type=""submit"">",#56667
+inputmode,inputmode,X no tests
+ins,<ins>,#56575
+insertable-streams,Insertable streams for MediaStreamTrack,#57016
+interaction,Interaction media queries,X unclassifiable see future work notes
+interactivity,interactivity,#56881
+inverted-colors,inverted-colors media query,#56437
+invoker-commands,Invoker commands,#54711 (@foolip)
+is,:is(),#56766
+is-error,Error.isError(),X Moved to JavaScript group
+is-secure-context,isSecureContext,#56882
+isolation,isolation,#56883
+js-modules,JavaScript modules,#57017
+kbd,<kbd>,X All uses incidental - editing tests/accessibility tooltip tests/UI instructions
+keyboard-events,Keyboard events,#57021
+khr-parallel-shader-compile,KHR_parallel_shader_compile WebGL extension,X WebGL feature
+label,<label>,#56606
+lang,:lang(),#56753
+lang-attr,lang,#56754
+language,Language,#56777
+layout-direction-override,Layout direction override,#56780
+letter-spacing,letter-spacing,#56782
+line-clamp,line-clamp,#56783
+line-height,line-height,#56790
+link,<link>,#56502
+link-rel-dns-prefetch,"<link rel=""dns-prefetch"">",X only tested in a test that tests other features
+link-rel-expect,"<link rel=""expect"">",#56502
+link-rel-preconnect,"<link rel=""preconnect"">",#56502
+link-rel-prefetch,"<link rel=""prefetch"">",#56502
+link-rel-preload,"<link rel=""preload"">",#56502
+link-selectors,Link selectors,#56504
+list-elements,"<ol>, <ul>, and <li>",#56507
+list-style,List style,#56510
+local-network-access,Local network access,#56516
+localstorage,localStorage and sessionStorage,#57022
+location,Location,#56880
+long-animation-frames,Long animation frames,#49227 (@chromium-wpt-export-bot)
+main,<main>,X no tests
+managed-media-source,Managed media source,X no tests
+manifest,Web app manifest,#54311 (@foolip)
+margin,margin,#57026
+mark,<mark>,X HTML `<mark>` uses are incidental in editing/CSS tests
+mask-border,mask-border,#56859
+mask-type,mask-type,#56859
+masonry,Masonry,#56860
+matchmedia,matchMedia,#56862
+media-capture,Media capture,#56867
+media-queries,Media queries,#56437
+media-query-range-syntax,Media query range syntax,#56437
+mediacontroller,MediaController,X no tests (removed from HTML specification)
+menu,<menu>,X no tests
+meta,<meta>,#56726
+meta-application-title,"<meta name=""application-title"">",X no tests
+meta-theme-color,"<meta name=""theme-color"">",X no tests
+min-max-clamp,"min(), max(), and clamp()",#55025
+min-max-content,min-content and max-content,#56870
+min-max-width-height,Min and max width and height,#56870
+mix-blend-mode,mix-blend-mode,#57029
+mouse-events,Mouse events,#57034
+move-before,moveBefore(),#53571 (@foolip)
+multi-column,Multi-column layout,#56533
+mutation-events,Mutation events,X no tests; removed from all browsers https://github.com/web-platform-tests/wpt/pull/55941
+mutationobserver,MutationObserver,#56818
+named-color,Named colors,#56819
+namespace,@namespace,#56820
+nav,<nav>,X no tests
+navigator,Navigator,X no tests (by definition)
+non-cookie-storage-access,Non-cookie storage access,#56826
+notifications-apps,Notifications from service workers and installed apps,#56832
+nth-child,:nth-child(),#56785
+nth-of-type,:nth-of-type() pseudo-classes,#56785
+object,<object>,#56624
+object-fit,object-fit,#56838
+object-hasown,Object.hasOwn(),X Moved to JavaScript group
+object-object,Object,X Moved to JavaScript group
+object-position,object-position,#56838
+observable,Observable,#52353 (@foolip)
+oes-element-index-uint,OES_element_index_uint WebGL extension,X WebGL Feature
+oes-fbo-render-mipmap,OES_fbo_render_mipmap WebGL extension,X WebGL Feature
+oes-standard-derivatives,OES_standard_derivatives WebGL extension,X WebGL Feature
+oes-texture-float,OES_texture_float WebGL extension,X WebGL Feature
+oes-texture-float-linear,OES_texture_float_linear WebGL extension,X WebGL Feature
+oes-texture-half-float,OES_texture_half_float WebGL extension,X WebGL Feature
+oes-texture-half-float-linear,OES_texture_half_float_linear WebGL extension,X WebGL Feature
+oes-vertex-array-object,OES_vertex_array_object WebGL extension,X WebGL Feature
+online,Online status,#56794
+opacity,opacity,#56789
+opacity-svg,Opacity (SVG),#56789
+open-pseudo,:open,#56793 renamed in https://github.com/web-platform-dx/web-features/pull/3435
+outlines,Outlines,#56787
+output,<output>,#56607
+overflow-anchor,overflow-anchor,#55025
+overflow-clip,overflow: clip,#56778
+overflow-clip-margin,overflow-clip-margin,#56778
+overflow-wrap,overflow-wrap,#56778
+overscroll-behavior,overscroll-behavior,#56784
+ovr-multiview2,OVR_multiview2 WebGL extension,X WebGL Feature
+p,<p>,#56578
+padding,padding,#56692
+page-breaks,Page breaks,#56533
+page-setup,Page setup,#56694
+page-transition-events,Page transition events,X there were a lot of uses of these events but none seem to specifically test only these events
+page-visibility,Page visibility,#56697
+page-visibility-state,Page visibility state,#49227 (@chromium-wpt-export-bot)
+paint,paint(),#56698
+parse-html-unsafe,Unsanitized HTML parsing methods,#46319 (@foolip)
+partitioned-cookies,Partitioned cookies,#56702
+password-credentials,Password credentials,#56703
+path-shape,path(),#56704
+performance,Performance,#57402
+performancetiming,PerformanceTiming and PerformanceNavigation,X No tests--this feature was superceded by the navigation-timing feature
+physical-properties,Physical properties,#56731
+picture,<picture>,#56624
+ping,ping,#55150
+placeholder,::placeholder,#56691
+placeholder-shown,:placeholder-shown,#56691
+pointer-events,pointer-events,#56749
+popover-hint,"popover=""hint""",#56695
+portal,Portals,X discourage feature-was removed from browsers-only legacy idl remains
+position,Position,#56751
+postmessage,postMessage,#56289
+pre,<pre>,#56578
+prefers-reduced-data,prefers-reduced-data media query,#56437
+prefers-reduced-motion,prefers-reduced-motion media query,#56437
+print,window.print(),#56693
+print-events,Print events,#56693
+private-network-access,Private network access,#56696
+proto,__proto__,X Moved to JavaScript group
+push,Push messages,#56847
+q,<q>,X Most tests are CSS quotes tests (`css/css-content/quotes-*.html`) which test CSS `quotes` property - not `<q>` element specifically
+q-unit,Q unit,#56866
+reading-flow,reading-flow,#56871
+regexp,Regular expressions,X Moved to JavaScript group
+regexp-compile,RegExp compile(),X Moved to JavaScript group
+regexp-escape,RegExp.escape(),X Moved to JavaScript group
+regexp-static-properties,RegExp static properties,X Moved to JavaScript group
+region-capture,Region capture,#56579
+registerprotocolhandler,registerProtocolHandler,#55150
+relative-positioning,Relative positioning,#56873
+rem,rem,#56866
+request-animation-frame,requestAnimationFrame(),#56580
+request-animation-frame-workers,requestAnimationFrame() in workers,#52537 (@foolip)
+resizable-buffers,Resizable buffers,X Moved to JavaScript group
+resize,resize (CSS property),X no tests specifically for this feature
+resolution,resolution media query,X No specific tests mixed up with media-query
+resolution-compat,resolution media query (compatibility prefixes),X No specific tests mixed up with media-query
+resource-size,Resource size,#56308
+rgb,RGB,#56146
+rhythmic-sizing,Rhythmic sizing,#56154
+root,:root,#56791
+ruby,<ruby>,#56156
+ruby-overhang,ruby-overhang,#56156
+s,<s>,X No specific tests
+safe-area-inset,Safe area inset environment variables,#56310
+samp,<samp>,X Nothing directly testing
+scope-pseudo,:scope (pseudo-class),#56311
+scoped-custom-element-registries,Scoped custom element registries,#56312
+screen,Screen,#56464
+screen-orientation-lock,Screen orientation lock,#56465
+script,<script> and <noscript>,#57017
+scroll-behavior,scroll-behavior,#56467
+scroll-buttons,::scroll-button,#56469
+scroll-elements,Scroll methods on elements,#56509
+scroll-markers,Scroll markers,#56511
+search-input-type,"<input type=""search"">",#56512
+section,<section>,X no tests specifically for this feature
+secure-payment-confirmation,Secure payment confirmation,#56517
+select,<select>,#57095
+selection,::selection,#56825
+selectors,Selectors (core),#57177
+serializable-errors,Serializable errors,X bundled with other tests (see files that depend on html/webappapis/structured-clone/structured-clone-battery-of-tests.js)
+service-workers,Service workers,#57055
+setinterval,setInterval,#56144
+settimeout,setTimeout(),#56144
+shadow-parts,Shadow parts,#56127
+shape-outside,shape-outside,#56846
+shapes,shapes,#56846
+share,navigator.share(),#56228
+shared-storage,Shared storage,#56231
+shared-storage-locks,Shared storage locks,#56231
+shared-workers,Shared worker,#56801
+sizes-auto,"<img sizes=""auto"" loading=""lazy"">",#56232
+slot,<slot>,#56244
+small,<small>,X Only tested indirectly
+smil-svg-animations,SMIL SVG animations,#56245
+smooth,smooth,X no tests (see https://github.com/web-platform-tests/wpt/pull/56995)
+source,<source>,#56124
+sourcemap-header,Sourcemap header,X no tests
+span,<span>,X no tests
+speak,speak,#56271
+speak-as,speak-as,#56271
+speech-recognition-grammar,Speech recognition grammar,X SpeechGrammar and SpeechGrammarList have been removed from the Web Speech API spec
+speech-synthesis,Speech synthesis,#45787 (@foolip)
+spellcheck,spellcheck,#56273
+srcset,srcset and sizes,#56275
+static-positioning,Static positioning,#56304
+steps-easing,steps() easing,#55481
+storage-manager,Storage manager,#57054
+stretch,stretch,#56305
+strong,<strong>,#56306
+style,<style>,#56309
+style-attr,style (attribute),#56309
+sub-sup,<sub> and <sup>,X no tests
+summarizer,Summarizer,#56315
+supports,@supports,#56320
+supports-compat,@supports (compatibility prefix),#56320
+svg,SVG,#57423
+svg-discouraged,SVG 1.1 (discouraged),#56384
+svg-filters,SVG filters,#56384
+system-color,System colors,#56382
+tab-size,tab-size,#56375
+table,Tables,#56381
+table-discouraged,Table styling,#56381
+target,:target,#56400
+target-within,:target-within,X no tests
+text-align,text-align,#56426
+text-align-last,text-align-last,#56426
+text-autospace,text-autospace,#56427
+text-combine-upright,text-combine-upright,#56429
+text-decoration,text-decoration,#56431
+text-decoration-line-blink,text-decoration-line: blink,#56431
+text-decoration-selection,text-decoration in ::selection,#56431
+text-encoding,Text encoding and decoding,#56432
+text-indent-each-line,text-indent: each-line,#55150
+text-indent-hanging,text-indent: hanging,#56434
+text-justify,text-justify,#56570
+text-orientation,text-orientation,#56570
+text-overflow,Text overflow,#56479
+text-shadow,text-shadow,#56472
+text-size-adjust,text-size-adjust,#56570
+text-stroke-fill,Text stroke and fill (compatibility prefixes),#56476
+text-tracks,Text tracks,#56470
+text-transform,text-transform,#56570
+text-underline-position,text-underline-position,#56570
+text-wrap-stable,text-wrap: stable,X this is only tested in parsing tests that test other values as well
+textarea,<textarea>,#56466
+time,<time>,#56460
+time-relative-selectors,Time-relative pseudo-selectors,#55150
+title,<title>,#56461
+title-attr,title (attribute),#56462
+touch-action,touch-action,#56513
+transferable-arraybuffer,Transferable ArrayBuffer,X Moved to JavaScript group
+transforms2d,2D transforms,#56498
+transitions,Transitions (CSS),#56480
+translate,translate,#56478
+u,<u>,X All uses incidental - CSS text-decoration tests / editing tests use `<u>` to test underline styling
+unset-value,unset,#56477
+url,URL,#56444
+user-action-pseudos,User action pseudo-classes,#56443
+user-agent-sniffing,User agent sniffing,#56440
+var,<var>,X All uses incidental - editing italic tests - mathml integration tests
+vertical-align,vertical-align,#57053
+video,<video>,#56624
+video-dynamic-range,video-dynamic-range media query,X unclassifiable see future project notes
+viewport-units,Viewport units,#55025
+virtual-pressure-sources,Virtual pressure sources,X no tests
+virtual-sensors,Virtual sensors,#56202
+visibility,visibility,#56201
+wasm,WebAssembly,#56401
+wasm-bigint,BigInt to i64 conversion (WebAssembly),X no tests see future work notes
+wasm-bulk-memory,Bulk memory operations (WebAssembly),#55498 (@dschuff)
+wasm-exception-handling,Exception handling (WebAssembly),#56386
+wasm-exnref-exceptions,Exception references with exnref (WebAssembly),#56386
+wasm-extended-constant-expressions,Extended constant expressions (WebAssembly),X no tests see future work notes
+wasm-garbage-collection,Garbage collection (WebAssembly),#56387
+wasm-memory64,Memory64 (WebAssembly),#55498 (dschuff)
+wasm-multi-memory,Multi-memory (WebAssembly),#55498 (dschuff)
+wasm-multi-value,Multi-value (WebAssembly),#56401
+wasm-mutable-globals,Import and export of mutable globals (WebAssembly),#56389
+wasm-non-trapping-float-to-int,Non-trapping float-to-int conversion (WebAssembly),X no tests see future work notes
+wasm-reference-types,Reference types (WebAssembly),#56402
+wasm-sign-extension-operators,Sign extension operators (WebAssembly),X no tests see future work notes
+wasm-simd,Fixed-width SIMD (WebAssembly),#56385
+wasm-simd-relaxed,Relaxed-width SIMD (WebAssembly),#56385
+wasm-string-builtins,String builtins (WebAssembly),#56389
+wasm-tail-call-optimization,Tail call optimization (WebAssembly),#56402
+wasm-threads,Threads and atomics (WebAssembly),#56401
+wasm-typed-fun-refs,Typed function references (WebAssembly),#56402
+wbr,<wbr>,#56243
+web-cryptography,Web Cryptography,#56242
+webauthn,Web authentication,#56241
+webauthn-signals,Web authentication signal methods,#56241
+webdriver,WebDriver,#56240
+webgl,WebGL,#56239
+webgl-color-buffer-float,WEBGL_color_buffer_float WebGL extension,X no tests
+webgl-color-management,Color management for WebGL,X no tests
+webgl-compressed-texture-astc,WEBGL_compressed_texture_astc WebGL extension,X no tests
+webgl-compressed-texture-etc,WEBGL_compressed_texture_etc WebGL extension,X no tests
+webgl-compressed-texture-etc1,WEBGL_compressed_texture_etc1 WebGL extension,X no tests
+webgl-compressed-texture-pvrtc,WEBGL_compressed_texture_pvrtc WebGL extension,X WebGL feature
+webgl-compressed-texture-s3tc,WEBGL_compressed_texture_s3tc WebGL extension,X no tests
+webgl-compressed-texture-s3tc-srgb,WEBGL_compressed_texture_s3tc_srgb WebGL extension,X no tests
+webgl-debug-renderer-info,WEBGL_debug_renderer_info WebGL extension,X no tests
+webgl-debug-shaders,WEBGL_debug_shaders WebGL extension,X no tests
+webgl-depth-texture,WEBGL_depth_texture WebGL extension,X no tests
+webgl-desynchronized,Desynchronized WebGL canvas,X only tests for desynchronized parameter with 2D canvas contexts not webGL
+webgl-draw-buffers,WEBGL_draw_buffers WebGL extension,X no tests
+webgl-lose-context,WEBGL_lose_context WebGL extension,X only compat tests with webxr
+webgl-multi-draw,WEBGL_multi_draw WebGL extension,X WebGL feature
+webgl-oes-draw-buffers-indexed,OES_draw_buffers_indexed WebGL extension,X no tests
+webgl-sab,SharedArrayBuffer in WebGL,X no tests
+webgl2,WebGL2,X only generic tests for *canvas.getContext() API (no WebGL2-specific tests)
+webgl2-color-management,Color management for WebGL2,X no tests
+webgl2-desynchronized,Desynchronized WebGL2 canvas,X only tests in 2D canvas contexts (no WebGL2-specific tests)
+webgpu,WebGPU,X no tests
+webp,WebP,X no tests
+webrtc,WebRTC,#56238
+webrtc-sctp,WebRTC SCTP information,#46082 (@foolip)
+webvr,WebVR,#56236
+webvtt-cue-settings,WebVTT cue settings,#56233
+webxr-anchors,Anchors (WebXR),#55739
+webxr-ar,Augmented reality,#55739
+webxr-camera,Raw camera access for WebXR,#55739
+webxr-depth-sensing,Depth sensing,#55739
+webxr-device,WebXR,#55739
+webxr-dom-overlays,DOM overlays for WebXR,#55739
+webxr-gamepads,Gamepad (WebXR),#55739
+webxr-hand-input,Hand input,#55739
+webxr-hit-test,Hit test,#55739
+webxr-layers,Layers (WebXR),#55739
+webxr-lighting-estimation,Lighting estimation,#55739
+wheel-events,Wheel events,#56175
+where,:where(),#56766
+white-space,white-space,#56169
+widows-orphans,Widows and orphans,#56173
+width-height,Width and height,#56166
+will-change,will-change,#56172
+window,Window,#56171
+window-controls-overlay,Window Controls Overlay,#56170
+word-break,word-break,#56129
+word-break-auto-phrase,word-break: auto-phrase,#56129
+word-break-break-word,word-break: break-word,#56129
+word-spacing,word-spacing,#56126
+writing-mode,writing-mode,#56160 
+writing-mode-svg-values,writing-mode SVG 1.1 values,#56160
+xml-serializer,XMLSerializer,#56164
+xpath,XPath,#56163
+xslt,XSLT,#56162
+z-index,z-index,#56161
