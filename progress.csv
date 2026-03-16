@@ -1,5 +1,5 @@
 id,name,status
-arianotify,ariaNotify(),
+arianotify,ariaNotify(),#58529
 audiolistener,AudioListener,
 audiolistener-setposition-setorientation,AudioListener setPosition() and setOrientation(),
 caret-shape,caret-shape,
@@ -8,9 +8,9 @@ container-anchor-position-queries,Anchor position container queries,
 corner-shape,corner-shape,
 custom-media-queries,Custom media queries,
 feature-policy,Feature policy,
-getallrecords,IndexedDB getAllRecords(),
-getorinsert,Map getOrInsert(),
-highlightsfrompoint,Custom highlights from point,
+getallrecords,IndexedDB getAllRecords(),@ChrisC
+getorinsert,Map getOrInsert(),@ChrisC maybe in test262?
+highlightsfrompoint,Custom highlights from point,@ChrisC
 input-color-alpha,`alpha` and `colorspace` attributes for `<input type=color>`,#57324
 input-file-multiple,"<input type=""file"" multiple>",
 input-file-webkitdirectory,"<input type=""file"" webkitdirectory>",
