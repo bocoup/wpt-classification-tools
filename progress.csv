@@ -10,7 +10,7 @@ custom-media-queries,Custom media queries,
 feature-policy,Feature policy,
 getallrecords,IndexedDB getAllRecords(),#58530
 getorinsert,Map getOrInsert(),@ChrisC maybe in test262?
-highlightsfrompoint,Custom highlights from point,@ChrisC
+highlightsfrompoint,Custom highlights from point,#58531
 input-color-alpha,`alpha` and `colorspace` attributes for `<input type=color>`,#57324
 input-file-multiple,"<input type=""file"" multiple>",
 input-file-webkitdirectory,"<input type=""file"" webkitdirectory>",
