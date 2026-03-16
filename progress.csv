@@ -8,7 +8,7 @@ container-anchor-position-queries,Anchor position container queries,
 corner-shape,corner-shape,
 custom-media-queries,Custom media queries,
 feature-policy,Feature policy,
-getallrecords,IndexedDB getAllRecords(),@ChrisC
+getallrecords,IndexedDB getAllRecords(),#58530
 getorinsert,Map getOrInsert(),@ChrisC maybe in test262?
 highlightsfrompoint,Custom highlights from point,@ChrisC
 input-color-alpha,`alpha` and `colorspace` attributes for `<input type=color>`,#57324
