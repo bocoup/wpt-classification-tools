@@ -29,7 +29,7 @@ related-apps,Related apps,
 scroll-into-view-container,scrollIntoView() container,
 scroll-marker-targets,Scroll marker target pseudo-classes,
 scroll-target-group,scroll-target-group,
-secure-payment-confirmation,Secure payment confirmation,
+secure-payment-confirmation,Secure payment confirmation,#56517
 shape-function,shape(),
 style-query-range-syntax,Range syntax for style queries,
 supports-at-rule,at-rule(),
