@@ -15,10 +15,10 @@ input-color-alpha,`alpha` and `colorspace` attributes for `<input type=color>`,#
 input-file-multiple,"<input type=""file"" multiple>",
 input-file-webkitdirectory,"<input type=""file"" webkitdirectory>",
 interest-invokers,Interest invokers,
-iterator-concat,Iterator.concat(),
+iterator-concat,Iterator.concat(),@ChrisC likely in test262
 justify-self-block,justify-self in block layouts,
 navigator-install,navigator.install(),
-origin,Origin,
+origin,Origin,#58569
 permissions-policy,Permissions policy,
 png,PNG,
 progress-function,progress(),
