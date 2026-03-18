@@ -20,7 +20,7 @@ justify-self-block,justify-self in block layouts,
 navigator-install,navigator.install(),
 origin,Origin,#58569
 permissions-policy,Permissions policy,
-png,PNG,
+png,PNG,#58572
 progress-function,progress(),
 queuemicrotask,queueMicrotask(),
 rect-xywx,rect() and xywh(),
