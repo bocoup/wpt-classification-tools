@@ -22,7 +22,7 @@ origin,Origin,#58569
 permissions-policy,Permissions policy,
 png,PNG,#58572
 progress-function,progress(),#58573
-queuemicrotask,queueMicrotask(),
+queuemicrotask,queueMicrotask(),#58574
 rect-xywx,rect() and xywh(),
 referencetarget,Reference target,
 related-apps,Related apps,
