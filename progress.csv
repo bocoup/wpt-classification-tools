@@ -21,7 +21,7 @@ navigator-install,navigator.install(),
 origin,Origin,#58569
 permissions-policy,Permissions policy,
 png,PNG,#58572
-progress-function,progress(),
+progress-function,progress(),#58573
 queuemicrotask,queueMicrotask(),
 rect-xywx,rect() and xywh(),
 referencetarget,Reference target,
