@@ -34,7 +34,7 @@ shape-function,shape(),
 style-query-range-syntax,Range syntax for style queries,
 supports-at-rule,at-rule(),
 toggleevent-source,ToggleEvent source,
-topics,Topics,
+topics,Topics,#58724
 view-transitions-element-scoped,Element-scoped view transitions,
 wasm-branch-hinting,Branch hinting (WebAssembly),
 webgpu-subgroups,WebGPU subgroups,
