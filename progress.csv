@@ -37,4 +37,4 @@ toggleevent-source,ToggleEvent source,
 topics,Topics,#58724
 view-transitions-element-scoped,Element-scoped view transitions,
 wasm-branch-hinting,Branch hinting (WebAssembly),X no tests
-webgpu-subgroups,WebGPU subgroups,
+webgpu-subgroups,WebGPU subgroups,X no tests
