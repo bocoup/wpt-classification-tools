@@ -16,7 +16,7 @@ input-file-multiple,"<input type=""file"" multiple>",
 input-file-webkitdirectory,"<input type=""file"" webkitdirectory>",
 interest-invokers,Interest invokers,
 iterator-concat,Iterator.concat(),@ChrisC likely in test262
-justify-self-block,justify-self in block layouts,
+justify-self-block,justify-self in block layouts,#58751
 navigator-install,navigator.install(),
 origin,Origin,#58569
 permissions-policy,Permissions policy,
