@@ -33,7 +33,7 @@ secure-payment-confirmation,Secure payment confirmation,#56517
 shape-function,shape(),
 style-query-range-syntax,Range syntax for style queries,
 supports-at-rule,at-rule(),
-toggleevent-source,ToggleEvent source,
+toggleevent-source,ToggleEvent source,#58792
 topics,Topics,#58724
 view-transitions-element-scoped,Element-scoped view transitions,#58789
 wasm-branch-hinting,Branch hinting (WebAssembly),X no tests
