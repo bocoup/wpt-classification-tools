@@ -24,7 +24,7 @@ png,PNG,#58572
 progress-function,progress(),#58573
 queuemicrotask,queueMicrotask(),#58574
 rect-xywx,rect() and xywh(),
-referencetarget,Reference target,
+referencetarget,Reference target,#58790
 related-apps,Related apps,
 scroll-into-view-container,scrollIntoView() container,
 scroll-marker-targets,Scroll marker target pseudo-classes,
