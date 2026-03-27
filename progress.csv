@@ -12,8 +12,8 @@ getallrecords,IndexedDB getAllRecords(),#58530
 getorinsert,Map getOrInsert(),@ChrisC maybe in test262?
 highlightsfrompoint,Custom highlights from point,#58531
 input-color-alpha,`alpha` and `colorspace` attributes for `<input type=color>`,#57324
-input-file-multiple,"<input type=""file"" multiple>",
-input-file-webkitdirectory,"<input type=""file"" webkitdirectory>",
+input-file-multiple,"<input type=""file"" multiple>",X no dedicated tests
+input-file-webkitdirectory,"<input type=""file"" webkitdirectory>",#58799
 interest-invokers,Interest invokers,X no tests yet
 iterator-concat,Iterator.concat(),@ChrisC likely in test262
 justify-self-block,justify-self in block layouts,#58751
