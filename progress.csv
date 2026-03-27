@@ -4,9 +4,9 @@ audiolistener,AudioListener,X no dedicated tests yet
 audiolistener-setposition-setorientation,AudioListener setPosition() and setOrientation(),X no dedicated tests yet
 caret-shape,caret-shape,
 clipboardchange,clipboardchange,#56416
-container-anchor-position-queries,Anchor position container queries,
+container-anchor-position-queries,Anchor position container queries,#58834
 corner-shape,corner-shape,
-custom-media-queries,Custom media queries,
+custom-media-queries,Custom media queries,#58831
 feature-policy,Feature policy,X no tests migrated to permissions-policy in https://github.com/web-platform-tests/wpt/pull/58327
 getallrecords,IndexedDB getAllRecords(),#58530
 getorinsert,Map getOrInsert(),@ChrisC maybe in test262?
@@ -31,8 +31,8 @@ scroll-marker-targets,Scroll marker target pseudo-classes,#58830
 scroll-target-group,scroll-target-group,#58830
 secure-payment-confirmation,Secure payment confirmation,#56517
 shape-function,shape(),
-style-query-range-syntax,Range syntax for style queries,
-supports-at-rule,at-rule(),
+style-query-range-syntax,Range syntax for style queries,X no tests yet
+supports-at-rule,at-rule(),#58832
 toggleevent-source,ToggleEvent source,#58792
 topics,Topics,#58724
 view-transitions-element-scoped,Element-scoped view transitions,#58789
