@@ -26,9 +26,9 @@ queuemicrotask,queueMicrotask(),#58574
 rect-xywx,rect() and xywh(),
 referencetarget,Reference target,#58790
 related-apps,Related apps,
-scroll-into-view-container,scrollIntoView() container,
-scroll-marker-targets,Scroll marker target pseudo-classes,
-scroll-target-group,scroll-target-group,
+scroll-into-view-container,scrollIntoView() container,#58830
+scroll-marker-targets,Scroll marker target pseudo-classes,#58830
+scroll-target-group,scroll-target-group,#58830
 secure-payment-confirmation,Secure payment confirmation,#56517
 shape-function,shape(),
 style-query-range-syntax,Range syntax for style queries,
