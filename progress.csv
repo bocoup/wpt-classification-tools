@@ -17,7 +17,7 @@ input-file-webkitdirectory,"<input type=""file"" webkitdirectory>",#58799
 interest-invokers,Interest invokers,X no tests yet
 iterator-concat,Iterator.concat(),@ChrisC likely in test262
 justify-self-block,justify-self in block layouts,#58751
-navigator-install,navigator.install(),
+navigator-install,navigator.install(),X no tests yet
 origin,Origin,#58569
 permissions-policy,Permissions policy,#58802
 png,PNG,#58572
@@ -25,7 +25,7 @@ progress-function,progress(),#58573
 queuemicrotask,queueMicrotask(),#58574
 rect-xywx,rect() and xywh(),
 referencetarget,Reference target,#58790
-related-apps,Related apps,
+related-apps,Related apps,#58922
 scroll-into-view-container,scrollIntoView() container,#58830
 scroll-marker-targets,Scroll marker target pseudo-classes,#58830
 scroll-target-group,scroll-target-group,#58830
