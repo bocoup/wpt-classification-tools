@@ -2,7 +2,7 @@ id,name,status
 arianotify,ariaNotify(),#58529
 audiolistener,AudioListener,X no dedicated tests yet
 audiolistener-setposition-setorientation,AudioListener setPosition() and setOrientation(),X no dedicated tests yet
-caret-shape,caret-shape,
+caret-shape,caret-shape,#58924
 clipboardchange,clipboardchange,#56416
 container-anchor-position-queries,Anchor position container queries,#58834
 corner-shape,corner-shape,#58923
@@ -23,14 +23,14 @@ permissions-policy,Permissions policy,#58802
 png,PNG,#58572
 progress-function,progress(),#58573
 queuemicrotask,queueMicrotask(),#58574
-rect-xywx,rect() and xywh(),
+rect-xywx,rect() and xywh(),#58925
 referencetarget,Reference target,#58790
 related-apps,Related apps,#58922
 scroll-into-view-container,scrollIntoView() container,#58830
 scroll-marker-targets,Scroll marker target pseudo-classes,#58830
 scroll-target-group,scroll-target-group,#58830
 secure-payment-confirmation,Secure payment confirmation,#56517
-shape-function,shape(),
+shape-function,shape(),#58925
 style-query-range-syntax,Range syntax for style queries,X no tests yet
 supports-at-rule,at-rule(),#58832
 toggleevent-source,ToggleEvent source,#58792
