@@ -5,7 +5,7 @@ audiolistener-setposition-setorientation,AudioListener setPosition() and setOrie
 caret-shape,caret-shape,
 clipboardchange,clipboardchange,#56416
 container-anchor-position-queries,Anchor position container queries,#58834
-corner-shape,corner-shape,
+corner-shape,corner-shape,#58923
 custom-media-queries,Custom media queries,#58831
 feature-policy,Feature policy,X no tests migrated to permissions-policy in https://github.com/web-platform-tests/wpt/pull/58327
 getallrecords,IndexedDB getAllRecords(),#58530
